@@ -1,0 +1,4 @@
+	public static void main(String[] args){
+		int[] nums = {1, 2, 4, 5 };
+		System.out.printf("The total is %i\n", runningSum(nums));
+	}
