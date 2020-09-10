@@ -33,29 +33,12 @@ import java.util.Random;
 import java.lang.Math;
 
 public class Words{
-	String str;	
-	//	Generates a string of length 1 or greater
-	//	Uppercase only
-	public Words(){
-		str = str_generator();
-	}
-	private String str_generator(){
-		String str;
-		int a, roll = 0;
-
-		Random rng = new Random();
-		//System.out.println(rng);
-		str = "DELETE ME";
-		return (str);
-	}
-
-	// Main Function 
 	public static void main(String[] args){
 		int num_of_string = (int) (Math.pow(10,6));
+		System.out.printf("Number of string = %d", num_of_string);
+		String str_gen;
+
 		ArrayList<String> arrlst = new ArrayList<String>(1000);
-		Words new_str = new Words();
-		System.out.printf("%s\n", new_str.str);
-		System.out.printf("Number of string = %d\n", num_of_string);
+		
 	}
 }
-
