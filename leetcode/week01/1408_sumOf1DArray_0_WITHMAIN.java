@@ -1,5 +1,5 @@
 class Solution{
-	public int[] runningSum(int[] nums){
+	static public int[] runningSum(int[] nums){
 		int[]	total;
 
 		total = new int[nums.length];
@@ -12,7 +12,9 @@ class Solution{
 		}
 		return total;
 	}
-/*
+
+
+	// REMOVE MAIN FUNCTION FOR LC ENTRY, ONLY FOR TESTING
 	public static void main(String[] args){
 		int[] nums = {1, 2, 4, 5 };
 		int[] total = runningSum(nums);
@@ -24,13 +26,5 @@ class Solution{
 				System.out.print(", ");
 		}
 		System.out.println("]");
-	}
-	*/ 
-
-	public static void main(String[] args)
-	{
-		int[] nums = {1, 2, 3, 4};
-		Solution total = new Solution();
-		int[] total = total.runningSum(num);
 	}
 }
