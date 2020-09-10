@@ -3,7 +3,12 @@
 	talk2wes@gmail.com
 	Words.java
 	Programming Assignment #1 Part 1
+
+	Status: WRITE THE STATUS HERE BEFORE TURNING IN!!!!!!!
 */
+
+
+
 
 /*	
 generates random strings and store them in an ArrayList<String>
@@ -23,17 +28,23 @@ comment the program (and follow the) project guidelines (Links to an external
 	site.) (Links to an external site.)
 program name must be exactly Words.java
 */
-import java.util.Arraylist 
+import java.util.Arraylist;
 
 public class Words{
+	private String str_gen;
+	ArrayList<String> arrlst = new ArrayList<String>();
 	
-	private int str_len;
+	private ArrayList<String>(int num_of_string){
+		
+	}
+
 
 	public static void main(String[] args){
+		int num_of_string = Math.pow(10,6);
 		/*
 		if (args.length > 0)
 			System.out.println(args[0]);	
 		*/
-		if (args.length > 0
+		
 	}
 }
