@@ -7,7 +7,7 @@
 	Status: WRITE THE STATUS HERE BEFORE TURNING IN!!!!!!!
 */
 
-
+/*	
 
 
 /*	
@@ -33,19 +33,32 @@ import java.util.Random;
 import java.lang.Math;
 
 public class Words{
+	// Has one member variable that holds the randomly generated string
 	String str;	
 	//	Generates a string of length 1 or greater
 	//	Uppercase only
 	public Words(){
 		str = str_generator();
 	}
-	private String str_generator(){
-		String str;
-		int a, roll = 0;
-
+	
+	/*
+	public int randNumGen(int min, int max){
+		int RAND_MAX = max, RAND_MIN = min;
 		Random rng = new Random();
-		//System.out.println(rng);
-		str = "DELETE ME";
+			
+		return (Math.abs(rng.nextInt() % (RAND_MAX - RAND_MIN + 1)) + RAND_MIN);
+	}
+	*/
+
+	String str_generator(){
+		String str;
+		int a = 0;
+		int RAND_MAX = (int) 'Z', RAND_MIN = (int) 'A';
+		Random rng = new Random();
+			
+		a = Math.abs(rng.nextInt() % (RAND_MAX - RAND_MIN + 1)) + RAND_MIN;
+		str = "TEST 009";
+		// System.out.printf("value of a = %c\n", a);
 		return (str);
 	}
 
@@ -53,8 +66,10 @@ public class Words{
 	public static void main(String[] args){
 		int num_of_string = (int) (Math.pow(10,6));
 		ArrayList<String> arrlst = new ArrayList<String>(1000);
-		Words new_str = new Words();
-		System.out.printf("%s\n", new_str.str);
+		for (int i = 0 ; i < 200 ; i++){
+			Words new_str = new Words();
+			//System.out.printf("%s\n", new_str.str);
+		}
 		System.out.printf("Number of string = %d\n", num_of_string);
 	}
 }
