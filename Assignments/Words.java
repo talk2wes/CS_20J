@@ -41,14 +41,14 @@ public class Words{
 	}
 
 	public static void main(String[] args){
-		final int num_of_string =  (int) (Math.pow(10,6));
+		final int num_of_string = (int) (Math.pow(10,6));
 		int[] str_len = new int[num_of_string];
 
-		ArrayList<String> arrlst = new ArrayList<String>(1000);
+		ArrayList<String> arrlst = new ArrayList<String>(num_of_string);
 		for (int i = 0 ; i < num_of_string ; i++){
 			Words new_str = new Words();
-			String temp_str = new_str.str.toString();
-			str_len[i] = temp_str.length();	
+			arrlst.add(new_str.str.toString());
+			str_len[i] = (arrlst.get(i)).length();
 		}
 		Words mean = new Words();
 		double average = mean.Average(str_len);
