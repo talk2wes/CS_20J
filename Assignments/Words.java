@@ -31,12 +31,11 @@ program name must be exactly Words.java
 import java.util.ArrayList;
 import java.util.Random; 
 import java.lang.Math;
+import java.lang.StringBuilder;
 
 public class Words{
 	// Has one member variable that holds the randomly generated string
-	String str;	
-	//	Generates a string of length 1 or greater
-	//	Uppercase only
+	StringBuilder str;	
 	public Words(){
 		str = str_generator();
 	}
@@ -50,15 +49,20 @@ public class Words{
 	}
 	*/
 
-	String str_generator(){
-		String str;
+	StringBuilder str_generator(){
+		StringBuilder str = new StringBuilder();
 		int a = 0;
 		int RAND_MAX = (int) 'Z', RAND_MIN = (int) 'A';
+		RandomNum rand = new RandomNum('A','Z');
 		Random rng = new Random();
 			
 		a = Math.abs(rng.nextInt() % (RAND_MAX - RAND_MIN + 1)) + RAND_MIN;
-		str = "TEST 009";
-		// System.out.printf("value of a = %c\n", a);
+		//a = rand.num;	
+		str.append((char) a);	
+		RAND_MAX++;
+		//while (a != (int) 'Z' + 1){
+		//}			
+		System.out.printf("value of a = %c\n", a);
 		return (str);
 	}
 
@@ -72,5 +76,13 @@ public class Words{
 		}
 		System.out.printf("Number of string = %d\n", num_of_string);
 	}
+	
 }
-
+class RandomNum{
+	public int num;
+	public RandomNum(int min, int max){
+		Random rng = new Random();
+		int num;
+		num = Math.abs(rng.nextInt() % (max - min + 1)) + min;
+	}
+}
