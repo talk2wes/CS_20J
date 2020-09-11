@@ -52,7 +52,7 @@ public class Words{
 		double total = 0;
 		for (int i = 0; i < nums.length; i++){
 			total += nums[i];
-			//System.out.printf("Total = %d\n",total);
+			//System.out.printf("Total = %f\n",total);
 		}
 		
 		return ( total / nums.length);
@@ -77,7 +77,7 @@ public class Words{
 		*/
 		Words mean = new Words();
 		double average = mean.Average(str_len);
-		//System.out.printf("Average = %.2f\n", average);
+		System.out.printf("Average = %.1f\n", average);
 
 		System.out.printf("Number of strings = %d \n", num_of_string);
 		//System.out.printf("Average length: %d\n", new_str.Average(str_len));
