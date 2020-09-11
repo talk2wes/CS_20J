@@ -38,23 +38,53 @@ public class Words{
 		//System.out.printf("\nStringBuilder return: \t%s\n\n", str.toString());
 		return (str);
 	}
+	/*	
+	int Average(int[] nums){
+		int total = 0;
+		for (int i = 0; i < nums.length; i++){
+			total += nums[i];
+			System.out.printf("Total = %d\n",total);
+		}
+		return ( total / nums.length);
+	}
+	*/	
+	double Average(int[] nums){
+		double total = 0;
+		for (int i = 0; i < nums.length; i++){
+			total += nums[i];
+			//System.out.printf("Total = %d\n",total);
+		}
+		
+		return ( total / nums.length);
+	}
 
 	public static void main(String[] args){
-		int num_of_string = 20; //  (int) (Math.pow(10,6));
+		int num_of_string =  (int) (Math.pow(10,6));
 		int[] str_len = new int[num_of_string];
 
 		ArrayList<String> arrlst = new ArrayList<String>(1000);
 		for (int i = 0 ; i < num_of_string ; i++){
 			Words new_str = new Words();
-			System.out.printf("new string = %s\n", new_str.str);
+			//System.out.printf("new string = %s\n", new_str.str);
 			String temp_str = new_str.str.toString();
 			str_len[i] = temp_str.length();	
-			System.out.printf("length: \t%d\n",str_len[i]);
+			//System.out.printf("length: \t%d\n",str_len[i]);
 		}
-		System.out.printf("Number of strings = %d\n", num_of_string);
+		/*
+		Words mean = new Words();
+		int average = mean.Average(str_len);
+		System.out.printf("Average = %d\n", average);
+		*/
+		Words mean = new Words();
+		double average = mean.Average(str_len);
+		//System.out.printf("Average = %.2f\n", average);
+
+		System.out.printf("Number of strings = %d \n", num_of_string);
+		//System.out.printf("Average length: %d\n", new_str.Average(str_len));
 	}
 	
 }
+
 class RandomNum{
 	public int num;
 	int Randomize(int min, int max){
