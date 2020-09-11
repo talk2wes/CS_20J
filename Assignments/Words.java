@@ -34,45 +34,28 @@ import java.lang.Math;
 import java.lang.StringBuilder;
 
 public class Words{
-	// Has one member variable that holds the randomly generated string
 	StringBuilder str;	
 	public Words(){
 		str = str_generator();
 	}
-	
-	/*
-	public int randNumGen(int min, int max){
-		int RAND_MAX = max, RAND_MIN = min;
-		Random rng = new Random();
-			
-		return (Math.abs(rng.nextInt() % (RAND_MAX - RAND_MIN + 1)) + RAND_MIN);
-	}
-	*/
 
 	StringBuilder str_generator(){
 		StringBuilder str = new StringBuilder();
 		int a = 0;
 		int RAND_MAX = (int) 'Z', RAND_MIN = (int) 'A';
-		RandomNum rand = new RandomNum('A','Z');
 		Random rng = new Random();
-			
 		a = Math.abs(rng.nextInt() % (RAND_MAX - RAND_MIN + 1)) + RAND_MIN;
-		//a = rand.num;	
 		str.append((char) a);	
 		RAND_MAX++;
-		//while (a != (int) 'Z' + 1){
-		//}			
 		System.out.printf("value of a = %c\n", a);
 		return (str);
 	}
 
-	// Main Function 
 	public static void main(String[] args){
 		int num_of_string = (int) (Math.pow(10,6));
 		ArrayList<String> arrlst = new ArrayList<String>(1000);
 		for (int i = 0 ; i < 200 ; i++){
 			Words new_str = new Words();
-			//System.out.printf("%s\n", new_str.str);
 		}
 		System.out.printf("Number of string = %d\n", num_of_string);
 	}
