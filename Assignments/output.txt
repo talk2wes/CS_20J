@@ -1,0 +1,81 @@
+The first letter is : 'Q' from 'Q'
+Str_generator: 			QHONXDFWJVDT
+StringBuilder return: 	QHONXDFWJVDT
+
+The first letter is : 'U' from 'U'
+Str_generator: 			UPCD
+StringBuilder return: 	UPCD
+
+The first letter is : 'P' from 'P'
+Str_generator: 			PMWXIFHCJ
+StringBuilder return: 	PMWXIFHCJ
+
+The first letter is : 'V' from 'V'
+Str_generator: 			VHBXZ
+StringBuilder return: 	VHBXZ
+
+The first letter is : 'I' from 'I'
+Str_generator: 			ICNAPBCUBRFOURXTETYGHLXVHLAZSDTLEPLPBIKWJZBWPPYPJSQ
+StringBuilder return: 	ICNAPBCUBRFOURXTETYGHLXVHLAZSDTLEPLPBIKWJZBWPPYPJSQ
+
+The first letter is : 'A' from 'A'
+Str_generator: 			ALMJBKIZWFVYWKLUUFNROVMLKECKLNYQFMPRZIUYWKLQIAAEJTJJFWVPJAXZCMWFEWJDOLUUJQCBWQUJQVL
+StringBuilder return: 	ALMJBKIZWFVYWKLUUFNROVMLKECKLNYQFMPRZIUYWKLQIAAEJTJJFWVPJAXZCMWFEWJDOLUUJQCBWQUJQVL
+
+The first letter is : 'V' from 'V'
+Str_generator: 			VJMJOYHTYGRLWVJLVVTUIWEBLKVZSQUUFNAEWRZNYJ
+StringBuilder return: 	VJMJOYHTYGRLWVJLVVTUIWEBLKVZSQUUFNAEWRZNYJ
+
+The first letter is : 'I' from 'I'
+Str_generator: 			ILZAXI
+StringBuilder return: 	ILZAXI
+
+The first letter is : 'R' from 'R'
+Str_generator: 			RLZSEYZRGWXTXMQVYZMVBO
+StringBuilder return: 	RLZSEYZRGWXTXMQVYZMVBO
+
+The first letter is : 'Y' from 'Y'
+Str_generator: 			YABRLGQWQIBLL
+StringBuilder return: 	YABRLGQWQIBLL
+
+The first letter is : 'T' from 'T'
+Str_generator: 			TYFVHIWXPBMXHQ
+StringBuilder return: 	TYFVHIWXPBMXHQ
+
+The first letter is : 'V' from 'V'
+Str_generator: 			VYX
+StringBuilder return: 	VYX
+
+The first letter is : 'O' from 'O'
+Str_generator: 			OAUFJUTK
+StringBuilder return: 	OAUFJUTK
+
+The first letter is : 'G' from 'G'
+Str_generator: 			G
+StringBuilder return: 	G
+
+The first letter is : 'U' from 'U'
+Str_generator: 			UBLLIABHECW
+StringBuilder return: 	UBLLIABHECW
+
+The first letter is : 'Y' from 'Y'
+Str_generator: 			YNOGROOKHXOZAODOODXBUMOXAUORYBBBHMOVSFSOEHMLSV
+StringBuilder return: 	YNOGROOKHXOZAODOODXBUMOXAUORYBBBHMOVSFSOEHMLSV
+
+The first letter is : 'X' from 'X'
+Str_generator: 			XFCJNITIGDZTBYPKAJZBRQXBEPAAXVXUEUT
+StringBuilder return: 	XFCJNITIGDZTBYPKAJZBRQXBEPAAXVXUEUT
+
+The first letter is : 'B' from 'B'
+Str_generator: 			BGZVDOQ
+StringBuilder return: 	BGZVDOQ
+
+The first letter is : 'H' from 'H'
+Str_generator: 			HBARMHCCMTCCVLFYDWLDPLSL
+StringBuilder return: 	HBARMHCCMTCCVLFYDWLDPLSL
+
+The first letter is : 'K' from 'K'
+Str_generator: 			KRYROIC
+StringBuilder return: 	KRYROIC
+
+Number of strings = 20
