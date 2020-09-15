@@ -1,0 +1,7 @@
+length = 4
+for loop i = 0
+for loop i = 1
+for loop i = 2
+for loop i = 3
+Reached the end of the loops
+The result is [
