@@ -1,9 +1,6 @@
-/**
- * This is chapter 7 problem 2 from the java textbook
- */
 class Message
 {
-	private String	text;
+	protected String	text;
 
 	//returns the text field
 	public String	toString()
@@ -15,7 +12,14 @@ class Message
 	{
 		text = newMsgTxt;
 	}
-	
+
+	public static void main(String args[])
+	{
+		System.out.println("Hello java");
+
+		Email fromJosh = new Email();
+
+	}
 }
 
 
@@ -36,8 +40,7 @@ class SMS extends Message
 	//I think this is what they want for the concat of the two "text fields"
 	public String	toString()
 	{
-		String temp = this.text + recipientContactNo;
-		return (temp);
+		return (text + recipientContactNo);
 	}
 
 }
@@ -52,8 +55,5 @@ class Email extends Message
 	{
 		return (sender + reciever + subject + text);
 	}
-	public static void main(String args[])
-	{
-		System.out.println("Hello java");
-	}
+	
 }	
