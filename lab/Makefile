@@ -16,7 +16,7 @@ crun: $(FILENAME)
 	java $(FILENAME)
 	@rm *.class
 
-git-master: $(FILENAME)
+git-master:
 	git add *
 	git commit -m "Makefile quick commit"
 	git push origin master
