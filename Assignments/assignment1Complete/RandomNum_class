@@ -1,0 +1,21 @@
+class RandomNum{
+	/**
+	 * This is the randomly generated number that will be returned.
+	 */
+	public int num;
+
+	/**
+	 * This generates a random number within the range: [min, max].
+	 * (inclusive of the boundaries)
+	 * 
+	 * @param	min	the beginning of the range
+	 * @param	max	the end of the range
+	 * @return	num	the randomly generated number
+	 */
+	int randomize(int min, int max){
+		Random rng = new Random();
+		int num;
+		num = Math.abs(rng.nextInt() % (max - min + 1)) + min;
+		return (num);
+	}
+}
