@@ -15,22 +15,9 @@ import java.util.ArrayList;
 import java.util.Random; 
 import java.lang.Math;
 import java.lang.StringBuilder;
+import java.util.Scanner;
 
 public class Words{
-	/**
-	 * This will store the randomly generated string output from the
-	 * strGenerator function.
-	 */
-	StringBuilder str;	
-	
-	/**
-	 * This stores a randomly generated string into private member variable
-	 * str.
-	 */
-	public Words(){
-		str = strGenerator();
-	}
-	
 	/**
 	 * This outputs a randomly generated string of capital letters, with
 	 * minimum length of 1. All letters have equal pseudo-random chance of
@@ -39,75 +26,78 @@ public class Words{
 	 * 
 	 * @return	str	Randomly generated string
 	 */
-	StringBuilder strGenerator(){
-		RandomNum num = new RandomNum();
-		int a = num.randomize('A', 'Z');
+	public static String strGenerator(){
 		StringBuilder str = new StringBuilder();
-		str.append((char) a);
-		while (a != 'Z' + 1){
-			a = num.randomize('A', 'Z' + 1);
-			if (a != 'Z' + 1){
-				str.append((char) a);
-			}
+		int letter = Words.randNum('A', 'Z');
+		while (letter != 'Z' + 1){
+			str.append((char) letter);
+			letter = Words.randNum('A', 'Z' + 1);
 		}
-		return (str);
+		return (str.toString());
 	}
 
 	/**
 	 * This calculated the average length of all of the strings stored in 
-	 * the int array named nums.
+	 * the int array named strLen.
 	 * 
-	 * @param 	nums	int array that stores the length of each string
+	 * @param 	strLen	int array that stores the length of each string
 	 * @return		the average length of all string lengths
 	 */
-	double average(int[] nums){
+	public static double average(int[] strLen){
 		double total = 0;
-		for (int i = 0; i < nums.length; i++){
-			total += nums[i];
-		}
-		return ( total / nums.length);
+		for (int i = 0; i < strLen.length; i++)
+			total += strLen[i];
+		//System.out.println("Array length = " + strLen.length); // TESTING 
+		return (total / strLen.length);
+	}
+
+	public static int randNum(int min, int max){
+		Random rng = new Random();
+		return (Math.abs(rng.nextInt() % (max - min + 1)) + min);
 	}
 
 	/**
-	 * Given the parameter NUM_STRING, the loop generates the specified
+	 * Given the const NUM_OF_STRING, the loop generates the specified
 	 * number of strings, stores the length of each string into strLen and
 	 * then calls the method average to find the average length of all the
 	 * strings.
 	 */
 	public static void main(String[] args){
-		final int numOfString = (int) (Math.pow(10,6));
-		int[] strLen = new int[numOfString];
+		final int 	NUM_OF_STRING = (int) (Math.pow(10,6));
+		final int	MAX_USER_INPUT = 79242939;
+		//int[]		strLen = new int[NUM_OF_STRING];
+		int		userInput = 0;
+		//ArrayList<String> arrlst = new ArrayList<String>(NUM_OF_STRING);
+		Scanner input = new Scanner(System.in);
+		// USSER INPUT BEGINNING **********************************	
+		try{
+			System.out.print(
+			"How many strings do you want to make?: ");
+			userInput = input.nextInt();	
+			//System.out.println("input = " + userInput);
+		}
+		catch(Exception e){
+			System.out.print("EXCEPTION: ");
+			System.out.println(e);
+			input.next(); //clear buffer
+		}
+		System.out.println("args length = " + args.length); // TESTING 
+		// IF NO USER INPUT, USE THE DEFAULT
+		if (userInput <= 0 || userInput >= MAX_USER_INPUT)
+		{
+			userInput = NUM_OF_STRING;
+			//System.out.println("ONE MILLION");
+		}
+		// USER  INPUT END********************************
+		int[]		strLen = new int[userInput];
+		ArrayList<String> arrlst = new ArrayList<String>(userInput);
 
-		ArrayList<String> arrlst = new ArrayList<String>(numOfString);
-		for (int i = 0 ; i < numOfString ; i++){
-			Words newStr = new Words();
-			arrlst.add(newStr.str.toString());
+		for (int i = 0 ; i < userInput ; i++){
+			arrlst.add(i, Words.strGenerator());
 			strLen[i] = (arrlst.get(i)).length();
 		}
-		Words mean = new Words();
-		double average = mean.average(strLen);
-		System.out.printf("average string length = %.1f\n", average);
+		System.out.printf("average string length = %.1f\n",
+					Words.average(strLen));
 	}
 }
 
-class RandomNum{
-	/**
-	 * This is the randomly generated number that will be returned.
-	 */
-	public int num;
-
-	/**
-	 * This generates a random number within the range: [min, max].
-	 * (inclusive of the boundaries)
-	 * 
-	 * @param	min	the beginning of the range
-	 * @param	max	the end of the range
-	 * @return	num	the randomly generated number
-	 */
-	int randomize(int min, int max){
-		Random rng = new Random();
-		int num;
-		num = Math.abs(rng.nextInt() % (max - min + 1)) + min;
-		return (num);
-	}
-}
