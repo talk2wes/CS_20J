@@ -9,9 +9,12 @@ $(NAME):
 	javac Words.java
 clean:
 	rm *.class
-fclean: clean
+fclean: 
 
 run:
 	java Words.java
 
-rerun: fclean $(NAME) run
+rerun:
+	javac $(NAME)
+	java $(NAME)
+
