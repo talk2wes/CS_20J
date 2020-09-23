@@ -58,11 +58,11 @@ public class Words{
 	public static double stdDev(int strLen[]){
 		double		mean = Words.mean(strLen);
 		double		rieSum = 0;
-		
+	
 		for (int i = 0 ; i < strLen.length ; i++)
 			rieSum += Math.pow(strLen[i] - mean, 2);
 		rieSum /= strLen.length;
-		return (Math.pow(rieSum, 1/2));
+		return (Math.sqrt(rieSum));
 	}
 
 	/**
@@ -75,8 +75,8 @@ public class Words{
 		final int 	NUM_OF_STRING = (int) (Math.pow(10,6));
 		final int	MAX_USER_INPUT = 79242939;
 		int		userInput = 0;
-		final String	line1;
-		line1 = "CS 20J Program #1: Random Strings   "
+		final String	HEADER;
+		HEADER = "CS 20J Program #1: Random Strings   "
 			+ "Wesley Johanson Talk2wes@gmail.com\n"
 			+ "Generates N strings (10^6 w/o parameter) and stats "
 			+ "about the dataset\n";
@@ -97,7 +97,7 @@ public class Words{
 			arrlst.add(i, Words.strGenerator());
 			strLen[i] = (arrlst.get(i)).length();
 		}
-		System.out.printf(line1);
+		System.out.printf(HEADER);
 		System.out.printf("%d random strings generated\n"
 				+ "first string: %s\n"
 				+ "last string: %s\n"
