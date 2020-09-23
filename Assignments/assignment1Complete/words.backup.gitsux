@@ -47,7 +47,7 @@ public class Words{
 		double total = 0;
 		for (int i = 0; i < strLen.length; i++)
 			total += strLen[i];
-		System.out.println("Array length = " + strLen.length); // TESTING 
+		//System.out.println("Array length = " + strLen.length); // TESTING 
 		return (total / strLen.length);
 	}
 
@@ -65,29 +65,8 @@ public class Words{
 	public static void main(String[] args){
 		final int 	NUM_OF_STRING = (int) (Math.pow(10,6));
 		final int	MAX_USER_INPUT = 79242939;
+		//int[]		strLen = new int[NUM_OF_STRING];
 		int		userInput = 0;
-		
-		//DETERMINE HOW MANY STRINGS TO PROCESS 
-		if (args.length == 1 
-		&& Integer.parseInt(args[0]) <= MAX_USER_INPUT
-		&& Integer.parseInt(args[0]) > 0)
-			userInput = Integer.parseInt(args[0]);
-		else
-			userInput = NUM_OF_STRING;
-		//exceptions are thrown for large +/- numbers	
-		int[]		strLen = new int[userInput];
-		ArrayList<String> arrlst = new ArrayList<String>(userInput);
-		for (int i = 0 ; i < userInput ; i++){
-			arrlst.add(i, Words.strGenerator());
-			strLen[i] = (arrlst.get(i)).length();
-		}
-		System.out.printf("average string length = %.1f\n",
-					Words.average(strLen));
-
-	
-
-/*
-
 		//ArrayList<String> arrlst = new ArrayList<String>(NUM_OF_STRING);
 		Scanner input = new Scanner(System.in);
 		// USSER INPUT BEGINNING **********************************	
@@ -120,6 +99,8 @@ public class Words{
 		System.out.printf("average string length = %.1f\n",
 					Words.average(strLen));
 	}
-	*/
-	}
 }
+// THIS IS A TEST, CHECK GITHUB FOR THIS COMMENT 
+//test 2 
+// test yy 
+//tesst xx 
