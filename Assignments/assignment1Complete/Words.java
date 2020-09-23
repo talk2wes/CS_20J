@@ -47,13 +47,21 @@ public class Words{
 		double total = 0;
 		for (int i = 0; i < strLen.length; i++)
 			total += strLen[i];
-		System.out.println("Array length = " + strLen.length); // TESTING 
 		return (total / strLen.length);
 	}
 
 	public static int randNum(int min, int max){
 		Random rng = new Random();
 		return (Math.abs(rng.nextInt() % (max - min + 1)) + min);
+	}
+	
+	public static double stdDev(int strLen[]){
+		double		average = Words.average(strLen);
+		double		rieSum = 0;
+		
+		for (int i = 0 ; i < strLen.length ; i++)
+			rieSum += Math.pow(strLen[i] - average, 2);
+		return (Math.pow(rieSum / strLen.length , 1/2));
 	}
 
 	/**
@@ -81,45 +89,10 @@ public class Words{
 			arrlst.add(i, Words.strGenerator());
 			strLen[i] = (arrlst.get(i)).length();
 		}
-		System.out.printf("average string length = %.1f\n",
+		System.out.printf("CS 20J Program #1 random strings\n"
+				+ "");
+		System.out.printf("%.1f mean length\n",
 					Words.average(strLen));
-
-	
-
-/*
-
-		//ArrayList<String> arrlst = new ArrayList<String>(NUM_OF_STRING);
-		Scanner input = new Scanner(System.in);
-		// USSER INPUT BEGINNING **********************************	
-		try{
-			System.out.print(
-			"How many strings do you want to make?: ");
-			userInput = input.nextInt();	
-			//System.out.println("input = " + userInput);
-		}
-		catch(Exception e){
-			System.out.print("EXCEPTION: ");
-			System.out.println(e);
-			input.next(); //clear buffer
-		}
-		System.out.println("args length = " + args.length); // TESTING 
-		// IF NO USER INPUT, USE THE DEFAULT
-		if (userInput <= 0 || userInput >= MAX_USER_INPUT)
-		{
-			userInput = NUM_OF_STRING;
-			//System.out.println("ONE MILLION");
-		}
-		// USER  INPUT END********************************
-		int[]		strLen = new int[userInput];
-		ArrayList<String> arrlst = new ArrayList<String>(userInput);
-
-		for (int i = 0 ; i < userInput ; i++){
-			arrlst.add(i, Words.strGenerator());
-			strLen[i] = (arrlst.get(i)).length();
-		}
-		System.out.printf("average string length = %.1f\n",
-					Words.average(strLen));
-	}
-	*/
+		System.out.printf("%.1f std dev\n", Words.stdDev(strLen));
 	}
 }
