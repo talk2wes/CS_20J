@@ -80,18 +80,26 @@ public class Words{
 			+ "Wesley Johanson Talk2wes@gmail.com\n"
 			+ "Generates N strings (10^6 w/o parameter) and stats "
 			+ "about the dataset\n";
-		
+	
 		//DETERMINE HOW MANY STRINGS TO PROCESS 
-		if (args.length == 1 
-		&& Integer.parseInt(args[0]) <= MAX_USER_INPUT
-		&& Integer.parseInt(args[0]) > 0)
-			userInput = Integer.parseInt(args[0]);
-		else
+		try
+		{
+			if (args.length == 1 
+				&& Integer.parseInt(args[0]) <= MAX_USER_INPUT
+				&& Integer.parseInt(args[0]) > 0)
+				userInput = Integer.parseInt(args[0]);
+			else
+				userInput = NUM_OF_STRING;
+		}
+		catch(Exception e)
+		{
 			userInput = NUM_OF_STRING;
-		//exceptions are thrown for large +/- numbers	
+		}
+
 		//declare the array and arraylist
 		int[]		strLen = new int[userInput];
 		ArrayList<String> arrlst = new ArrayList<String>(userInput);
+
 		//Gen strings and store them	
 		for (int i = 0 ; i < userInput ; i++){
 			arrlst.add(i, Words.strGenerator());
