@@ -7,6 +7,11 @@
  * The mean string length is then calculated using the method mean
  * of the Words class. The mean length is then output to std-out.
  * Working/tested. Code Compile, works as expected.
+ * 
+ * NOTE: Should the program output stats and "generate" data when
+ * the user inputs 0 as the number of strings to generate? 
+ * right now the program is designed to ignore that input and use the default
+ *
  * @Author Wesley Johanson, talk2wes@gmail.com, Pengo: wjohanso
  * @Version: 1.0
  * @Since Fall 2020 Semester. Java 14.0.2 2020-07-14
@@ -99,7 +104,6 @@ public class Words{
 		//declare the array and arraylist
 		int[]		strLen = new int[userInput];
 		ArrayList<String> arrlst = new ArrayList<String>(userInput);
-
 		//Gen strings and store them	
 		for (int i = 0 ; i < userInput ; i++){
 			arrlst.add(i, Words.strGenerator());
