@@ -8,52 +8,71 @@ import java.util.Scanner;
 class Scramble
 {	
 
-	public static Vector<String> str2vec(Scanner s)
+	public static Vector<String> str2vec(Scanner s, String delimiter)
 	{
 		Vector<String> words = new Vector<String>();
 		//Scanner s = new Scanner(System.in);
 		String input = "";
+		s.useDelimiter(delimiter); // wtfff
 		boolean done = false;
 		while (!done)
 		{
 			try {
 				input = s.next();
-				//System.out.println(input);
+				System.out.println("input string = " + input);
 				words.add(input);
-				System.out.println("Words added = " + words.get(words.size() - 1));
+				//System.out.println("Words added = "
+				//	+ words.get(words.size() - 1));
 			}
 			catch (Exception e){
+				//Catched the exception as a result of EOF input
 				done = true;
-				s.close();
+				//s.close(); bad encapsulation :((
 			}
 		}
 		return (words);
 	}
+
+
+
+	//Each vector is split into columns by the delimiter and put into a row
+	//corresponding to the index of the original vector.
+	public static Vector<Vector<String>> vec2matrix
+		(Vector<String> lines, String delimiter)
+	{
+		Vector<Vector<String>> mat = new Vector<Vector<String>>();
+		String tempStr = "";
+		String[] words;
+
+		//Split each line into a new column
+		for(int row = 0; row < lines.size() ; row++)
+		{
+			//Split each string using the delimiter
+			tempStr = lines.get(row);			
+			words = tempStr.split(delimiter);
+			System.out.println("tempstr has: " + tempStr);		//Testing
+			for (int col = 0; col < words.length; col++)
+			{
+				Vector<String> splitStr = new Vector<String>();
+				splitStr.add(words[col]);	
+				System.out.println("splitStr: " + splitStr.get(col));
+			}
+		}
+		return (mat);
+	}
+	
+	
 
 	public static void main(String[] args) 
 	{
 
 		//Read the input from standard input 
 		Scanner s = new Scanner(System.in);
-		Vector<String> words = new Vector<String>();
-		words = str2vec(s);
-		System.out.println(words.toString());
-		/*
-		String input = "";
-		boolean done = false;
-		while (!done)
-		{
-			try {
-				input = s.next();
-				System.out.println(input);
-				//System.out.println("Next() = \t" + s.hasNext());
-			}
-			catch (Exception e){
-				done = true;
-				s.close();
-			}
-		}
-		System.out.println("LOOP TERMINATED"); 			//TESTING 
-		*/
+		Vector<String> lines = new Vector<String>();
+		Vector<Vector<String>> mat = new Vector<Vector<String>>();
+		
+		lines = str2vec(s, "\n");
+		mat = vec2matrix(lines, " ");	
+		System.out.println(lines.toString());
 	}
 }
