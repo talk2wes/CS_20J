@@ -2,38 +2,27 @@ import java.util.Vector;
 import java.lang.String;
 import java.util.Scanner;
 
-//Here we go again haha
-
-
 class Scramble
 {	
-
 	public static Vector<String> str2vec(Scanner s, String delimiter)
 	{
 		Vector<String> words = new Vector<String>();
-		//Scanner s = new Scanner(System.in);
 		String input = "";
-		s.useDelimiter(delimiter); // wtfff
+		s.useDelimiter(delimiter);
 		boolean done = false;
 		while (!done)
 		{
 			try {
 				input = s.next();
-				//System.out.println("input string = " + input);
 				words.add(input);
-				//System.out.println("Words added = "
-				//	+ words.get(words.size() - 1));
 			}
 			catch (Exception e){
 				//Catched the exception as a result of EOF input
 				done = true;
-				//s.close(); bad encapsulation :((
 			}
 		}
 		return (words);
 	}
-
-
 
 	//Each vector is split into columns by the delimiter and put into a row
 	//corresponding to the index of the original vector.
@@ -45,35 +34,31 @@ class Scramble
 		String[] words;
 
 		//Split each line into a new column
-		//System.out.println("VEC2MATRIX\n");
 		for(int row = 0; row < lines.size() ; row++)
 		{
-			//Split each string using the delimiter
+			//Split each string into an int array using the delimiter
 			tempStr = lines.get(row);			
 			words = tempStr.split(delimiter);
 			System.out.println(tempStr);		//Testing
-			//Add each word as a element of the vector 
+			//Add each word as an element of the vector 
 			Vector<String> splitStr = new Vector<String>();
 			for (int col = 0; col < words.length; col++)
-			{
 				splitStr.add(words[col]);	
-			}
 			//Add each vector into the matix, corresponding to row
 			mat.add(splitStr);
 		}
-		//System.out.println("mat = " + mat.toString());
-	
 		return (mat);
 	}
-	
+	public static void scramble(Vector<Vector<String>> mat)
+	{
+
+	}
+
 	public static void mat2stdOut(Vector<Vector<String>> mat)
 	{
 		String delimiter = " ";
 		for (int row = 0; row < mat.size(); row++)
 		{
-			//System.out.println("size of row " + row + " is " 
-			//	+ mat.get(row).size());
-			//for (int col = 0; col < a //vector size here 
 			for (int col = 0; col < mat.get(row).size(); col++)
 			{
 				if (col > 0)
@@ -86,7 +71,6 @@ class Scramble
 
 	public static void main(String[] args) 
 	{
-
 		//Read the input from standard input 
 		Scanner s = new Scanner(System.in);
 		Vector<String> lines = new Vector<String>();
@@ -95,6 +79,7 @@ class Scramble
 		System.out.println("\nstr2vec\n");
 		lines = str2vec(s, "\n");
 		mat = vec2matrix(lines, " ");	
+		System.out.println("mat = " + mat.toString() + "\n");
 		System.out.println("\nmat2stdout\n");
 		mat2stdOut(mat);
 	}
