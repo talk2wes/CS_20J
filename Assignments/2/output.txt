@@ -1,0 +1,10 @@
+javac Scramble.java
+java Scramble.java
+Words added = hello
+Words added = there
+Words added = my
+Words added = name
+Words added = is
+Words added = paul
+Words added = yes
+[hello, there, my, name, is, paul, yes]
