@@ -19,7 +19,7 @@ class Scramble
 		{
 			try {
 				input = s.next();
-				System.out.println("input string = " + input);
+				//System.out.println("input string = " + input);
 				words.add(input);
 				//System.out.println("Words added = "
 				//	+ words.get(words.size() - 1));
@@ -58,8 +58,10 @@ class Scramble
 				splitStr.add(words[col]);	
 			}
 			//Add each vector into the matix, corresponding to row
-			System.out.println("splitStr: " + splitStr.toString());
+			//System.out.println("splitStr: " + splitStr.toString());
+			mat.add(splitStr);
 		}
+		System.out.println("mat = " + mat.toString());
 		return (mat);
 	}
 	
@@ -75,6 +77,6 @@ class Scramble
 		
 		lines = str2vec(s, "\n");
 		mat = vec2matrix(lines, " ");	
-		System.out.println(lines.toString());
+		//System.out.println(lines.toString());
 	}
 }
