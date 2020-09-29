@@ -51,12 +51,14 @@ class Scramble
 			tempStr = lines.get(row);			
 			words = tempStr.split(delimiter);
 			System.out.println("tempstr has: " + tempStr);		//Testing
+			//Add each word as a element of the vector 
+			Vector<String> splitStr = new Vector<String>();
 			for (int col = 0; col < words.length; col++)
 			{
-				Vector<String> splitStr = new Vector<String>();
 				splitStr.add(words[col]);	
-				System.out.println("splitStr: " + splitStr.get(col));
 			}
+			//Add each vector into the matix, corresponding to row
+			System.out.println("splitStr: " + splitStr.toString());
 		}
 		return (mat);
 	}
