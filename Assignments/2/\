@@ -45,13 +45,12 @@ class Scramble
 		String[] words;
 
 		//Split each line into a new column
-		//System.out.println("VEC2MATRIX\n");
 		for(int row = 0; row < lines.size() ; row++)
 		{
 			//Split each string using the delimiter
 			tempStr = lines.get(row);			
 			words = tempStr.split(delimiter);
-			System.out.println(tempStr);		//Testing
+			System.out.println("tempstr has: " + tempStr);		//Testing
 			//Add each word as a element of the vector 
 			Vector<String> splitStr = new Vector<String>();
 			for (int col = 0; col < words.length; col++)
@@ -59,29 +58,16 @@ class Scramble
 				splitStr.add(words[col]);	
 			}
 			//Add each vector into the matix, corresponding to row
+			//System.out.println("splitStr: " + splitStr.toString());
 			mat.add(splitStr);
 		}
-		//System.out.println("mat = " + mat.toString());
-	
+		System.out.println("mat = " + mat.toString());
 		return (mat);
 	}
 	
 	public static void mat2stdOut(Vector<Vector<String>> mat)
 	{
-		String delimiter = " ";
-		for (int row = 0; row < mat.size(); row++)
-		{
-			//System.out.println("size of row " + row + " is " 
-			//	+ mat.get(row).size());
-			//for (int col = 0; col < a //vector size here 
-			for (int col = 0; col < mat.get(row).size(); col++)
-			{
-				if (col > 0)
-					System.out.print(delimiter);
-				System.out.print(mat.get(row).get(col));
-			}
-			System.out.println("");
-		}
+
 	}
 
 	public static void main(String[] args) 
@@ -92,10 +78,8 @@ class Scramble
 		Vector<String> lines = new Vector<String>();
 		Vector<Vector<String>> mat = new Vector<Vector<String>>();
 		
-		System.out.println("\nstr2vec\n");
 		lines = str2vec(s, "\n");
 		mat = vec2matrix(lines, " ");	
-		System.out.println("\nmat2stdout\n");
-		mat2stdOut(mat);
+		//System.out.println(lines.toString());
 	}
 }
