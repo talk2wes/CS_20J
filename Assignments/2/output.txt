@@ -13,22 +13,13 @@ letter by itself but the word as a whole and the brain figures it out anyway.
 
 According	len: 9
 SCRAMBLE THIS WORD
-RANGE	[0, 7
-swapInd = 1
-RANGE	[0, 7
-swapInd = 1
-RANGE	[0, 7
-swapInd = 4
-RANGE	[0, 7
-swapInd = 1
-RANGE	[0, 7
-swapInd = 1
-RANGE	[0, 7
-swapInd = 7
-RANGE	[0, 7
-swapInd = 5
-RANGE	[0, 7
-swapInd = 2
+Max input value for nextint: 7
+Max input value for nextint: 6
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -38,20 +29,12 @@ to	len: 2
 
 research	len: 8
 SCRAMBLE THIS WORD
-RANGE	[0, 6
-swapInd = 3
-RANGE	[0, 6
-swapInd = 1
-RANGE	[0, 6
-swapInd = 4
-RANGE	[0, 6
-swapInd = 2
-RANGE	[0, 6
-swapInd = 3
-RANGE	[0, 6
-swapInd = 2
-RANGE	[0, 6
-swapInd = 2
+Max input value for nextint: 6
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -65,41 +48,24 @@ an	len: 2
 
 English	len: 7
 SCRAMBLE THIS WORD
-RANGE	[0, 5
-swapInd = 0
-RANGE	[0, 5
-swapInd = 3
-RANGE	[0, 5
-swapInd = 4
-RANGE	[0, 5
-swapInd = 3
-RANGE	[0, 5
-swapInd = 1
-RANGE	[0, 5
-swapInd = 0
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 university,	len: 10
 SCRAMBLE THIS WORD
-RANGE	[0, 8
-swapInd = 2
-RANGE	[0, 8
-swapInd = 5
-RANGE	[0, 8
-swapInd = 1
-RANGE	[0, 8
-swapInd = 4
-RANGE	[0, 8
-swapInd = 5
-RANGE	[0, 8
-swapInd = 8
-RANGE	[0, 8
-swapInd = 5
-RANGE	[0, 8
-swapInd = 1
-RANGE	[0, 8
-swapInd = 5
+Max input value for nextint: 8
+Max input value for nextint: 7
+Max input value for nextint: 6
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -109,36 +75,23 @@ it	len: 2
 
 does	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 2
-RANGE	[0, 2
-swapInd = 1
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 not	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 0
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 matter	len: 6
 SCRAMBLE THIS WORD
-RANGE	[0, 4
-swapInd = 0
-RANGE	[0, 4
-swapInd = 0
-RANGE	[0, 4
-swapInd = 0
-RANGE	[0, 4
-swapInd = 0
-RANGE	[0, 4
-swapInd = 0
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -148,51 +101,32 @@ in	len: 2
 
 what	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 0
-RANGE	[0, 2
-swapInd = 0
-RANGE	[0, 2
-swapInd = 1
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 order	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 2
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 2
-RANGE	[0, 3
-swapInd = 3
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 the	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 letters	len: 7
 SCRAMBLE THIS WORD
-RANGE	[0, 5
-swapInd = 5
-RANGE	[0, 5
-swapInd = 1
-RANGE	[0, 5
-swapInd = 0
-RANGE	[0, 5
-swapInd = 5
-RANGE	[0, 5
-swapInd = 1
-RANGE	[0, 5
-swapInd = 0
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -206,75 +140,47 @@ a	len: 1
 
 word	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 0
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 2
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 are,	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 the	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 only	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 0
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 0
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 important	len: 9
 SCRAMBLE THIS WORD
-RANGE	[0, 7
-swapInd = 2
-RANGE	[0, 7
-swapInd = 2
-RANGE	[0, 7
-swapInd = 3
-RANGE	[0, 7
-swapInd = 6
-RANGE	[0, 7
-swapInd = 2
-RANGE	[0, 7
-swapInd = 4
-RANGE	[0, 7
-swapInd = 3
-RANGE	[0, 7
-swapInd = 0
+Max input value for nextint: 7
+Max input value for nextint: 6
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 thing	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 1
-RANGE	[0, 3
-swapInd = 3
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -284,78 +190,50 @@ is	len: 2
 
 that	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 0
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 1
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 the	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 1
+Max input value for nextint: 1
 
 
 
 first	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 1
-RANGE	[0, 3
-swapInd = 2
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 0
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 and	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 0
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 last	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 0
-RANGE	[0, 2
-swapInd = 0
-RANGE	[0, 2
-swapInd = 1
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 letter	len: 6
 SCRAMBLE THIS WORD
-RANGE	[0, 4
-swapInd = 4
-RANGE	[0, 4
-swapInd = 1
-RANGE	[0, 4
-swapInd = 2
-RANGE	[0, 4
-swapInd = 3
-RANGE	[0, 4
-swapInd = 2
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 are	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 0
-RANGE	[0, 1
-swapInd = 1
+Max input value for nextint: 1
 
 
 
@@ -365,65 +243,42 @@ in	len: 2
 
 the	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 1
+Max input value for nextint: 1
 
 
 
 right	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 1
-RANGE	[0, 3
-swapInd = 3
-RANGE	[0, 3
-swapInd = 2
-RANGE	[0, 3
-swapInd = 2
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 place.	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 2
-RANGE	[0, 3
-swapInd = 3
-RANGE	[0, 3
-swapInd = 1
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 The	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 1
+Max input value for nextint: 1
 
 
 
 rest	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 2
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 can	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 1
+Max input value for nextint: 1
 
 
 
@@ -437,76 +292,49 @@ a	len: 1
 
 total	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 1
-RANGE	[0, 3
-swapInd = 1
-RANGE	[0, 3
-swapInd = 1
-RANGE	[0, 3
-swapInd = 2
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 mess	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 2
-RANGE	[0, 2
-swapInd = 2
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 and	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 you	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 can	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 0
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 still	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 2
-RANGE	[0, 3
-swapInd = 3
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 0
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 read	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 2
-RANGE	[0, 2
-swapInd = 2
-RANGE	[0, 2
-swapInd = 2
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -516,18 +344,11 @@ it	len: 2
 
 without	len: 7
 SCRAMBLE THIS WORD
-RANGE	[0, 5
-swapInd = 3
-RANGE	[0, 5
-swapInd = 1
-RANGE	[0, 5
-swapInd = 4
-RANGE	[0, 5
-swapInd = 1
-RANGE	[0, 5
-swapInd = 5
-RANGE	[0, 5
-swapInd = 1
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -537,29 +358,18 @@ a	len: 1
 
 problem.	len: 7
 SCRAMBLE THIS WORD
-RANGE	[0, 5
-swapInd = 2
-RANGE	[0, 5
-swapInd = 1
-RANGE	[0, 5
-swapInd = 0
-RANGE	[0, 5
-swapInd = 4
-RANGE	[0, 5
-swapInd = 4
-RANGE	[0, 5
-swapInd = 3
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 This	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 0
-RANGE	[0, 2
-swapInd = 2
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -569,18 +379,11 @@ is	len: 2
 
 because	len: 7
 SCRAMBLE THIS WORD
-RANGE	[0, 5
-swapInd = 5
-RANGE	[0, 5
-swapInd = 1
-RANGE	[0, 5
-swapInd = 0
-RANGE	[0, 5
-swapInd = 1
-RANGE	[0, 5
-swapInd = 5
-RANGE	[0, 5
-swapInd = 4
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -594,49 +397,31 @@ do	len: 2
 
 not	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 0
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 read	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 1
-RANGE	[0, 2
-swapInd = 0
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 every	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 2
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 2
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 letter	len: 6
 SCRAMBLE THIS WORD
-RANGE	[0, 4
-swapInd = 0
-RANGE	[0, 4
-swapInd = 4
-RANGE	[0, 4
-swapInd = 2
-RANGE	[0, 4
-swapInd = 4
-RANGE	[0, 4
-swapInd = 4
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -646,45 +431,29 @@ by	len: 2
 
 itself	len: 6
 SCRAMBLE THIS WORD
-RANGE	[0, 4
-swapInd = 3
-RANGE	[0, 4
-swapInd = 2
-RANGE	[0, 4
-swapInd = 0
-RANGE	[0, 4
-swapInd = 2
-RANGE	[0, 4
-swapInd = 3
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 but	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 0
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 the	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 0
-RANGE	[0, 1
-swapInd = 1
+Max input value for nextint: 1
 
 
 
 word	len: 4
 SCRAMBLE THIS WORD
-RANGE	[0, 2
-swapInd = 2
-RANGE	[0, 2
-swapInd = 2
-RANGE	[0, 2
-swapInd = 0
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -698,62 +467,39 @@ a	len: 1
 
 whole	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 2
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 3
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 and	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 0
-RANGE	[0, 1
-swapInd = 1
+Max input value for nextint: 1
 
 
 
 the	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 0
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 brain	len: 5
 SCRAMBLE THIS WORD
-RANGE	[0, 3
-swapInd = 2
-RANGE	[0, 3
-swapInd = 0
-RANGE	[0, 3
-swapInd = 3
-RANGE	[0, 3
-swapInd = 3
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
 figures	len: 7
 SCRAMBLE THIS WORD
-RANGE	[0, 5
-swapInd = 4
-RANGE	[0, 5
-swapInd = 5
-RANGE	[0, 5
-swapInd = 0
-RANGE	[0, 5
-swapInd = 4
-RANGE	[0, 5
-swapInd = 1
-RANGE	[0, 5
-swapInd = 1
+Max input value for nextint: 5
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 
 
 
@@ -763,25 +509,16 @@ it	len: 2
 
 out	len: 3
 SCRAMBLE THIS WORD
-RANGE	[0, 1
-swapInd = 1
-RANGE	[0, 1
-swapInd = 0
+Max input value for nextint: 1
 
 
 
 anyway.	len: 6
 SCRAMBLE THIS WORD
-RANGE	[0, 4
-swapInd = 0
-RANGE	[0, 4
-swapInd = 4
-RANGE	[0, 4
-swapInd = 3
-RANGE	[0, 4
-swapInd = 3
-RANGE	[0, 4
-swapInd = 0
+Max input value for nextint: 4
+Max input value for nextint: 3
+Max input value for nextint: 2
+Max input value for nextint: 1
 mat = [[According, to, research, at, an, English, university,, it, does, not, matter, in, what, order], [the, letters, in, a, word, are,, the, only, important, thing, is, that, the, first, and], [last, letter, are, in, the, right, place., The, rest, can, be, a, total, mess, and, you], [can, still, read, it, without, a, problem., This, is, because, we, do, not, read, every], [letter, by, itself, but, the, word, as, a, whole, and, the, brain, figures, it, out, anyway.]]
 
 

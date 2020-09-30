@@ -67,7 +67,7 @@ class Scramble
 		return (letters);
 	}
 
-	//Shuffles a word around, shuffles letters within the range
+	//Shuffles characters around, shuffles letters within the range
 	//Inclusive of the boundaries 'start' and 'end'
 	public static void wordShuffle(String word, int start, int end)
 	{
@@ -76,11 +76,10 @@ class Scramble
 		for (int i = end; i >= start; i--)
 		{
 			//make a random number within the range [start, i)
-			System.out.println("RANGE\t[" + start + ", " +  (end - start));
-			swapInd = rnd.nextInt(end - start + 1) + start;
-			System.out.println("swapInd = " + swapInd);
+			swapInd = rnd.nextInt(i - start + 1) + start;
+			System.out.println("Max input value for nextint: " + (i - start + 1) );
 			//swap that index with the terminal character
-		/////////////////////////////////////////////////////////////////////////////////////////////////		
+
 		}
 	}
 
@@ -99,7 +98,7 @@ class Scramble
 				if (len >= 3)
 				{
 					System.out.println("SCRAMBLE THIS WORD");
-					wordShuffle(mat.get(row).get(col), 0, 
+					wordShuffle(mat.get(row).get(col), 1, 
 						wordLen(mat.get(row).get(col)) - 2); //one for index difference, one for 
 					//Given length define the range of indicies to scramble
 					//Scramble the letters within the range 
