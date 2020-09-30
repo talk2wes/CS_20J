@@ -49,8 +49,35 @@ class Scramble
 		}
 		return (mat);
 	}
+	
+	//Find the length of the word excluding all not alphabet characters
+	public static int wordLen(String str)
+	{
+		int letters = 0;
+
+		for (int i = 0; i < str.length(); i++)
+		{
+			//System.out.println(str + "\ti: " + i + "\tchar: " + str.charAt(i));
+			if (str.charAt(i) >= 'A' && str.charAt(i) <= 'Z')
+				letters++;
+			if (str.charAt(i) >= 'a' && str.charAt(i) <= 'z')
+				letters++;
+		}
+		return (letters);
+	}
+
 	public static void scramble(Vector<Vector<String>> mat)
 	{
+		for (int row = 0; row < mat.size(); row++)
+		{
+			for (int col = 0; col < mat.get(row).size(); col++)
+			{
+				//Find length of string, excluding punctuation
+				System.out.println(mat.get(row).get(col) + "\tlen: " + wordLen(mat.get(row).get(col)));
+				//Given length define the range of indicies to scramble
+				//Scramble the letters within the range 
+			}
+		}
 
 	}
 
@@ -78,7 +105,8 @@ class Scramble
 		
 		System.out.println("\nstr2vec\n");
 		lines = str2vec(s, "\n");
-		mat = vec2matrix(lines, " ");	
+		mat = vec2matrix(lines, " ");
+		scramble(mat);
 		System.out.println("mat = " + mat.toString() + "\n");
 		System.out.println("\nmat2stdout\n");
 		mat2stdOut(mat);
