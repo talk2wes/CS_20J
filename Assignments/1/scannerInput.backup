@@ -1,0 +1,35 @@
+		final int 	NUM_OF_STRING = (int) (Math.pow(10,6));
+		final int	MAX_USER_INPUT = 79242939;
+		//int[]		strLen = new int[NUM_OF_STRING];
+		int		userInput = 0;
+		//ArrayList<String> arrlst = new ArrayList<String>(NUM_OF_STRING);
+		Scanner input = new Scanner(System.in);
+		// USSER INPUT BEGINNING **********************************	
+		try{
+			System.out.print(
+			"How many strings do you want to make?: ");
+			userInput = input.nextInt();	
+			//System.out.println("input = " + userInput);
+		}
+		catch(Exception e){
+			System.out.print("EXCEPTION: ");
+			System.out.println(e);
+			input.next(); //clear buffer
+		}
+		System.out.println("args length = " + args.length); // TESTING 
+		// IF NO USER INPUT, USE THE DEFAULT
+		if (userInput <= 0 || userInput >= MAX_USER_INPUT)
+		{
+			userInput = NUM_OF_STRING;
+			//System.out.println("ONE MILLION");
+		}
+		// USER  INPUT END********************************
+		int[]		strLen = new int[userInput];
+		ArrayList<String> arrlst = new ArrayList<String>(userInput);
+
+		for (int i = 0 ; i < userInput ; i++){
+			arrlst.add(i, Words.strGenerator());
+			strLen[i] = (arrlst.get(i)).length();
+		}
+		System.out.printf("average string length = %.1f\n",
+					Words.average(strLen));

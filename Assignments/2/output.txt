@@ -8,6 +8,780 @@ the letters in a word are, the only important thing is that the first and
 last letter are in the right place. The rest can be a total mess and you 
 can still read it without a problem. This is because we do not read every 
 letter by itself but the word as a whole and the brain figures it out anyway.
+
+
+
+According	len: 9
+SCRAMBLE THIS WORD
+RANGE	[0, 7
+swapInd = 1
+RANGE	[0, 7
+swapInd = 1
+RANGE	[0, 7
+swapInd = 4
+RANGE	[0, 7
+swapInd = 1
+RANGE	[0, 7
+swapInd = 1
+RANGE	[0, 7
+swapInd = 7
+RANGE	[0, 7
+swapInd = 5
+RANGE	[0, 7
+swapInd = 2
+
+
+
+to	len: 2
+
+
+
+research	len: 8
+SCRAMBLE THIS WORD
+RANGE	[0, 6
+swapInd = 3
+RANGE	[0, 6
+swapInd = 1
+RANGE	[0, 6
+swapInd = 4
+RANGE	[0, 6
+swapInd = 2
+RANGE	[0, 6
+swapInd = 3
+RANGE	[0, 6
+swapInd = 2
+RANGE	[0, 6
+swapInd = 2
+
+
+
+at	len: 2
+
+
+
+an	len: 2
+
+
+
+English	len: 7
+SCRAMBLE THIS WORD
+RANGE	[0, 5
+swapInd = 0
+RANGE	[0, 5
+swapInd = 3
+RANGE	[0, 5
+swapInd = 4
+RANGE	[0, 5
+swapInd = 3
+RANGE	[0, 5
+swapInd = 1
+RANGE	[0, 5
+swapInd = 0
+
+
+
+university,	len: 10
+SCRAMBLE THIS WORD
+RANGE	[0, 8
+swapInd = 2
+RANGE	[0, 8
+swapInd = 5
+RANGE	[0, 8
+swapInd = 1
+RANGE	[0, 8
+swapInd = 4
+RANGE	[0, 8
+swapInd = 5
+RANGE	[0, 8
+swapInd = 8
+RANGE	[0, 8
+swapInd = 5
+RANGE	[0, 8
+swapInd = 1
+RANGE	[0, 8
+swapInd = 5
+
+
+
+it	len: 2
+
+
+
+does	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 2
+RANGE	[0, 2
+swapInd = 1
+
+
+
+not	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 0
+RANGE	[0, 1
+swapInd = 0
+
+
+
+matter	len: 6
+SCRAMBLE THIS WORD
+RANGE	[0, 4
+swapInd = 0
+RANGE	[0, 4
+swapInd = 0
+RANGE	[0, 4
+swapInd = 0
+RANGE	[0, 4
+swapInd = 0
+RANGE	[0, 4
+swapInd = 0
+
+
+
+in	len: 2
+
+
+
+what	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 0
+RANGE	[0, 2
+swapInd = 0
+RANGE	[0, 2
+swapInd = 1
+
+
+
+order	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 2
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 2
+RANGE	[0, 3
+swapInd = 3
+
+
+
+the	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 0
+
+
+
+letters	len: 7
+SCRAMBLE THIS WORD
+RANGE	[0, 5
+swapInd = 5
+RANGE	[0, 5
+swapInd = 1
+RANGE	[0, 5
+swapInd = 0
+RANGE	[0, 5
+swapInd = 5
+RANGE	[0, 5
+swapInd = 1
+RANGE	[0, 5
+swapInd = 0
+
+
+
+in	len: 2
+
+
+
+a	len: 1
+
+
+
+word	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 0
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 2
+
+
+
+are,	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 0
+
+
+
+the	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 0
+
+
+
+only	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 0
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 0
+
+
+
+important	len: 9
+SCRAMBLE THIS WORD
+RANGE	[0, 7
+swapInd = 2
+RANGE	[0, 7
+swapInd = 2
+RANGE	[0, 7
+swapInd = 3
+RANGE	[0, 7
+swapInd = 6
+RANGE	[0, 7
+swapInd = 2
+RANGE	[0, 7
+swapInd = 4
+RANGE	[0, 7
+swapInd = 3
+RANGE	[0, 7
+swapInd = 0
+
+
+
+thing	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 1
+RANGE	[0, 3
+swapInd = 3
+
+
+
+is	len: 2
+
+
+
+that	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 0
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 1
+
+
+
+the	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 1
+
+
+
+first	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 1
+RANGE	[0, 3
+swapInd = 2
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 0
+
+
+
+and	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 0
+RANGE	[0, 1
+swapInd = 0
+
+
+
+last	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 0
+RANGE	[0, 2
+swapInd = 0
+RANGE	[0, 2
+swapInd = 1
+
+
+
+letter	len: 6
+SCRAMBLE THIS WORD
+RANGE	[0, 4
+swapInd = 4
+RANGE	[0, 4
+swapInd = 1
+RANGE	[0, 4
+swapInd = 2
+RANGE	[0, 4
+swapInd = 3
+RANGE	[0, 4
+swapInd = 2
+
+
+
+are	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 0
+RANGE	[0, 1
+swapInd = 1
+
+
+
+in	len: 2
+
+
+
+the	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 1
+
+
+
+right	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 1
+RANGE	[0, 3
+swapInd = 3
+RANGE	[0, 3
+swapInd = 2
+RANGE	[0, 3
+swapInd = 2
+
+
+
+place.	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 2
+RANGE	[0, 3
+swapInd = 3
+RANGE	[0, 3
+swapInd = 1
+
+
+
+The	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 1
+
+
+
+rest	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 2
+
+
+
+can	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 1
+
+
+
+be	len: 2
+
+
+
+a	len: 1
+
+
+
+total	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 1
+RANGE	[0, 3
+swapInd = 1
+RANGE	[0, 3
+swapInd = 1
+RANGE	[0, 3
+swapInd = 2
+
+
+
+mess	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 2
+RANGE	[0, 2
+swapInd = 2
+
+
+
+and	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 0
+
+
+
+you	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 0
+
+
+
+can	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 0
+RANGE	[0, 1
+swapInd = 0
+
+
+
+still	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 2
+RANGE	[0, 3
+swapInd = 3
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 0
+
+
+
+read	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 2
+RANGE	[0, 2
+swapInd = 2
+RANGE	[0, 2
+swapInd = 2
+
+
+
+it	len: 2
+
+
+
+without	len: 7
+SCRAMBLE THIS WORD
+RANGE	[0, 5
+swapInd = 3
+RANGE	[0, 5
+swapInd = 1
+RANGE	[0, 5
+swapInd = 4
+RANGE	[0, 5
+swapInd = 1
+RANGE	[0, 5
+swapInd = 5
+RANGE	[0, 5
+swapInd = 1
+
+
+
+a	len: 1
+
+
+
+problem.	len: 7
+SCRAMBLE THIS WORD
+RANGE	[0, 5
+swapInd = 2
+RANGE	[0, 5
+swapInd = 1
+RANGE	[0, 5
+swapInd = 0
+RANGE	[0, 5
+swapInd = 4
+RANGE	[0, 5
+swapInd = 4
+RANGE	[0, 5
+swapInd = 3
+
+
+
+This	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 0
+RANGE	[0, 2
+swapInd = 2
+
+
+
+is	len: 2
+
+
+
+because	len: 7
+SCRAMBLE THIS WORD
+RANGE	[0, 5
+swapInd = 5
+RANGE	[0, 5
+swapInd = 1
+RANGE	[0, 5
+swapInd = 0
+RANGE	[0, 5
+swapInd = 1
+RANGE	[0, 5
+swapInd = 5
+RANGE	[0, 5
+swapInd = 4
+
+
+
+we	len: 2
+
+
+
+do	len: 2
+
+
+
+not	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 0
+RANGE	[0, 1
+swapInd = 0
+
+
+
+read	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 1
+RANGE	[0, 2
+swapInd = 0
+
+
+
+every	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 2
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 2
+
+
+
+letter	len: 6
+SCRAMBLE THIS WORD
+RANGE	[0, 4
+swapInd = 0
+RANGE	[0, 4
+swapInd = 4
+RANGE	[0, 4
+swapInd = 2
+RANGE	[0, 4
+swapInd = 4
+RANGE	[0, 4
+swapInd = 4
+
+
+
+by	len: 2
+
+
+
+itself	len: 6
+SCRAMBLE THIS WORD
+RANGE	[0, 4
+swapInd = 3
+RANGE	[0, 4
+swapInd = 2
+RANGE	[0, 4
+swapInd = 0
+RANGE	[0, 4
+swapInd = 2
+RANGE	[0, 4
+swapInd = 3
+
+
+
+but	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 0
+RANGE	[0, 1
+swapInd = 0
+
+
+
+the	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 0
+RANGE	[0, 1
+swapInd = 1
+
+
+
+word	len: 4
+SCRAMBLE THIS WORD
+RANGE	[0, 2
+swapInd = 2
+RANGE	[0, 2
+swapInd = 2
+RANGE	[0, 2
+swapInd = 0
+
+
+
+as	len: 2
+
+
+
+a	len: 1
+
+
+
+whole	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 2
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 3
+
+
+
+and	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 0
+RANGE	[0, 1
+swapInd = 1
+
+
+
+the	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 0
+RANGE	[0, 1
+swapInd = 0
+
+
+
+brain	len: 5
+SCRAMBLE THIS WORD
+RANGE	[0, 3
+swapInd = 2
+RANGE	[0, 3
+swapInd = 0
+RANGE	[0, 3
+swapInd = 3
+RANGE	[0, 3
+swapInd = 3
+
+
+
+figures	len: 7
+SCRAMBLE THIS WORD
+RANGE	[0, 5
+swapInd = 4
+RANGE	[0, 5
+swapInd = 5
+RANGE	[0, 5
+swapInd = 0
+RANGE	[0, 5
+swapInd = 4
+RANGE	[0, 5
+swapInd = 1
+RANGE	[0, 5
+swapInd = 1
+
+
+
+it	len: 2
+
+
+
+out	len: 3
+SCRAMBLE THIS WORD
+RANGE	[0, 1
+swapInd = 1
+RANGE	[0, 1
+swapInd = 0
+
+
+
+anyway.	len: 6
+SCRAMBLE THIS WORD
+RANGE	[0, 4
+swapInd = 0
+RANGE	[0, 4
+swapInd = 4
+RANGE	[0, 4
+swapInd = 3
+RANGE	[0, 4
+swapInd = 3
+RANGE	[0, 4
+swapInd = 0
 mat = [[According, to, research, at, an, English, university,, it, does, not, matter, in, what, order], [the, letters, in, a, word, are,, the, only, important, thing, is, that, the, first, and], [last, letter, are, in, the, right, place., The, rest, can, be, a, total, mess, and, you], [can, still, read, it, without, a, problem., This, is, because, we, do, not, read, every], [letter, by, itself, but, the, word, as, a, whole, and, the, brain, figures, it, out, anyway.]]
 
 

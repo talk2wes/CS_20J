@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Vector;
 import java.lang.String;
 import java.util.Scanner;
@@ -66,16 +67,43 @@ class Scramble
 		return (letters);
 	}
 
+	//Shuffles a word around, shuffles letters within the range
+	//Inclusive of the boundaries 'start' and 'end'
+	public static void wordShuffle(String word, int start, int end)
+	{
+		Random rnd = new Random();
+		int swapInd = -1;
+		for (int i = end; i >= start; i--)
+		{
+			//make a random number within the range [start, i)
+			System.out.println("RANGE\t[" + start + ", " +  (end - start));
+			swapInd = rnd.nextInt(end - start + 1) + start;
+			System.out.println("swapInd = " + swapInd);
+			//swap that index with the terminal character
+		/////////////////////////////////////////////////////////////////////////////////////////////////		
+		}
+	}
+
 	public static void scramble(Vector<Vector<String>> mat)
 	{
+		int len = 0;
+
 		for (int row = 0; row < mat.size(); row++)
 		{
 			for (int col = 0; col < mat.get(row).size(); col++)
 			{
 				//Find length of string, excluding punctuation
+				System.out.println("\n\n");
 				System.out.println(mat.get(row).get(col) + "\tlen: " + wordLen(mat.get(row).get(col)));
-				//Given length define the range of indicies to scramble
-				//Scramble the letters within the range 
+				len = wordLen(mat.get(row).get(col));
+				if (len >= 3)
+				{
+					System.out.println("SCRAMBLE THIS WORD");
+					wordShuffle(mat.get(row).get(col), 0, 
+						wordLen(mat.get(row).get(col)) - 2); //one for index difference, one for 
+					//Given length define the range of indicies to scramble
+					//Scramble the letters within the range 
+				}
 			}
 		}
 
