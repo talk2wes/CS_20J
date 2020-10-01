@@ -6,16 +6,15 @@ PROGNAME = $(NAME).java
 all: $(PROGNAME)
 
 $(PROGNAME):
-	echo "make Words.java"
-	javac Words.java
+	javac $(PROGNAME)
 clean:
 	rm *.class
 fclean: 
 
 run:
-	java Words.java
+	java $(NAME)
 
 rerun:
 	javac $(PROGNAME)
-	java $(PROGNAME)
+	java $(NAME)
 
