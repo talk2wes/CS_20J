@@ -69,20 +69,27 @@ class Scramble
 	}
 
 
-	public static void swapChar(String word, int i, int j)
+	public static String swapChar(String word, int i, int j)
 	{
 		StringBuilder word_sb = new StringBuilder(word);
 		System.out.println("A: word: \"" + word + "\" word_sb: \"" + word_sb.toString()
 			+ "\"\t'" + word.charAt(i) + "' '" + word.charAt(j) + "'");
-		word_sb.replace(i, i + 1, word.substring(j, j));
+		
+		word_sb.replace(i, i + 1, word.substring(j, j+1));
+		
 		//System.out.println("swapChar, swapped string: " + word_sb.toString());
 		System.out.println("B: word: \"" + word + "\" word_sb: \"" + word_sb.toString()
 			+ "\"\t'" + word.charAt(i) + "' '" + word.charAt(j) + "'");
-		word_sb.replace(j, j + 1, word.substring(i, i));
+		
+		word_sb.replace(j, j + 1, word.substring(i, i+1));
+		
 		System.out.println("C: word: \"" + word + "\" word_sb: \"" + word_sb.toString()
 			+ "\"\t'" + word.charAt(i) + "' '" + word.charAt(j) + "'");
-		word = word_sb.toString();
+		
+		System.out.println("D: word: \"" + word + "\" word_sb: \"" + word_sb.toString()
+			+ "\"\t'" + word.charAt(i) + "' '" + word.charAt(j) + "'");
 		//System.out.println("swapChar, swapped string: " + word_sb.toString());
+		return(word_sb.toString());
 	}
 
 	//Shuffles characters around, shuffles letters within the range
@@ -102,8 +109,9 @@ class Scramble
 				+ ", " + (i-1) + "]" + " i = " + i);
 			//swap that index with the terminal character
 			System.out.println("random int Choosen: " + swapInd);
-			swapChar(word, swapInd, i);
-			System.out.println("swapped string: " + word);
+			System.out.println(" PRE swapped string: " + word);
+			word = swapChar(word, swapInd, i);
+			System.out.println("POST swapped string: " + word);
 			
 
 			//System.out.println("");
