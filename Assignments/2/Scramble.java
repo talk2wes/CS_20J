@@ -2,6 +2,7 @@ import java.util.Random;
 import java.util.Vector;
 import java.lang.String;
 import java.util.Scanner;
+import java.lang.StringBuilder;
 
 class Scramble
 {	
@@ -27,8 +28,8 @@ class Scramble
 
 	//Each vector is split into columns by the delimiter and put into a row
 	//corresponding to the index of the original vector.
-	public static Vector<Vector<String>> vec2matrix
-		(Vector<String> lines, String delimiter)
+	public static Vector<Vector<String>> vec2matrix(
+			Vector<String> lines, String delimiter)
 	{
 		Vector<Vector<String>> mat = new Vector<Vector<String>>();
 		String tempStr = "";
@@ -67,18 +68,47 @@ class Scramble
 		return (letters);
 	}
 
+
+	public static void swapChar(String word, int i, int j)
+	{
+		StringBuilder word_sb = new StringBuilder(word);
+		System.out.println("A: word: \"" + word + "\" word_sb: \"" + word_sb.toString()
+			+ "\"\t'" + word.charAt(i) + "' '" + word.charAt(j) + "'");
+		word_sb.replace(i, i + 1, word.substring(j, j));
+		//System.out.println("swapChar, swapped string: " + word_sb.toString());
+		System.out.println("B: word: \"" + word + "\" word_sb: \"" + word_sb.toString()
+			+ "\"\t'" + word.charAt(i) + "' '" + word.charAt(j) + "'");
+		word_sb.replace(j, j + 1, word.substring(i, i));
+		System.out.println("C: word: \"" + word + "\" word_sb: \"" + word_sb.toString()
+			+ "\"\t'" + word.charAt(i) + "' '" + word.charAt(j) + "'");
+		word = word_sb.toString();
+		//System.out.println("swapChar, swapped string: " + word_sb.toString());
+	}
+
 	//Shuffles characters around, shuffles letters within the range
 	//Inclusive of the boundaries 'start' and 'end'
 	public static void wordShuffle(String word, int start, int end)
 	{
 		Random rnd = new Random();
 		int swapInd = -1;
-		for (int i = end; i >= start; i--)
+		// i is the index of the char to be swapped
+		// the shuffle algorithm should use the range 1->i-1 to find a swap with
+		// location i.
+		for (int i = end; i > start; i--)
 		{
 			//make a random number within the range [start, i)
-			swapInd = rnd.nextInt(i - start + 1) + start;
-			System.out.println("Max input value for nextint: " + (i - start + 1) );
+			swapInd = rnd.nextInt(i - start) + start;
+			System.out.println("swapInd range: [" + start
+				+ ", " + (i-1) + "]" + " i = " + i);
 			//swap that index with the terminal character
+			System.out.println("random int Choosen: " + swapInd);
+			swapChar(word, swapInd, i);
+			System.out.println("swapped string: " + word);
+			
+
+			//System.out.println("");
+			
+
 
 		}
 	}
@@ -95,7 +125,7 @@ class Scramble
 				System.out.println("\n\n");
 				System.out.println(mat.get(row).get(col) + "\tlen: " + wordLen(mat.get(row).get(col)));
 				len = wordLen(mat.get(row).get(col));
-				if (len >= 3)
+				if (len > 3)
 				{
 					System.out.println("SCRAMBLE THIS WORD");
 					wordShuffle(mat.get(row).get(col), 1, 
