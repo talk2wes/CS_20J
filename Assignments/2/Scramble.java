@@ -14,19 +14,20 @@ class Scramble
 		boolean done = false;
 		while (!done)
 		{
-			System.out.println("1x");
+			//System.out.println("1x");
 			try {
-				input = s.next();
+				input = s.nextLine();
 				words.add(input);
-				System.out.println("2x input[0]: " + input.charAt(0));
+				//System.out.println("2x input[0]: " + input.charAt(0));
 			}
 			catch (Exception e){
 				//Catched the exception as a result of EOF input
 				done = true;
-				System.out.println("3x");
+				//System.out.println("3x");
 			}
 		}
-		System.out.println("RETURN str2vec");
+		//System.out.println("RETURN str2vec");
+		System.out.println("");
 		return (words);
 	}
 
