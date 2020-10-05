@@ -16,11 +16,14 @@ class Scramble
 		{
 			try {
 				input = s.next();
-				System.out.println("done with input");
+				//System.out.println("done with input");
+				if (!s.hasNextLine())
+					System.out.println("");
+				//System.out.println("hasNextLine" + s.hasNextLine());
 				words.add(input);
 			}
 			catch (Exception e){
-				System.out.println("EOF reached");
+				//System.out.println("EOF reached");
 				//Catched the exception as a result of EOF input
 				done = true;
 			}
