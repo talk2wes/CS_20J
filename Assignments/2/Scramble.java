@@ -23,11 +23,12 @@ class Scramble
 			catch (Exception e){
 				//Catched the exception as a result of EOF input
 				done = true;
+				System.out.println("");
 				//System.out.println("3x");
 			}
 		}
 		//System.out.println("RETURN str2vec");
-		System.out.println("");
+		//System.out.println("");
 		return (words);
 	}
 
@@ -179,6 +180,7 @@ class Scramble
 		
 		//System.out.println("\nstr2vec\n");
 		lines = str2vec(s, "\n");
+		//System.out.println("");
 		mat = vec2matrix(lines, " ");
 		scramble(mat);
 		//System.out.println("mat = " + mat.toString() + "\n");
