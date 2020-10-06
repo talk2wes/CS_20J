@@ -13,16 +13,12 @@ class Scramble
 		Vector<String> lines = new Vector<String>();
 		Vector<Vector<String>> mat = new Vector<Vector<String>>();
 		
-		//boolean done = false;
 		while (s.hasNext())
 		{
-			//System.out.println("MAIN");
 			lines = str2vec(s, "\n");
 			mat = vec2matrix(lines, " ");
 			scramble(mat);
 			mat2stdOut(mat);
-			//if (!s.hasNext())
-			//	done = true;
 		}
 	}
 
@@ -31,32 +27,10 @@ class Scramble
 		Vector<String> words = new Vector<String>();
 		String input = "";
 		s.useDelimiter(delimiter);
-		boolean done = false;
-		while (!done)
-		{
-			try {
-				
-				//System.out.println("\n\ni: " + i + " IN: hasNextLine: " + s.hasNextLine() + 
-				//		"\thasNext: " + s.hasNext() );
-				input = s.next();
-				//System.out.println(".next() returned");
+		
+		input = s.next();
+		words.add(input);
 
-				//System.out.println("i: " + i + " OUT: hasNextLine: " + s.hasNextLine() + 
-				//		"\thasNext: " + s.hasNext() );
-				
-				//if (!s.hasNextLine())
-				//	System.out.println("\t NO NEXT_LINE");
-				
-				//System.out.println("hasNextLine" + s.hasNextLine());
-				words.add(input);
-				done = true; // testing 
-			}
-			catch (Exception e){
-				System.out.println("EOF reached");
-				//Catched the exception as a result of EOF input
-				done = true;
-			}
-		}
 		return (words);
 	}
 
