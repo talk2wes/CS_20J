@@ -6,19 +6,50 @@ import java.lang.StringBuilder;
 
 class Scramble
 {	
+	public static void main(String[] args) 
+	{
+		//Read the input from standard input 
+		Scanner s = new Scanner(System.in);
+		Vector<String> lines = new Vector<String>();
+		Vector<Vector<String>> mat = new Vector<Vector<String>>();
+		
+		boolean done = false;
+		while (!done)
+		{
+			System.out.println("MAIN");
+			lines = str2vec(s, "\n");
+			mat = vec2matrix(lines, " ");
+			scramble(mat);
+			mat2stdOut(mat);
+			if (!s.hasNext())
+				done = true;
+		}
+	}
+
 	public static Vector<String> str2vec(Scanner s, String delimiter)
 	{
 		Vector<String> words = new Vector<String>();
 		String input = "";
 		s.useDelimiter(delimiter);
 		boolean done = false;
+		int i = 0;		//testing!!!
 		while (!done)
 		{
 			try {
+				
+				System.out.println("\ni: " + i + " IN: hasNextLine: " + s.hasNextLine() + 
+						"\thasNext: " + s.hasNext() );
 				input = s.next();
-				//System.out.println("done with input");
+				System.out.println(".next() returned");
+
+				System.out.println("i: " + i + " OUT: hasNextLine: " + s.hasNextLine() + 
+						"\thasNext: " + s.hasNext() );
+				i++;
+
+				/*
 				if (!s.hasNextLine())
-					System.out.println("");
+					System.out.println("XXX");
+				*/
 				//System.out.println("hasNextLine" + s.hasNextLine());
 				words.add(input);
 			}
@@ -138,16 +169,5 @@ class Scramble
 		}
 	}
 
-	public static void main(String[] args) 
-	{
-		//Read the input from standard input 
-		Scanner s = new Scanner(System.in);
-		Vector<String> lines = new Vector<String>();
-		Vector<Vector<String>> mat = new Vector<Vector<String>>();
-		
-		lines = str2vec(s, "\n");
-		mat = vec2matrix(lines, " ");
-		scramble(mat);
-		mat2stdOut(mat);
-	}
+
 }
