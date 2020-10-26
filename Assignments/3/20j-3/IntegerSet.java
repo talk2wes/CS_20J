@@ -49,6 +49,22 @@ public class IntegerSet{
 		set2.toString();
 	}
 
+	public void unionOf(IntegerSet other)
+	{
+		//protect against segfault and self-reference
+		if (this.data == null || other.data == null 
+			|| this.data == other.data)
+			return;
+		for (int i = 0; i <= MAXSETVALUE; i++)
+		{
+			if (this.data[i] == true || other.data[i] == true)
+				this.data[i] = true;
+			else
+				this.data[i] = false;
+		}
+
+	}
+
 	public String toString()
 	{
 		StringBuilder s = new StringBuilder("");
