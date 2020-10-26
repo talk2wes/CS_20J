@@ -10,8 +10,8 @@ $(FILE1).class:
 clean:
 	rm *.class
 
-run: $(FILE1).class $(EXECTUABLE)
-	
+run: $(FILE1).class 
+	java $(FILE1)
 
-rerun: clean $(FILE1).class $(EXECTUABLE)
+rerun: clean $(FILE1).class 
 	java $(FILE1)

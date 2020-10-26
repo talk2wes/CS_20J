@@ -4,7 +4,7 @@
 // this goes in your IntegerSet.java file:
 
 import java.util.*;
-
+import java.lang.*;
 
 
 public class IntegerSet{
@@ -14,23 +14,67 @@ public class IntegerSet{
 	// other member functions here
 	IntegerSet(int ... a)
 	{
-		data = new boolean[a.length];
-		for (int i = 0; i < a.length; i++)
+		data = new boolean[MAXSETVALUE + 1];
+		for (int i : a)
 		{
-			System.out.println("arg " + i + ": " + a[i]);
+			//TESTING
+			System.out.println("Insert element: " + i);
+			this.insertElement(i);
 		}
 
 	}
 
+	public void deleteElement(int i)
+	{
+		if (i >= 0 && i <= MAXSETVALUE && data != null)
+			data[i] = false;
+	}
+
+	public void insertElement(int i)
+	{
+		if ( i >= 0 && i <= MAXSETVALUE && data != null)
+			data[i] = true;
+	}
+
+
 	public static void main(String args[])
 	{
+		
+    		Random rng = new Random();
+    		rng.setSeed(0);
     		System.out.println("Hello world");
 		IntegerSet set1 = new IntegerSet(3 , 5 );
+		IntegerSet set2 = new IntegerSet( 89, 8, -4);
+		set1.toString();
+		set2.toString();
+	}
+
+	public String toString()
+	{
+		StringBuilder s = new StringBuilder("");
+		boolean firstElementPrinted = false;
+
+		if (data == null)
+			return (s.toString());
+		s.append("{");
+		for (int i = 0; i <= MAXSETVALUE; i++)
+		{
+			if (data[i] == true)
+			{
+				if (firstElementPrinted)
+					s.append(", ");
+				s.append(i);
+				firstElementPrinted = true;
+			}
+		}
+		s.append("}");
+
+		//TESTING
+		System.out.println("testing toString:" + s.toString());
+		return (s.toString());
 	}
 
     /*
-    Random rng = new Random();
-    rng.setSeed(0);
     IntegerSet is1, is2, is3;
     is1 = new IntegerSet();
     is2 = new IntegerSet(1,2,5);
