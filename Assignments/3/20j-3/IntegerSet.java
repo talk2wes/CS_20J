@@ -38,6 +38,7 @@ public class IntegerSet{
 		
     		Random rng = new Random();
     		rng.setSeed(0);
+		/*
     		System.out.println("Hello world");
 		IntegerSet set1 = new IntegerSet(3 , 5 );
 		IntegerSet set2 = new IntegerSet( 89, 8, -4);
@@ -47,6 +48,7 @@ public class IntegerSet{
 		set1.toString();
 		set1.intersectionOf(set2);
 		set1.toString();
+		*/
 		//CLASS TESTING 
 		IntegerSet is1, is2, is3;
 		is1 = new IntegerSet();
@@ -54,7 +56,7 @@ public class IntegerSet{
 		is3 = new IntegerSet();
 
 		System.out.println("CS20j Integer Sets");
-		System.out.println("<put your name and email here>");
+		System.out.println("Wesley Johanson Talk2wes@gmail.com");
 		is1.insertElement(2);    is1.insertElement(4);
 		is1.insertElement(2);    is1.insertElement(3);
 		is1.insertElement(5);    is1.insertElement(7);
@@ -94,35 +96,32 @@ public class IntegerSet{
 		} else {
 		System.out.println("4: is1 does not have 7");
 		}
-
 	}
 
-
-	//replace this wit h the setb
-	public void unionOf(IntegerSet other, IntegerSet setb)
+	public void unionOf(IntegerSet seta, IntegerSet setb)
 	{
 		//protect against segfault and self-reference
-		if (this.data == null || other.data == null 
-			|| this.data == other.data)
+		if (data == null || seta.data == null || setb.data == null || 
+			(data == seta.data && data == setb.data))
 			return;
 		for (int i = 0; i <= MAXSETVALUE; i++)
 		{
-			if (this.data[i] == true || other.data[i] == true)
+			if (seta.data[i] == true || setb.data[i] == true)
 				this.data[i] = true;
 			else
 				this.data[i] = false;
 		}
 	}
 
-	public void intersectionOf(IntegerSet other)
+	public void intersectionOf(IntegerSet seta, IntegerSet setb)
 	{
 		//protect against segfault and self-reference
-		if (this.data == null || other.data == null 
-			|| this.data == other.data)
+		if (data == null || seta.data == null || setb.data == null || 
+			(data == seta.data && data == setb.data))
 			return;
 		for (int i = 0; i <= MAXSETVALUE; i++)
 		{
-			if (this.data[i] == true && other.data[i] == true)
+			if (seta.data[i] == true && setb.data[i] == true)
 				this.data[i] = true;
 			else
 				this.data[i] = false;
