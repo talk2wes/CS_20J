@@ -1,12 +1,22 @@
-// main function containing a test routine
-// this is not an exhaustive test routine so
-// please do conduct your own testing in addition! 
-// this goes in your Program4.java file
-
+// Wesley Johanson	Pengo: wjohanso		Talk2wes@gmail.com
+// Filename: Program3.java
+// Assignment 3: IntegerSet
 
 import java.util.*;
 import java.lang.*;
 
+/**
+ * The program provides a class that stores a set of numbers from 0 - 1000 
+ * (inclusive) as well as some common operations for sets. 
+ *
+ * Status: Working and tested. Compiles and runs.
+ * @author Wesley Johanson , talk2wes@gmail.com
+ * @version 1.0
+ * @since java 14.0.2 2020-07-14
+ */
+
+//Only purpose of this class is to have a seperate main method from the
+//IntegerSet Class
 class Program3
 {
 
@@ -29,7 +39,8 @@ class Program3
 		is1.deleteElement(9);    
 
 		for(int i=0; i < (is3.getMaxSetValue()*0.10); i++)
-		is3.insertElement( (int) Math.round(rng.nextDouble()*is3.getMaxSetValue()));
+		is3.insertElement( (int) Math.round(rng.nextDouble() * 
+							is3.getMaxSetValue()));
 		System.out.print("is3 (random): ");
 		System.out.println (is3.toString());
 
