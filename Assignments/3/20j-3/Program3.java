@@ -1,61 +1,75 @@
 // main function containing a test routine
 // this is not an exhaustive test routine so
 // please do conduct your own testing in addition! 
-// this goes in your Program4.java file:
+// this goes in your Program4.java file
+
+
+import java.util.*;
+import java.lang.*;
+
 class Program3
 {
+
 	public static void main(String args[])
 	{
-    		System.out.println("Hello world, from program3 class");
+		
+    		Random rng = new Random();
+    		rng.setSeed(0);
+		IntegerSet is1, is2, is3;
+		is1 = new IntegerSet();
+		is2 = new IntegerSet(1,2,5);
+		is3 = new IntegerSet();
+
+		System.out.println("CS20j Integer Sets");
+		System.out.println("Wesley Johanson Talk2wes@gmail.com");
+		is1.insertElement(2);    is1.insertElement(4);
+		is1.insertElement(2);    is1.insertElement(3);
+		is1.insertElement(5);    is1.insertElement(7);
+		is1.deleteElement(3);    is1.deleteElement(7);
+		is1.deleteElement(9);    
+
+		for(int i=0; i < (is3.getMaxSetValue()*0.10); i++)
+		is3.insertElement( (int) Math.round(rng.nextDouble()*is3.getMaxSetValue()));
+		System.out.print("is3 (random): ");
+		System.out.println (is3.toString());
+
+		is3.unionOf(is1,is2);
+		System.out.print("is3 (union): ");
+		System.out.println(is3.toString());
+
+		is3.intersectionOf(is1,is2);
+		System.out.print("is3 (intersection): ");
+		System.out.println(is3.toString());
+
+		if (is3.equals(is3))
+		System.out.println("1: is3 == is3");
+		else
+		System.out.println("1: is3 != is3");
+
+		if (is3.equals(is2))
+		System.out.println("2: is3 == is2");
+		else
+		System.out.println("2: is3 != is2");
+
+		if (is1.hasElement(5) ){
+		System.out.println("3: is1 has 5");
+		} else {
+		System.out.println("3: is1 does not have 5");
+		}
+		if (is1.hasElement(7) ){
+		System.out.println("4: is1 has 7");
+		} else {
+		System.out.println("4: is1 does not have 7");
+		}
+		
+		//My custom testing
+		System.out.println("\nMY CUSTOM TESTS");
+		IntegerSet seta = new IntegerSet(3, 45,6 ,7 ,8 ,-4 ,0, 1000);
+		System.out.println("seta:" + seta.toString());
+		IntegerSet setb = null;
+		seta.unionOf(seta, seta);
+		IntegerSet setc = new IntegerSet(1);
+		System.out.println("setc:" + setc.toString());
 	}
-    /*
-    Random rng = new Random();
-    rng.setSeed(0);
-    IntegerSet is1, is2, is3;
-    is1 = new IntegerSet();
-    is2 = new IntegerSet(1,2,5);
-    is3 = new IntegerSet();
-    
-    System.out.println("CS20j Integer Sets");
-    System.out.println("<put your name and email here>");
-    is1.insertElement(2);    is1.insertElement(4);
-    is1.insertElement(2);    is1.insertElement(3);
-    is1.insertElement(5);    is1.insertElement(7);
-    is1.deleteElement(3);    is1.deleteElement(7);
-    is1.deleteElement(9);    
-    
-    for(int i=0; i < (is3.getMaxSetValue()*0.10); i++)
-	is3.insertElement( (int) Math.round(rng.nextDouble()*is3.getMaxSetValue()));
-    System.out.print("is3 (random): ");
-    System.out.println (is3.toString());
-    
-    is3.unionOf(is1,is2);
-    System.out.print("is3 (union): ");
-    System.out.println(is3.toString());
-    
-    is3.intersectionOf(is1,is2);
-    System.out.print("is3 (intersection): ");
-    System.out.println(is3.toString());
-    
-    if (is3.equals(is3))
-	System.out.println("1: is3 == is3");
-    else
-	System.out.println("1: is3 != is3");
-    
-    if (is3.equals(is2))
-	System.out.println("2: is3 == is2");
-    else
-	System.out.println("2: is3 != is2");
-    
-    if (is1.hasElement(5) ){
-	System.out.println("3: is1 has 5");
-    } else {
-	System.out.println("3: is1 does not have 5");
-    }
-    if (is1.hasElement(7) ){
-	System.out.println("4: is1 has 7");
-    } else {
-	System.out.println("4: is1 does not have 7");
-    }
-    */
+
 }

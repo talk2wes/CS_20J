@@ -1,17 +1,21 @@
-EXECUTABLE=Program3
-FILE1=IntegerSet
+MAIN_JAVA=Program3
+JAVA1=IntegerSet
 
-$(EXECUTABLE): $(FILE1).class 
-	java $(FILE1)
+#RUN THE PROGRAM
+$(MAIN_JAVA): $(JAVA1).class $(MAIN_JAVA).class 
+	java $(MAIN_JAVA)
 
-$(FILE1).class:
-	javac $(FILE1).java
+#PROGRAM DEPENDENCIES
+$(MAIN_JAVA).class:
+	javac $(MAIN_JAVA).java
+
+$(JAVA1).class:
+	javac $(JAVA1).java
 
 clean:
 	rm *.class
+clear:
+	clear
 
-run: $(FILE1).class 
-	java $(FILE1)
-
-rerun: clean $(FILE1).class 
-	java $(FILE1)
+#CUSTOM MAKEFILE FUNCTIONS 
+rerun: clear clean $(MAIN_JAVA).class $(JAVA1).class $(MAIN_JAVA)
