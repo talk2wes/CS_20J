@@ -72,15 +72,6 @@ class Program3
 		} else {
 		System.out.println("4: is1 does not have 7");
 		}
-		
-		//My custom testing
-		System.out.println("\nMY CUSTOM TESTS");
-		IntegerSet seta = new IntegerSet(3, 45,6 ,7 ,8 ,-4 ,0, 1000);
-		System.out.println("seta:" + seta.toString());
-		IntegerSet setb = null;
-		seta.unionOf(seta, seta);
-		IntegerSet setc = new IntegerSet(1);
-		System.out.println("setc:" + setc.toString());
 	}
 
 }
