@@ -1,5 +1,5 @@
 // Wesley Johanson	Pengo: wjohanso		Talk2wes@gmail.com
-// Filename: Program3.java
+// Filename: IntegerSet.java
 // Assignment 3: IntegerSet
 
 import java.util.*;
@@ -12,8 +12,8 @@ import java.lang.*;
  */
 public class IntegerSet
 {
-	private final static int MAXSETVALUE = 1000;
-	private boolean data[];
+	private final static int MAXSETVALUE = 1000; //largest set value allowed
+	private boolean data[]; 			//data to hold set
 	public static int getMaxSetValue(){ return MAXSETVALUE; }
 
 	//Default Constructor, creates an empty set
@@ -24,7 +24,7 @@ public class IntegerSet
 			this.insertElement(i);
 	}
 
-	//Removed an element from the set
+	//Removes an element from the set
 	public void	deleteElement(int i)
 	{
 		if (i >= 0 && i <= MAXSETVALUE)
@@ -38,7 +38,7 @@ public class IntegerSet
 			data[i] = true;
 	}
 
-	//Find the union set of seta & setb. Assigns the set to the object 
+	//Finds the union set of seta & setb. Assigns the set to the object 
 	//the method was envoked on. 
 	public void	unionOf(IntegerSet seta, IntegerSet setb)
 	{
@@ -47,7 +47,7 @@ public class IntegerSet
 			seta = new IntegerSet();
 		if (setb == null)
 			setb = new IntegerSet();
-		//Do nothing if parameters are the same as 'this' object
+		//Do nothing if both parameters are the same as 'this' object
 		if (data == seta.data && data == setb.data)
 			return;
 		for (int i = 0; i <= MAXSETVALUE; i++)
@@ -68,7 +68,7 @@ public class IntegerSet
 			seta = new IntegerSet();
 		if (setb == null)
 			setb = new IntegerSet();
-		//Do nothing if parameters are the same as 'this' object
+		//Do nothing if both parameters are the same as 'this' object
 		if (data == seta.data && data == setb.data)
 			return;
 		for (int i = 0; i <= MAXSETVALUE; i++)
