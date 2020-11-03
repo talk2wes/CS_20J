@@ -9,11 +9,12 @@ import java.io.*;
 
  class Pattern
  {
+	final int MAX_DIF = 7;	//Min str diff to be considered a match
+
 	public static void main (String[] args)
 	{
 		System.out.println("Hello cruel COVID world");
 		final String FILENAME = "patterns.txt";	
-		final int MAX_DIF = 7;	//Min str diff to be considered a match
 		Scanner file;
 		Scanner userInput = new Scanner(System.in);
 		String[] strArr = new String[32];
@@ -34,7 +35,7 @@ import java.io.*;
 			System.out.println("File reading error");
 		}
 		
-		//test that I actually store the file into the array
+		//test that I actually stored the file into the array
 		for (int i = 0; i < 32; i++)
 			System.out.println(strArr[i]);
 		
@@ -64,9 +65,29 @@ import java.io.*;
 
 		//find the most similar string
 		for (int i = 0; i < strArr.length; i++)
-			{}
+		{
+			int diff = findDiff(strArr[i], input);
+			if (diff < smallestDiff)
+			{
+				smallestInd = i;
+				smallestDiff = diff;
+			}
+		}
 		
-		return -1; // testeing retuyrn value 
+		//Check if difference is below the exclusion threshold
+		if (smallestDiff <= MAX_DIF)
+			return smallestInd;
+		else
+			return -1;
+	}
+
+	public int findDiff(String str, String input)
+	{
+		int diff = 0;
+		for (int i = 0; i < input.length(); i++)
+			if (input.charAt(i) != str.charAt(i))
+				diff++;
+		return diff;
 	}
 		
 
