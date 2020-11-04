@@ -9,7 +9,7 @@ import java.io.*;
 
  class Pattern
  {
-	final int MAX_DIF = 7;	//Min str diff to be considered a match
+	final static int MAX_DIF = 7;	//Min str diff to be considered a match
 
 	public static void main (String[] args)
 	{
@@ -45,13 +45,20 @@ import java.io.*;
 			while (userInput.hasNextLine())
 			{
 				String input = userInput.nextLine();
-				System.err.println("userInput:" + input); //testing
-				//int index = findIndex(strArr, input);
+				//System.err.println("userInput:" + input); //testing
+				int index = findIndex(strArr, input);
+				
+				if (input.equals(""))
+					System.out.print("");
+				else if (index == -1)
+					System.out.println("error");
+				else
+					System.out.println(index);
 			}
 		}catch(Exception e) {}
 	}	
 
-	public int	findIndex(String[] strArr, String input)
+	public static int	findIndex(String[] strArr, String input)
 	{
 		int smallestDiff = 10000;
 		int smallestInd = -1;		//Sentinel Value
@@ -81,7 +88,7 @@ import java.io.*;
 			return -1;
 	}
 
-	public int findDiff(String str, String input)
+	public static int findDiff(String str, String input)
 	{
 		int diff = 0;
 		for (int i = 0; i < input.length(); i++)
