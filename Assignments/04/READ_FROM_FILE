@@ -1,0 +1,16 @@
+		/* ORIGINAL FILE CODE, IN CASE YOU WANTED TO SEE IT
+		//Check if the file opened had any exceptions
+		
+		final String FILENAME = "patterns.txt";	
+		try
+		{
+			Scanner file = new Scanner(new File(FILENAME));
+			//Store the file into an array
+			for (int i = 0; file.hasNextLine(); i++)
+				strArr[i] = file.nextLine();
+			file.close();
+		}catch(Exception e)
+		{
+			System.err.println("File reading error");
+		}
+		*/
