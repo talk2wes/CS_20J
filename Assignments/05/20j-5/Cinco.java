@@ -1,6 +1,5 @@
 // CS19 Java  Cinco! Word Guessing Game
 // starter code by Steve J. Hodges
-
 // use these class definitions, adding code for each function
 
 import java.util.*;
@@ -8,9 +7,9 @@ import java.lang.*;
 import java.io.*;
 
 class Dictionary{
-
 	private HashSet<String> words;
 	private ArrayList<String> secrets;
+	private static Random rng = new Random();
 
 // constructor: read words from a file   
 	public Dictionary(String filename){
@@ -21,43 +20,43 @@ class Dictionary{
 		try{
 			Scanner fin = new Scanner(new File(filename));
 			while (fin.hasNextLine()){
-				//load file
 				temp = fin.nextLine();
-				System.out.println("Input Word:" + temp); 
 				//add all words to hashSet
 				words.add(temp);
 				//add all legal secret words to array list 
 				if (isLegalSecretWord(temp)){
-					System.out.println("\tSECRET WORD\n");
 					secrets.add(temp);
 				}
-
 			}
-		fin.close();
+			fin.close();
 		}catch(Exception e){
 			System.err.println("Error while reading file");
 			System.err.println(e);
 		}
-
 	}
 
-		// is word in the dictionary?
-		//public boolean validWord(String word){ }
+	// is word in the dictionary?
+	public boolean validWord(String word){
+		//should this be case sensitive ??? 
+		return words.contains(word);
+	}
 
-		// get a legal secret word from the dictionary
-		//public String getLegalSecretWord(){ }
+	// get a legal secret word from the dictionary
+	public String getLegalSecretWord(){
+		int index = rng.nextInt(secrets.size());
+		return secrets.get(index);
+	}
 
-		// is this word a legal secret word?
-		private boolean isLegalSecretWord(String word){
-			for (int i = 0; i < word.length(); i++){
-				for (int j = 0; j < word.length(); j++)
-					if (i != j && word.charAt(i) == word.charAt(j))
-						return false;
-			}
-			return true;
+	// is this word a legal secret word?
+	private boolean isLegalSecretWord(String word){
+		for (int i = 0; i < word.length(); i++){
+			for (int j = 0; j < word.length(); j++)
+				if (i != j && word.charAt(i) == word.charAt(j))
+					return false;
 		}
+		return true;
+	}
 }
-
 
 class Cinco{
 	//Dictionary dictionary;
@@ -68,7 +67,6 @@ class Cinco{
 
 	public Cinco(){ }
 	public Cinco(String filename){ }
-
 	public void play(){ } // contains main game loop and console i/o
 
 	// return # of matching letters secret/guess
@@ -81,5 +79,13 @@ class Cinco{
 	public static void main(String [] args){
 		//TESTING
 		Dictionary dictionary = new Dictionary(DEFAULT_WORD_LIST);
+		if (args.length > 0)
+			System.out.println("args[0] =" + args[0]);
+		//TESTING LOOP
+		Scanner input = new Scanner(System.in);
+		while (input.hasNextLine()){
+			System.out.println("rng = " + dictionary.getLegalSecretWord());
+			System.out.println("validWord?:" + dictionary.validWord(input.nextLine()));
 		}
+	}
 }
