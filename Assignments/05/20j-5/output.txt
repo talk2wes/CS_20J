@@ -1,0 +1,5677 @@
+javac Cinco.java
+java Cinco
+Input Word:aback
+Input Word:abase
+Input Word:abash
+Input Word:abate
+Input Word:abbas
+Input Word:abbey
+Input Word:abbot
+Input Word:abide
+	SECRET WORD
+
+Input Word:abode
+	SECRET WORD
+
+Input Word:abort
+	SECRET WORD
+
+Input Word:about
+	SECRET WORD
+
+Input Word:above
+	SECRET WORD
+
+Input Word:abuse
+	SECRET WORD
+
+Input Word:abyss
+Input Word:acorn
+	SECRET WORD
+
+Input Word:acrid
+	SECRET WORD
+
+Input Word:actor
+	SECRET WORD
+
+Input Word:acute
+	SECRET WORD
+
+Input Word:adage
+Input Word:adapt
+Input Word:added
+Input Word:addle
+Input Word:adept
+	SECRET WORD
+
+Input Word:adieu
+	SECRET WORD
+
+Input Word:admit
+	SECRET WORD
+
+Input Word:admix
+	SECRET WORD
+
+Input Word:adobe
+	SECRET WORD
+
+Input Word:adopt
+	SECRET WORD
+
+Input Word:adore
+	SECRET WORD
+
+Input Word:adorn
+	SECRET WORD
+
+Input Word:adult
+	SECRET WORD
+
+Input Word:aegis
+	SECRET WORD
+
+Input Word:affix
+Input Word:afire
+	SECRET WORD
+
+Input Word:afoot
+Input Word:afoul
+	SECRET WORD
+
+Input Word:again
+Input Word:agate
+Input Word:agave
+Input Word:agent
+	SECRET WORD
+
+Input Word:agile
+	SECRET WORD
+
+Input Word:aging
+Input Word:agone
+	SECRET WORD
+
+Input Word:agony
+	SECRET WORD
+
+Input Word:agree
+Input Word:ahead
+Input Word:aisle
+	SECRET WORD
+
+Input Word:alarm
+Input Word:album
+	SECRET WORD
+
+Input Word:alder
+	SECRET WORD
+
+Input Word:aleph
+	SECRET WORD
+
+Input Word:alert
+	SECRET WORD
+
+Input Word:algae
+Input Word:algal
+Input Word:alias
+Input Word:alibi
+Input Word:alien
+	SECRET WORD
+
+Input Word:align
+	SECRET WORD
+
+Input Word:alike
+	SECRET WORD
+
+Input Word:alive
+	SECRET WORD
+
+Input Word:allay
+Input Word:alley
+Input Word:allot
+Input Word:allow
+Input Word:alloy
+Input Word:allyl
+Input Word:aloft
+	SECRET WORD
+
+Input Word:aloha
+Input Word:alone
+	SECRET WORD
+
+Input Word:along
+	SECRET WORD
+
+Input Word:aloof
+Input Word:aloud
+	SECRET WORD
+
+Input Word:alpha
+Input Word:altar
+Input Word:alter
+	SECRET WORD
+
+Input Word:alway
+Input Word:amass
+Input Word:amaze
+Input Word:amber
+	SECRET WORD
+
+Input Word:amble
+	SECRET WORD
+
+Input Word:amend
+	SECRET WORD
+
+Input Word:amide
+	SECRET WORD
+
+Input Word:amigo
+	SECRET WORD
+
+Input Word:amino
+	SECRET WORD
+
+Input Word:amiss
+Input Word:amity
+	SECRET WORD
+
+Input Word:among
+	SECRET WORD
+
+Input Word:amort
+	SECRET WORD
+
+Input Word:ample
+	SECRET WORD
+
+Input Word:amply
+	SECRET WORD
+
+Input Word:amuse
+	SECRET WORD
+
+Input Word:anent
+Input Word:angel
+	SECRET WORD
+
+Input Word:anger
+	SECRET WORD
+
+Input Word:angle
+	SECRET WORD
+
+Input Word:angry
+	SECRET WORD
+
+Input Word:angst
+	SECRET WORD
+
+Input Word:anion
+Input Word:anise
+	SECRET WORD
+
+Input Word:ankle
+	SECRET WORD
+
+Input Word:annal
+Input Word:annex
+Input Word:annoy
+Input Word:annul
+Input Word:annum
+Input Word:anode
+	SECRET WORD
+
+Input Word:antic
+	SECRET WORD
+
+Input Word:anvil
+	SECRET WORD
+
+Input Word:aorta
+Input Word:apace
+Input Word:apart
+Input Word:aphid
+	SECRET WORD
+
+Input Word:apple
+Input Word:apply
+Input Word:apron
+	SECRET WORD
+
+Input Word:arena
+Input Word:argon
+	SECRET WORD
+
+Input Word:argot
+	SECRET WORD
+
+Input Word:argue
+	SECRET WORD
+
+Input Word:arhat
+Input Word:arise
+	SECRET WORD
+
+Input Word:aroma
+Input Word:arose
+	SECRET WORD
+
+Input Word:array
+Input Word:arrow
+Input Word:arson
+	SECRET WORD
+
+Input Word:ashen
+	SECRET WORD
+
+Input Word:aside
+	SECRET WORD
+
+Input Word:askew
+	SECRET WORD
+
+Input Word:aspen
+	SECRET WORD
+
+Input Word:assai
+Input Word:assay
+Input Word:asset
+Input Word:aster
+	SECRET WORD
+
+Input Word:atlas
+Input Word:atone
+	SECRET WORD
+
+Input Word:attic
+Input Word:audio
+	SECRET WORD
+
+Input Word:audit
+	SECRET WORD
+
+Input Word:auger
+	SECRET WORD
+
+Input Word:augur
+Input Word:aural
+Input Word:auric
+	SECRET WORD
+
+Input Word:avail
+Input Word:avert
+	SECRET WORD
+
+Input Word:avoid
+	SECRET WORD
+
+Input Word:await
+Input Word:awake
+Input Word:award
+Input Word:aware
+Input Word:awash
+Input Word:awful
+	SECRET WORD
+
+Input Word:awoke
+	SECRET WORD
+
+Input Word:axial
+Input Word:axiom
+	SECRET WORD
+
+Input Word:azure
+	SECRET WORD
+
+Input Word:bacon
+	SECRET WORD
+
+Input Word:badge
+	SECRET WORD
+
+Input Word:bagel
+	SECRET WORD
+
+Input Word:baggy
+Input Word:baldy
+	SECRET WORD
+
+Input Word:balky
+	SECRET WORD
+
+Input Word:balmy
+	SECRET WORD
+
+Input Word:balsa
+Input Word:banal
+Input Word:bandy
+	SECRET WORD
+
+Input Word:banjo
+	SECRET WORD
+
+Input Word:barge
+	SECRET WORD
+
+Input Word:baron
+	SECRET WORD
+
+Input Word:barre
+Input Word:basal
+Input Word:basic
+	SECRET WORD
+
+Input Word:basil
+	SECRET WORD
+
+Input Word:basin
+	SECRET WORD
+
+Input Word:basis
+Input Word:bassi
+Input Word:basso
+Input Word:baste
+	SECRET WORD
+
+Input Word:batch
+	SECRET WORD
+
+Input Word:bater
+	SECRET WORD
+
+Input Word:bathe
+	SECRET WORD
+
+Input Word:batik
+	SECRET WORD
+
+Input Word:baton
+	SECRET WORD
+
+Input Word:bawdy
+	SECRET WORD
+
+Input Word:bayed
+	SECRET WORD
+
+Input Word:bayou
+	SECRET WORD
+
+Input Word:beach
+	SECRET WORD
+
+Input Word:beady
+	SECRET WORD
+
+Input Word:beard
+	SECRET WORD
+
+Input Word:beast
+	SECRET WORD
+
+Input Word:beaux
+	SECRET WORD
+
+Input Word:bebop
+Input Word:bedim
+	SECRET WORD
+
+Input Word:beech
+Input Word:beefy
+Input Word:befit
+	SECRET WORD
+
+Input Word:befog
+	SECRET WORD
+
+Input Word:began
+	SECRET WORD
+
+Input Word:beget
+Input Word:begin
+	SECRET WORD
+
+Input Word:begun
+	SECRET WORD
+
+Input Word:beige
+Input Word:being
+	SECRET WORD
+
+Input Word:belch
+	SECRET WORD
+
+Input Word:belie
+Input Word:belle
+Input Word:belly
+Input Word:below
+	SECRET WORD
+
+Input Word:beman
+	SECRET WORD
+
+Input Word:bench
+	SECRET WORD
+
+Input Word:beret
+Input Word:berne
+Input Word:berry
+Input Word:berth
+	SECRET WORD
+
+Input Word:beryl
+	SECRET WORD
+
+Input Word:beset
+Input Word:betel
+Input Word:bevel
+Input Word:bezel
+Input Word:bicep
+	SECRET WORD
+
+Input Word:biddy
+Input Word:bigot
+	SECRET WORD
+
+Input Word:bilge
+	SECRET WORD
+
+Input Word:billy
+Input Word:binge
+	SECRET WORD
+
+Input Word:biota
+	SECRET WORD
+
+Input Word:birch
+	SECRET WORD
+
+Input Word:birth
+	SECRET WORD
+
+Input Word:bison
+	SECRET WORD
+
+Input Word:bitch
+	SECRET WORD
+
+Input Word:black
+	SECRET WORD
+
+Input Word:blade
+	SECRET WORD
+
+Input Word:blame
+	SECRET WORD
+
+Input Word:blanc
+	SECRET WORD
+
+Input Word:bland
+	SECRET WORD
+
+Input Word:blank
+	SECRET WORD
+
+Input Word:blare
+	SECRET WORD
+
+Input Word:blast
+	SECRET WORD
+
+Input Word:blaze
+	SECRET WORD
+
+Input Word:bleak
+	SECRET WORD
+
+Input Word:bleat
+	SECRET WORD
+
+Input Word:bleed
+Input Word:blend
+	SECRET WORD
+
+Input Word:bless
+Input Word:blest
+	SECRET WORD
+
+Input Word:blimp
+	SECRET WORD
+
+Input Word:blind
+	SECRET WORD
+
+Input Word:blink
+	SECRET WORD
+
+Input Word:bliss
+Input Word:blitz
+	SECRET WORD
+
+Input Word:bloat
+	SECRET WORD
+
+Input Word:block
+	SECRET WORD
+
+Input Word:bloke
+	SECRET WORD
+
+Input Word:blond
+	SECRET WORD
+
+Input Word:blood
+Input Word:bloom
+Input Word:bloop
+Input Word:blown
+	SECRET WORD
+
+Input Word:bluet
+	SECRET WORD
+
+Input Word:bluff
+Input Word:blunt
+	SECRET WORD
+
+Input Word:blurb
+Input Word:blurt
+	SECRET WORD
+
+Input Word:blush
+	SECRET WORD
+
+Input Word:board
+	SECRET WORD
+
+Input Word:boast
+	SECRET WORD
+
+Input Word:bobby
+Input Word:bogey
+	SECRET WORD
+
+Input Word:boggy
+Input Word:bogus
+	SECRET WORD
+
+Input Word:bongo
+Input Word:bonus
+	SECRET WORD
+
+Input Word:bonze
+	SECRET WORD
+
+Input Word:booby
+Input Word:booky
+Input Word:boost
+Input Word:booth
+Input Word:booty
+Input Word:booze
+Input Word:borax
+	SECRET WORD
+
+Input Word:boric
+	SECRET WORD
+
+Input Word:borne
+	SECRET WORD
+
+Input Word:boron
+Input Word:bosom
+Input Word:boson
+Input Word:botch
+	SECRET WORD
+
+Input Word:bough
+	SECRET WORD
+
+Input Word:boule
+	SECRET WORD
+
+Input Word:bound
+	SECRET WORD
+
+Input Word:bourn
+	SECRET WORD
+
+Input Word:bowel
+	SECRET WORD
+
+Input Word:bowie
+	SECRET WORD
+
+Input Word:boyar
+	SECRET WORD
+
+Input Word:brace
+	SECRET WORD
+
+Input Word:bract
+	SECRET WORD
+
+Input Word:braid
+	SECRET WORD
+
+Input Word:brain
+	SECRET WORD
+
+Input Word:brake
+	SECRET WORD
+
+Input Word:brand
+	SECRET WORD
+
+Input Word:brant
+	SECRET WORD
+
+Input Word:brash
+	SECRET WORD
+
+Input Word:brass
+Input Word:brave
+	SECRET WORD
+
+Input Word:bravo
+	SECRET WORD
+
+Input Word:brawl
+	SECRET WORD
+
+Input Word:bread
+	SECRET WORD
+
+Input Word:break
+	SECRET WORD
+
+Input Word:bream
+	SECRET WORD
+
+Input Word:breed
+Input Word:breve
+Input Word:briar
+Input Word:bribe
+Input Word:brick
+	SECRET WORD
+
+Input Word:bride
+	SECRET WORD
+
+Input Word:brief
+	SECRET WORD
+
+Input Word:brine
+	SECRET WORD
+
+Input Word:bring
+	SECRET WORD
+
+Input Word:brink
+	SECRET WORD
+
+Input Word:briny
+	SECRET WORD
+
+Input Word:brisk
+	SECRET WORD
+
+Input Word:broad
+	SECRET WORD
+
+Input Word:broil
+	SECRET WORD
+
+Input Word:broke
+	SECRET WORD
+
+Input Word:brood
+Input Word:brook
+Input Word:broom
+Input Word:broth
+	SECRET WORD
+
+Input Word:brown
+	SECRET WORD
+
+Input Word:bruit
+	SECRET WORD
+
+Input Word:brunt
+	SECRET WORD
+
+Input Word:brush
+	SECRET WORD
+
+Input Word:brute
+	SECRET WORD
+
+Input Word:buddy
+Input Word:budge
+	SECRET WORD
+
+Input Word:buggy
+Input Word:bugle
+	SECRET WORD
+
+Input Word:build
+	SECRET WORD
+
+Input Word:built
+	SECRET WORD
+
+Input Word:bulge
+	SECRET WORD
+
+Input Word:bulky
+	SECRET WORD
+
+Input Word:bully
+Input Word:bunch
+	SECRET WORD
+
+Input Word:bundy
+	SECRET WORD
+
+Input Word:bunny
+Input Word:buret
+	SECRET WORD
+
+Input Word:burly
+	SECRET WORD
+
+Input Word:burnt
+	SECRET WORD
+
+Input Word:burro
+Input Word:burst
+	SECRET WORD
+
+Input Word:buses
+Input Word:bushy
+	SECRET WORD
+
+Input Word:butch
+	SECRET WORD
+
+Input Word:buteo
+	SECRET WORD
+
+Input Word:butte
+Input Word:butyl
+	SECRET WORD
+
+Input Word:buxom
+	SECRET WORD
+
+Input Word:buyer
+	SECRET WORD
+
+Input Word:buzzy
+Input Word:bylaw
+	SECRET WORD
+
+Input Word:byway
+Input Word:cabal
+Input Word:cabin
+	SECRET WORD
+
+Input Word:cable
+	SECRET WORD
+
+Input Word:cacao
+Input Word:cache
+Input Word:cacti
+Input Word:caddy
+Input Word:cadet
+	SECRET WORD
+
+Input Word:cadre
+	SECRET WORD
+
+Input Word:cagey
+	SECRET WORD
+
+Input Word:cairn
+	SECRET WORD
+
+Input Word:calla
+Input Word:calve
+	SECRET WORD
+
+Input Word:camel
+	SECRET WORD
+
+Input Word:cameo
+	SECRET WORD
+
+Input Word:canal
+Input Word:candy
+	SECRET WORD
+
+Input Word:canna
+Input Word:canny
+Input Word:canoe
+	SECRET WORD
+
+Input Word:canon
+Input Word:canst
+	SECRET WORD
+
+Input Word:canto
+	SECRET WORD
+
+Input Word:caper
+	SECRET WORD
+
+Input Word:caret
+	SECRET WORD
+
+Input Word:cargo
+	SECRET WORD
+
+Input Word:carne
+	SECRET WORD
+
+Input Word:carob
+	SECRET WORD
+
+Input Word:carol
+	SECRET WORD
+
+Input Word:carry
+Input Word:carte
+	SECRET WORD
+
+Input Word:carve
+	SECRET WORD
+
+Input Word:caste
+	SECRET WORD
+
+Input Word:catch
+Input Word:cater
+	SECRET WORD
+
+Input Word:caulk
+	SECRET WORD
+
+Input Word:cause
+	SECRET WORD
+
+Input Word:cavil
+	SECRET WORD
+
+Input Word:cease
+Input Word:cedar
+	SECRET WORD
+
+Input Word:chafe
+	SECRET WORD
+
+Input Word:chaff
+Input Word:chain
+	SECRET WORD
+
+Input Word:chair
+	SECRET WORD
+
+Input Word:chalk
+	SECRET WORD
+
+Input Word:champ
+	SECRET WORD
+
+Input Word:chant
+	SECRET WORD
+
+Input Word:chaos
+	SECRET WORD
+
+Input Word:chard
+	SECRET WORD
+
+Input Word:charm
+	SECRET WORD
+
+Input Word:chart
+	SECRET WORD
+
+Input Word:chase
+	SECRET WORD
+
+Input Word:chasm
+	SECRET WORD
+
+Input Word:cheap
+	SECRET WORD
+
+Input Word:cheat
+	SECRET WORD
+
+Input Word:check
+Input Word:cheek
+Input Word:cheer
+Input Word:chert
+	SECRET WORD
+
+Input Word:chess
+Input Word:chest
+	SECRET WORD
+
+Input Word:chevy
+	SECRET WORD
+
+Input Word:chick
+Input Word:chide
+	SECRET WORD
+
+Input Word:chief
+	SECRET WORD
+
+Input Word:child
+	SECRET WORD
+
+Input Word:chili
+Input Word:chill
+Input Word:chime
+	SECRET WORD
+
+Input Word:china
+	SECRET WORD
+
+Input Word:chine
+	SECRET WORD
+
+Input Word:chink
+	SECRET WORD
+
+Input Word:chirp
+	SECRET WORD
+
+Input Word:chive
+	SECRET WORD
+
+Input Word:chock
+Input Word:choir
+	SECRET WORD
+
+Input Word:choke
+	SECRET WORD
+
+Input Word:chomp
+	SECRET WORD
+
+Input Word:chord
+	SECRET WORD
+
+Input Word:chore
+	SECRET WORD
+
+Input Word:chose
+	SECRET WORD
+
+Input Word:chuck
+Input Word:chuff
+Input Word:chump
+	SECRET WORD
+
+Input Word:chunk
+	SECRET WORD
+
+Input Word:churn
+	SECRET WORD
+
+Input Word:chute
+	SECRET WORD
+
+Input Word:cider
+	SECRET WORD
+
+Input Word:cigar
+	SECRET WORD
+
+Input Word:cilia
+Input Word:cinch
+Input Word:circa
+Input Word:civet
+	SECRET WORD
+
+Input Word:civic
+Input Word:civil
+Input Word:claim
+	SECRET WORD
+
+Input Word:clamp
+	SECRET WORD
+
+Input Word:clang
+	SECRET WORD
+
+Input Word:clank
+	SECRET WORD
+
+Input Word:clash
+	SECRET WORD
+
+Input Word:clasp
+	SECRET WORD
+
+Input Word:class
+Input Word:clean
+	SECRET WORD
+
+Input Word:clear
+	SECRET WORD
+
+Input Word:cleat
+	SECRET WORD
+
+Input Word:cleft
+	SECRET WORD
+
+Input Word:clerk
+	SECRET WORD
+
+Input Word:click
+Input Word:cliff
+Input Word:climb
+	SECRET WORD
+
+Input Word:clime
+	SECRET WORD
+
+Input Word:cling
+	SECRET WORD
+
+Input Word:clink
+	SECRET WORD
+
+Input Word:cloak
+	SECRET WORD
+
+Input Word:clock
+Input Word:clomp
+	SECRET WORD
+
+Input Word:clone
+	SECRET WORD
+
+Input Word:close
+	SECRET WORD
+
+Input Word:cloth
+	SECRET WORD
+
+Input Word:cloud
+	SECRET WORD
+
+Input Word:clout
+	SECRET WORD
+
+Input Word:clove
+	SECRET WORD
+
+Input Word:clown
+	SECRET WORD
+
+Input Word:cluck
+Input Word:clump
+	SECRET WORD
+
+Input Word:clung
+	SECRET WORD
+
+Input Word:coach
+Input Word:coast
+	SECRET WORD
+
+Input Word:cobra
+	SECRET WORD
+
+Input Word:cocky
+Input Word:cocoa
+Input Word:codon
+Input Word:colon
+Input Word:colza
+	SECRET WORD
+
+Input Word:comet
+	SECRET WORD
+
+Input Word:comic
+Input Word:comma
+Input Word:conch
+Input Word:coney
+	SECRET WORD
+
+Input Word:conic
+Input Word:cooky
+Input Word:copra
+	SECRET WORD
+
+Input Word:coral
+	SECRET WORD
+
+Input Word:corny
+	SECRET WORD
+
+Input Word:corps
+	SECRET WORD
+
+Input Word:cosec
+Input Word:coset
+	SECRET WORD
+
+Input Word:cotta
+Input Word:cotty
+Input Word:couch
+Input Word:cough
+	SECRET WORD
+
+Input Word:could
+	SECRET WORD
+
+Input Word:count
+	SECRET WORD
+
+Input Word:coupe
+	SECRET WORD
+
+Input Word:court
+	SECRET WORD
+
+Input Word:coven
+	SECRET WORD
+
+Input Word:cover
+	SECRET WORD
+
+Input Word:covet
+	SECRET WORD
+
+Input Word:cowry
+	SECRET WORD
+
+Input Word:coypu
+	SECRET WORD
+
+Input Word:cozen
+	SECRET WORD
+
+Input Word:crack
+Input Word:craft
+	SECRET WORD
+
+Input Word:cramp
+	SECRET WORD
+
+Input Word:crane
+	SECRET WORD
+
+Input Word:crank
+	SECRET WORD
+
+Input Word:crash
+	SECRET WORD
+
+Input Word:crass
+Input Word:crate
+	SECRET WORD
+
+Input Word:crave
+	SECRET WORD
+
+Input Word:crawl
+	SECRET WORD
+
+Input Word:craze
+	SECRET WORD
+
+Input Word:crazy
+	SECRET WORD
+
+Input Word:creak
+	SECRET WORD
+
+Input Word:cream
+	SECRET WORD
+
+Input Word:credo
+	SECRET WORD
+
+Input Word:creed
+Input Word:creek
+Input Word:creep
+Input Word:crepe
+Input Word:crept
+	SECRET WORD
+
+Input Word:cress
+Input Word:crest
+	SECRET WORD
+
+Input Word:cried
+	SECRET WORD
+
+Input Word:crime
+	SECRET WORD
+
+Input Word:crimp
+	SECRET WORD
+
+Input Word:crisp
+	SECRET WORD
+
+Input Word:criss
+Input Word:croak
+	SECRET WORD
+
+Input Word:crock
+Input Word:croft
+	SECRET WORD
+
+Input Word:crone
+	SECRET WORD
+
+Input Word:crony
+	SECRET WORD
+
+Input Word:crook
+Input Word:croon
+Input Word:cross
+Input Word:crowd
+	SECRET WORD
+
+Input Word:crown
+	SECRET WORD
+
+Input Word:crude
+	SECRET WORD
+
+Input Word:cruel
+	SECRET WORD
+
+Input Word:crumb
+	SECRET WORD
+
+Input Word:crump
+	SECRET WORD
+
+Input Word:crush
+	SECRET WORD
+
+Input Word:crust
+	SECRET WORD
+
+Input Word:crypt
+	SECRET WORD
+
+Input Word:csnet
+	SECRET WORD
+
+Input Word:cubic
+Input Word:culpa
+	SECRET WORD
+
+Input Word:cumin
+	SECRET WORD
+
+Input Word:curia
+	SECRET WORD
+
+Input Word:curie
+	SECRET WORD
+
+Input Word:curio
+	SECRET WORD
+
+Input Word:curry
+Input Word:curse
+	SECRET WORD
+
+Input Word:curve
+	SECRET WORD
+
+Input Word:cycad
+Input Word:cycle
+Input Word:cynic
+Input Word:daddy
+Input Word:daffy
+Input Word:dairy
+	SECRET WORD
+
+Input Word:daisy
+	SECRET WORD
+
+Input Word:dally
+Input Word:dance
+	SECRET WORD
+
+Input Word:dandy
+Input Word:dater
+	SECRET WORD
+
+Input Word:datum
+	SECRET WORD
+
+Input Word:daunt
+	SECRET WORD
+
+Input Word:davit
+	SECRET WORD
+
+Input Word:dealt
+	SECRET WORD
+
+Input Word:death
+	SECRET WORD
+
+Input Word:debar
+	SECRET WORD
+
+Input Word:debit
+	SECRET WORD
+
+Input Word:debug
+	SECRET WORD
+
+Input Word:debut
+	SECRET WORD
+
+Input Word:decal
+	SECRET WORD
+
+Input Word:decay
+	SECRET WORD
+
+Input Word:decor
+	SECRET WORD
+
+Input Word:decoy
+	SECRET WORD
+
+Input Word:decry
+	SECRET WORD
+
+Input Word:defer
+Input Word:degas
+	SECRET WORD
+
+Input Word:degum
+	SECRET WORD
+
+Input Word:deify
+	SECRET WORD
+
+Input Word:deign
+	SECRET WORD
+
+Input Word:deity
+	SECRET WORD
+
+Input Word:delay
+	SECRET WORD
+
+Input Word:delta
+	SECRET WORD
+
+Input Word:delve
+Input Word:demit
+	SECRET WORD
+
+Input Word:demon
+	SECRET WORD
+
+Input Word:demur
+	SECRET WORD
+
+Input Word:dense
+Input Word:depot
+	SECRET WORD
+
+Input Word:depth
+	SECRET WORD
+
+Input Word:derby
+	SECRET WORD
+
+Input Word:deter
+Input Word:deuce
+Input Word:devil
+	SECRET WORD
+
+Input Word:dewar
+	SECRET WORD
+
+Input Word:diary
+	SECRET WORD
+
+Input Word:dicta
+	SECRET WORD
+
+Input Word:diety
+	SECRET WORD
+
+Input Word:digit
+Input Word:dingo
+	SECRET WORD
+
+Input Word:dingy
+	SECRET WORD
+
+Input Word:diode
+Input Word:dirge
+	SECRET WORD
+
+Input Word:dirty
+	SECRET WORD
+
+Input Word:disco
+	SECRET WORD
+
+Input Word:ditch
+	SECRET WORD
+
+Input Word:ditto
+Input Word:ditty
+Input Word:divan
+	SECRET WORD
+
+Input Word:dizzy
+Input Word:dodge
+Input Word:dogma
+	SECRET WORD
+
+Input Word:dolce
+	SECRET WORD
+
+Input Word:dolly
+Input Word:donor
+Input Word:doubt
+	SECRET WORD
+
+Input Word:douce
+	SECRET WORD
+
+Input Word:dough
+	SECRET WORD
+
+Input Word:douse
+	SECRET WORD
+
+Input Word:dowel
+	SECRET WORD
+
+Input Word:dowry
+	SECRET WORD
+
+Input Word:dozen
+	SECRET WORD
+
+Input Word:draft
+	SECRET WORD
+
+Input Word:drain
+	SECRET WORD
+
+Input Word:drake
+	SECRET WORD
+
+Input Word:drama
+Input Word:drank
+	SECRET WORD
+
+Input Word:drape
+	SECRET WORD
+
+Input Word:drawl
+	SECRET WORD
+
+Input Word:drawn
+	SECRET WORD
+
+Input Word:dread
+Input Word:dream
+	SECRET WORD
+
+Input Word:dress
+Input Word:dried
+Input Word:drier
+Input Word:drift
+	SECRET WORD
+
+Input Word:drill
+Input Word:drink
+	SECRET WORD
+
+Input Word:drive
+	SECRET WORD
+
+Input Word:droll
+Input Word:drone
+	SECRET WORD
+
+Input Word:drool
+Input Word:droop
+Input Word:dross
+Input Word:drove
+	SECRET WORD
+
+Input Word:drown
+	SECRET WORD
+
+Input Word:druid
+Input Word:drunk
+	SECRET WORD
+
+Input Word:dryad
+Input Word:ducat
+	SECRET WORD
+
+Input Word:dully
+Input Word:dulse
+	SECRET WORD
+
+Input Word:dummy
+Input Word:dumpy
+	SECRET WORD
+
+Input Word:dunce
+	SECRET WORD
+
+Input Word:dusky
+	SECRET WORD
+
+Input Word:dusty
+	SECRET WORD
+
+Input Word:dwarf
+	SECRET WORD
+
+Input Word:dwell
+Input Word:dwelt
+	SECRET WORD
+
+Input Word:dying
+	SECRET WORD
+
+Input Word:eager
+Input Word:eagle
+Input Word:earth
+	SECRET WORD
+
+Input Word:easel
+Input Word:eaten
+Input Word:eater
+Input Word:ebony
+	SECRET WORD
+
+Input Word:eclat
+	SECRET WORD
+
+Input Word:edict
+	SECRET WORD
+
+Input Word:edify
+	SECRET WORD
+
+Input Word:eerie
+Input Word:egret
+Input Word:eider
+Input Word:eight
+	SECRET WORD
+
+Input Word:eject
+Input Word:elate
+Input Word:elbow
+	SECRET WORD
+
+Input Word:elder
+Input Word:elect
+Input Word:elegy
+Input Word:elfin
+	SECRET WORD
+
+Input Word:elide
+Input Word:elite
+Input Word:elope
+Input Word:elude
+Input Word:elute
+Input Word:elves
+Input Word:embed
+Input Word:ember
+Input Word:emcee
+Input Word:empty
+	SECRET WORD
+
+Input Word:endow
+	SECRET WORD
+
+Input Word:enemy
+Input Word:enter
+Input Word:entry
+	SECRET WORD
+
+Input Word:envoy
+	SECRET WORD
+
+Input Word:epoch
+	SECRET WORD
+
+Input Word:epoxy
+	SECRET WORD
+
+Input Word:equal
+	SECRET WORD
+
+Input Word:equip
+	SECRET WORD
+
+Input Word:erase
+Input Word:erect
+Input Word:erode
+Input Word:error
+Input Word:erupt
+	SECRET WORD
+
+Input Word:essay
+Input Word:ester
+Input Word:estop
+	SECRET WORD
+
+Input Word:ether
+Input Word:ethic
+	SECRET WORD
+
+Input Word:ethos
+	SECRET WORD
+
+Input Word:ethyl
+	SECRET WORD
+
+Input Word:etude
+Input Word:eucre
+Input Word:evade
+Input Word:event
+Input Word:every
+Input Word:evict
+	SECRET WORD
+
+Input Word:evoke
+Input Word:exact
+	SECRET WORD
+
+Input Word:exalt
+	SECRET WORD
+
+Input Word:excel
+Input Word:exert
+Input Word:exile
+Input Word:exist
+	SECRET WORD
+
+Input Word:expel
+Input Word:extol
+	SECRET WORD
+
+Input Word:extra
+	SECRET WORD
+
+Input Word:exude
+Input Word:exult
+	SECRET WORD
+
+Input Word:fable
+	SECRET WORD
+
+Input Word:facet
+	SECRET WORD
+
+Input Word:facto
+	SECRET WORD
+
+Input Word:faery
+	SECRET WORD
+
+Input Word:faint
+	SECRET WORD
+
+Input Word:fairy
+	SECRET WORD
+
+Input Word:faith
+	SECRET WORD
+
+Input Word:false
+	SECRET WORD
+
+Input Word:fancy
+	SECRET WORD
+
+Input Word:farad
+Input Word:farce
+	SECRET WORD
+
+Input Word:fatal
+Input Word:fatty
+Input Word:fault
+	SECRET WORD
+
+Input Word:fauna
+Input Word:feast
+	SECRET WORD
+
+Input Word:feign
+	SECRET WORD
+
+Input Word:feint
+	SECRET WORD
+
+Input Word:felon
+	SECRET WORD
+
+Input Word:femur
+	SECRET WORD
+
+Input Word:fence
+Input Word:ferry
+Input Word:fetal
+	SECRET WORD
+
+Input Word:fetch
+	SECRET WORD
+
+Input Word:fetid
+	SECRET WORD
+
+Input Word:fetus
+	SECRET WORD
+
+Input Word:fever
+Input Word:fiche
+	SECRET WORD
+
+Input Word:field
+	SECRET WORD
+
+Input Word:fiend
+	SECRET WORD
+
+Input Word:fiery
+	SECRET WORD
+
+Input Word:fifth
+Input Word:fifty
+Input Word:fight
+	SECRET WORD
+
+Input Word:filch
+	SECRET WORD
+
+Input Word:filet
+	SECRET WORD
+
+Input Word:filly
+Input Word:filmy
+	SECRET WORD
+
+Input Word:filth
+	SECRET WORD
+
+Input Word:final
+	SECRET WORD
+
+Input Word:finch
+	SECRET WORD
+
+Input Word:finny
+Input Word:first
+	SECRET WORD
+
+Input Word:fishy
+	SECRET WORD
+
+Input Word:fjord
+	SECRET WORD
+
+Input Word:flack
+	SECRET WORD
+
+Input Word:flail
+Input Word:flair
+	SECRET WORD
+
+Input Word:flake
+	SECRET WORD
+
+Input Word:flaky
+	SECRET WORD
+
+Input Word:flame
+	SECRET WORD
+
+Input Word:flank
+	SECRET WORD
+
+Input Word:flare
+	SECRET WORD
+
+Input Word:flash
+	SECRET WORD
+
+Input Word:flask
+	SECRET WORD
+
+Input Word:fleck
+	SECRET WORD
+
+Input Word:fleet
+Input Word:flesh
+	SECRET WORD
+
+Input Word:flick
+	SECRET WORD
+
+Input Word:flier
+	SECRET WORD
+
+Input Word:fling
+	SECRET WORD
+
+Input Word:flint
+	SECRET WORD
+
+Input Word:flirt
+	SECRET WORD
+
+Input Word:float
+	SECRET WORD
+
+Input Word:flock
+	SECRET WORD
+
+Input Word:flood
+Input Word:floor
+Input Word:flora
+	SECRET WORD
+
+Input Word:flour
+	SECRET WORD
+
+Input Word:flout
+	SECRET WORD
+
+Input Word:flown
+	SECRET WORD
+
+Input Word:fluff
+Input Word:fluid
+	SECRET WORD
+
+Input Word:fluke
+	SECRET WORD
+
+Input Word:flung
+	SECRET WORD
+
+Input Word:flunk
+	SECRET WORD
+
+Input Word:flush
+	SECRET WORD
+
+Input Word:flute
+	SECRET WORD
+
+Input Word:flyer
+	SECRET WORD
+
+Input Word:foamy
+	SECRET WORD
+
+Input Word:focal
+	SECRET WORD
+
+Input Word:focus
+	SECRET WORD
+
+Input Word:foggy
+Input Word:foist
+	SECRET WORD
+
+Input Word:folio
+Input Word:folly
+Input Word:foray
+	SECRET WORD
+
+Input Word:force
+	SECRET WORD
+
+Input Word:forge
+	SECRET WORD
+
+Input Word:forgo
+Input Word:forte
+	SECRET WORD
+
+Input Word:forth
+	SECRET WORD
+
+Input Word:forty
+	SECRET WORD
+
+Input Word:forum
+	SECRET WORD
+
+Input Word:found
+	SECRET WORD
+
+Input Word:fount
+	SECRET WORD
+
+Input Word:fovea
+	SECRET WORD
+
+Input Word:foyer
+	SECRET WORD
+
+Input Word:frail
+	SECRET WORD
+
+Input Word:frame
+	SECRET WORD
+
+Input Word:franc
+	SECRET WORD
+
+Input Word:frank
+	SECRET WORD
+
+Input Word:fraud
+	SECRET WORD
+
+Input Word:freak
+	SECRET WORD
+
+Input Word:freed
+Input Word:freer
+Input Word:freon
+	SECRET WORD
+
+Input Word:fresh
+	SECRET WORD
+
+Input Word:friar
+Input Word:fried
+	SECRET WORD
+
+Input Word:frill
+Input Word:frock
+	SECRET WORD
+
+Input Word:front
+	SECRET WORD
+
+Input Word:frost
+	SECRET WORD
+
+Input Word:froth
+	SECRET WORD
+
+Input Word:frown
+	SECRET WORD
+
+Input Word:froze
+	SECRET WORD
+
+Input Word:fruit
+	SECRET WORD
+
+Input Word:fudge
+	SECRET WORD
+
+Input Word:fugal
+	SECRET WORD
+
+Input Word:fugue
+Input Word:fully
+Input Word:fungi
+	SECRET WORD
+
+Input Word:funny
+Input Word:furry
+Input Word:furze
+	SECRET WORD
+
+Input Word:fussy
+Input Word:fusty
+	SECRET WORD
+
+Input Word:fuzzy
+Input Word:gable
+	SECRET WORD
+
+Input Word:gaffe
+Input Word:gamin
+	SECRET WORD
+
+Input Word:gamma
+Input Word:gamut
+	SECRET WORD
+
+Input Word:gases
+Input Word:gassy
+Input Word:gator
+	SECRET WORD
+
+Input Word:gaudy
+	SECRET WORD
+
+Input Word:gauge
+Input Word:gaunt
+	SECRET WORD
+
+Input Word:gauss
+Input Word:gauze
+	SECRET WORD
+
+Input Word:gavel
+	SECRET WORD
+
+Input Word:gawky
+	SECRET WORD
+
+Input Word:gecko
+	SECRET WORD
+
+Input Word:geese
+Input Word:genie
+Input Word:genii
+Input Word:genre
+Input Word:genus
+	SECRET WORD
+
+Input Word:ghost
+	SECRET WORD
+
+Input Word:ghoul
+	SECRET WORD
+
+Input Word:giant
+	SECRET WORD
+
+Input Word:gibby
+Input Word:giddy
+Input Word:gimpy
+	SECRET WORD
+
+Input Word:girth
+	SECRET WORD
+
+Input Word:given
+	SECRET WORD
+
+Input Word:glade
+	SECRET WORD
+
+Input Word:gland
+	SECRET WORD
+
+Input Word:glans
+	SECRET WORD
+
+Input Word:glare
+	SECRET WORD
+
+Input Word:glass
+Input Word:glaze
+	SECRET WORD
+
+Input Word:gleam
+	SECRET WORD
+
+Input Word:glean
+	SECRET WORD
+
+Input Word:glide
+	SECRET WORD
+
+Input Word:glint
+	SECRET WORD
+
+Input Word:gloat
+	SECRET WORD
+
+Input Word:globe
+	SECRET WORD
+
+Input Word:gloom
+Input Word:glory
+	SECRET WORD
+
+Input Word:gloss
+Input Word:glove
+	SECRET WORD
+
+Input Word:glued
+	SECRET WORD
+
+Input Word:gluey
+	SECRET WORD
+
+Input Word:glyph
+	SECRET WORD
+
+Input Word:gnarl
+	SECRET WORD
+
+Input Word:gnash
+	SECRET WORD
+
+Input Word:gnome
+	SECRET WORD
+
+Input Word:golly
+Input Word:goody
+Input Word:goofy
+Input Word:goose
+Input Word:gorge
+Input Word:gorse
+	SECRET WORD
+
+Input Word:gouge
+Input Word:gourd
+	SECRET WORD
+
+Input Word:grace
+	SECRET WORD
+
+Input Word:grade
+	SECRET WORD
+
+Input Word:graft
+	SECRET WORD
+
+Input Word:grail
+	SECRET WORD
+
+Input Word:grain
+	SECRET WORD
+
+Input Word:grand
+	SECRET WORD
+
+Input Word:grant
+	SECRET WORD
+
+Input Word:grape
+	SECRET WORD
+
+Input Word:graph
+	SECRET WORD
+
+Input Word:grasp
+	SECRET WORD
+
+Input Word:grass
+Input Word:grata
+Input Word:grate
+	SECRET WORD
+
+Input Word:grave
+	SECRET WORD
+
+Input Word:gravy
+	SECRET WORD
+
+Input Word:graze
+	SECRET WORD
+
+Input Word:great
+	SECRET WORD
+
+Input Word:grebe
+Input Word:greed
+Input Word:green
+Input Word:greet
+Input Word:grief
+	SECRET WORD
+
+Input Word:grill
+Input Word:grime
+	SECRET WORD
+
+Input Word:grind
+	SECRET WORD
+
+Input Word:gripe
+	SECRET WORD
+
+Input Word:grist
+	SECRET WORD
+
+Input Word:groan
+	SECRET WORD
+
+Input Word:groat
+	SECRET WORD
+
+Input Word:groin
+	SECRET WORD
+
+Input Word:groom
+Input Word:grope
+	SECRET WORD
+
+Input Word:gross
+Input Word:group
+	SECRET WORD
+
+Input Word:grout
+	SECRET WORD
+
+Input Word:grove
+	SECRET WORD
+
+Input Word:growl
+	SECRET WORD
+
+Input Word:grown
+	SECRET WORD
+
+Input Word:gruff
+Input Word:grunt
+	SECRET WORD
+
+Input Word:guano
+	SECRET WORD
+
+Input Word:guard
+	SECRET WORD
+
+Input Word:guess
+Input Word:guest
+	SECRET WORD
+
+Input Word:guide
+	SECRET WORD
+
+Input Word:guild
+	SECRET WORD
+
+Input Word:guile
+	SECRET WORD
+
+Input Word:guilt
+	SECRET WORD
+
+Input Word:guise
+	SECRET WORD
+
+Input Word:gules
+	SECRET WORD
+
+Input Word:gully
+Input Word:gumbo
+	SECRET WORD
+
+Input Word:gummy
+Input Word:gunky
+	SECRET WORD
+
+Input Word:gunny
+Input Word:gusto
+	SECRET WORD
+
+Input Word:gusty
+	SECRET WORD
+
+Input Word:gutsy
+	SECRET WORD
+
+Input Word:gypsy
+Input Word:habit
+	SECRET WORD
+
+Input Word:haiku
+	SECRET WORD
+
+Input Word:hairy
+	SECRET WORD
+
+Input Word:halma
+Input Word:halve
+	SECRET WORD
+
+Input Word:handy
+	SECRET WORD
+
+Input Word:happy
+Input Word:hardy
+	SECRET WORD
+
+Input Word:harem
+	SECRET WORD
+
+Input Word:harry
+Input Word:harsh
+Input Word:haste
+	SECRET WORD
+
+Input Word:hasty
+	SECRET WORD
+
+Input Word:hatch
+Input Word:hater
+	SECRET WORD
+
+Input Word:haunt
+	SECRET WORD
+
+Input Word:haven
+	SECRET WORD
+
+Input Word:havoc
+	SECRET WORD
+
+Input Word:hazel
+	SECRET WORD
+
+Input Word:heady
+	SECRET WORD
+
+Input Word:heard
+	SECRET WORD
+
+Input Word:heart
+	SECRET WORD
+
+Input Word:heath
+Input Word:heave
+Input Word:heavy
+	SECRET WORD
+
+Input Word:hedge
+Input Word:hefty
+	SECRET WORD
+
+Input Word:heigh
+Input Word:helix
+	SECRET WORD
+
+Input Word:hello
+Input Word:hence
+Input Word:henry
+	SECRET WORD
+
+Input Word:heron
+	SECRET WORD
+
+Input Word:hertz
+	SECRET WORD
+
+Input Word:hilly
+Input Word:hilum
+	SECRET WORD
+
+Input Word:hinge
+	SECRET WORD
+
+Input Word:hippo
+Input Word:hippy
+Input Word:hitch
+Input Word:hoagy
+	SECRET WORD
+
+Input Word:hoard
+	SECRET WORD
+
+Input Word:hobby
+Input Word:hocus
+	SECRET WORD
+
+Input Word:hodge
+	SECRET WORD
+
+Input Word:hogan
+	SECRET WORD
+
+Input Word:holly
+Input Word:hondo
+Input Word:honey
+	SECRET WORD
+
+Input Word:hooch
+Input Word:horde
+	SECRET WORD
+
+Input Word:horny
+	SECRET WORD
+
+Input Word:horse
+	SECRET WORD
+
+Input Word:hotel
+	SECRET WORD
+
+Input Word:hough
+Input Word:hound
+	SECRET WORD
+
+Input Word:house
+	SECRET WORD
+
+Input Word:hovel
+	SECRET WORD
+
+Input Word:hover
+	SECRET WORD
+
+Input Word:howdy
+	SECRET WORD
+
+Input Word:hubby
+Input Word:human
+	SECRET WORD
+
+Input Word:humid
+	SECRET WORD
+
+Input Word:humus
+Input Word:hunch
+Input Word:hurry
+Input Word:hurty
+	SECRET WORD
+
+Input Word:husky
+	SECRET WORD
+
+Input Word:hutch
+Input Word:hydra
+	SECRET WORD
+
+Input Word:hydro
+	SECRET WORD
+
+Input Word:hyena
+	SECRET WORD
+
+Input Word:hying
+	SECRET WORD
+
+Input Word:hymen
+	SECRET WORD
+
+Input Word:ideal
+	SECRET WORD
+
+Input Word:idiom
+Input Word:idiot
+Input Word:idyll
+Input Word:igloo
+Input Word:ileum
+	SECRET WORD
+
+Input Word:iliac
+Input Word:image
+	SECRET WORD
+
+Input Word:imbue
+	SECRET WORD
+
+Input Word:impel
+	SECRET WORD
+
+Input Word:inane
+Input Word:inapt
+	SECRET WORD
+
+Input Word:incur
+	SECRET WORD
+
+Input Word:index
+	SECRET WORD
+
+Input Word:inept
+	SECRET WORD
+
+Input Word:inert
+	SECRET WORD
+
+Input Word:infer
+	SECRET WORD
+
+Input Word:infix
+Input Word:infra
+	SECRET WORD
+
+Input Word:ingot
+	SECRET WORD
+
+Input Word:inlay
+	SECRET WORD
+
+Input Word:inlet
+	SECRET WORD
+
+Input Word:inner
+Input Word:input
+	SECRET WORD
+
+Input Word:inset
+	SECRET WORD
+
+Input Word:inter
+	SECRET WORD
+
+Input Word:inure
+	SECRET WORD
+
+Input Word:ionic
+Input Word:irate
+	SECRET WORD
+
+Input Word:irony
+	SECRET WORD
+
+Input Word:issue
+Input Word:ivory
+	SECRET WORD
+
+Input Word:jazzy
+Input Word:jelly
+Input Word:jenny
+Input Word:jerky
+	SECRET WORD
+
+Input Word:jerry
+Input Word:jewel
+Input Word:jiffy
+Input Word:jimmy
+Input Word:joint
+	SECRET WORD
+
+Input Word:jolly
+Input Word:joule
+	SECRET WORD
+
+Input Word:joust
+	SECRET WORD
+
+Input Word:jowly
+	SECRET WORD
+
+Input Word:judge
+	SECRET WORD
+
+Input Word:juice
+	SECRET WORD
+
+Input Word:juicy
+	SECRET WORD
+
+Input Word:julep
+	SECRET WORD
+
+Input Word:jumbo
+	SECRET WORD
+
+Input Word:jumpy
+	SECRET WORD
+
+Input Word:junco
+	SECRET WORD
+
+Input Word:junky
+	SECRET WORD
+
+Input Word:junta
+	SECRET WORD
+
+Input Word:juror
+Input Word:kapok
+Input Word:kappa
+Input Word:karma
+Input Word:kazoo
+Input Word:kelly
+Input Word:kerry
+Input Word:ketch
+	SECRET WORD
+
+Input Word:keyed
+Input Word:khaki
+Input Word:kinky
+Input Word:kiosk
+Input Word:kitty
+Input Word:knack
+Input Word:knead
+	SECRET WORD
+
+Input Word:kneel
+Input Word:knell
+Input Word:knelt
+	SECRET WORD
+
+Input Word:knick
+Input Word:knife
+	SECRET WORD
+
+Input Word:knock
+Input Word:knoll
+Input Word:known
+Input Word:knurl
+	SECRET WORD
+
+Input Word:koala
+Input Word:kodak
+Input Word:kombu
+	SECRET WORD
+
+Input Word:kraft
+	SECRET WORD
+
+Input Word:kraut
+	SECRET WORD
+
+Input Word:kudzu
+Input Word:kulak
+Input Word:label
+Input Word:labia
+Input Word:laden
+	SECRET WORD
+
+Input Word:ladle
+Input Word:lager
+	SECRET WORD
+
+Input Word:laity
+	SECRET WORD
+
+Input Word:lance
+	SECRET WORD
+
+Input Word:lanky
+	SECRET WORD
+
+Input Word:lapel
+Input Word:lapse
+	SECRET WORD
+
+Input Word:larch
+	SECRET WORD
+
+Input Word:large
+	SECRET WORD
+
+Input Word:larva
+Input Word:lasso
+Input Word:latch
+	SECRET WORD
+
+Input Word:later
+	SECRET WORD
+
+Input Word:latex
+	SECRET WORD
+
+Input Word:lathe
+	SECRET WORD
+
+Input Word:latus
+	SECRET WORD
+
+Input Word:laugh
+	SECRET WORD
+
+Input Word:laura
+Input Word:layup
+	SECRET WORD
+
+Input Word:leach
+	SECRET WORD
+
+Input Word:leafy
+	SECRET WORD
+
+Input Word:leaky
+	SECRET WORD
+
+Input Word:leapt
+	SECRET WORD
+
+Input Word:learn
+	SECRET WORD
+
+Input Word:lease
+Input Word:leash
+	SECRET WORD
+
+Input Word:least
+	SECRET WORD
+
+Input Word:leave
+Input Word:ledge
+Input Word:leech
+Input Word:leery
+Input Word:lefty
+	SECRET WORD
+
+Input Word:legal
+Input Word:leggy
+Input Word:lemma
+Input Word:lemon
+	SECRET WORD
+
+Input Word:leper
+Input Word:levee
+Input Word:level
+Input Word:lever
+Input Word:lewis
+	SECRET WORD
+
+Input Word:libel
+Input Word:light
+	SECRET WORD
+
+Input Word:liken
+	SECRET WORD
+
+Input Word:lilac
+Input Word:limbo
+	SECRET WORD
+
+Input Word:limit
+Input Word:linen
+Input Word:lingo
+	SECRET WORD
+
+Input Word:lipid
+Input Word:lisle
+Input Word:lithe
+	SECRET WORD
+
+Input Word:liven
+	SECRET WORD
+
+Input Word:livid
+Input Word:livre
+	SECRET WORD
+
+Input Word:loamy
+	SECRET WORD
+
+Input Word:loath
+	SECRET WORD
+
+Input Word:lobar
+	SECRET WORD
+
+Input Word:lobby
+Input Word:local
+Input Word:locus
+	SECRET WORD
+
+Input Word:lodge
+	SECRET WORD
+
+Input Word:loess
+Input Word:lofty
+	SECRET WORD
+
+Input Word:logic
+	SECRET WORD
+
+Input Word:lolly
+Input Word:loose
+Input Word:lossy
+Input Word:lotus
+	SECRET WORD
+
+Input Word:louse
+	SECRET WORD
+
+Input Word:lousy
+	SECRET WORD
+
+Input Word:lower
+	SECRET WORD
+
+Input Word:loyal
+Input Word:lucid
+	SECRET WORD
+
+Input Word:lucky
+	SECRET WORD
+
+Input Word:lucre
+	SECRET WORD
+
+Input Word:luger
+	SECRET WORD
+
+Input Word:lumen
+	SECRET WORD
+
+Input Word:lumpy
+	SECRET WORD
+
+Input Word:lunar
+	SECRET WORD
+
+Input Word:lunch
+	SECRET WORD
+
+Input Word:lunge
+	SECRET WORD
+
+Input Word:lurch
+	SECRET WORD
+
+Input Word:lurid
+	SECRET WORD
+
+Input Word:lusty
+	SECRET WORD
+
+Input Word:lying
+	SECRET WORD
+
+Input Word:lymph
+	SECRET WORD
+
+Input Word:lynch
+	SECRET WORD
+
+Input Word:lyric
+	SECRET WORD
+
+Input Word:macho
+	SECRET WORD
+
+Input Word:macro
+	SECRET WORD
+
+Input Word:madam
+Input Word:magic
+	SECRET WORD
+
+Input Word:magma
+Input Word:magna
+Input Word:major
+	SECRET WORD
+
+Input Word:mambo
+Input Word:mamma
+Input Word:mange
+	SECRET WORD
+
+Input Word:mania
+Input Word:manic
+	SECRET WORD
+
+Input Word:manna
+Input Word:manor
+	SECRET WORD
+
+Input Word:manse
+	SECRET WORD
+
+Input Word:maple
+	SECRET WORD
+
+Input Word:march
+	SECRET WORD
+
+Input Word:maria
+Input Word:marry
+Input Word:marsh
+	SECRET WORD
+
+Input Word:maser
+	SECRET WORD
+
+Input Word:mason
+	SECRET WORD
+
+Input Word:match
+	SECRET WORD
+
+Input Word:mater
+	SECRET WORD
+
+Input Word:matte
+Input Word:mauve
+	SECRET WORD
+
+Input Word:maxim
+Input Word:maybe
+	SECRET WORD
+
+Input Word:mayor
+	SECRET WORD
+
+Input Word:mayst
+	SECRET WORD
+
+Input Word:mealy
+	SECRET WORD
+
+Input Word:meant
+	SECRET WORD
+
+Input Word:meaty
+	SECRET WORD
+
+Input Word:mecum
+Input Word:medal
+	SECRET WORD
+
+Input Word:media
+	SECRET WORD
+
+Input Word:medic
+	SECRET WORD
+
+Input Word:melee
+Input Word:melon
+	SECRET WORD
+
+Input Word:mercy
+	SECRET WORD
+
+Input Word:merge
+Input Word:merit
+	SECRET WORD
+
+Input Word:merry
+Input Word:meson
+	SECRET WORD
+
+Input Word:messy
+Input Word:metal
+	SECRET WORD
+
+Input Word:meter
+Input Word:metro
+	SECRET WORD
+
+Input Word:mezzo
+Input Word:micro
+	SECRET WORD
+
+Input Word:midge
+	SECRET WORD
+
+Input Word:midst
+	SECRET WORD
+
+Input Word:might
+	SECRET WORD
+
+Input Word:milch
+	SECRET WORD
+
+Input Word:milky
+	SECRET WORD
+
+Input Word:mimic
+Input Word:mince
+	SECRET WORD
+
+Input Word:minim
+Input Word:minor
+	SECRET WORD
+
+Input Word:minot
+	SECRET WORD
+
+Input Word:minus
+	SECRET WORD
+
+Input Word:mirth
+	SECRET WORD
+
+Input Word:miser
+	SECRET WORD
+
+Input Word:misty
+	SECRET WORD
+
+Input Word:mitre
+	SECRET WORD
+
+Input Word:mixup
+	SECRET WORD
+
+Input Word:modal
+	SECRET WORD
+
+Input Word:model
+	SECRET WORD
+
+Input Word:modem
+Input Word:modus
+	SECRET WORD
+
+Input Word:moire
+	SECRET WORD
+
+Input Word:moist
+	SECRET WORD
+
+Input Word:molal
+Input Word:molar
+	SECRET WORD
+
+Input Word:mommy
+Input Word:monad
+	SECRET WORD
+
+Input Word:monel
+	SECRET WORD
+
+Input Word:money
+	SECRET WORD
+
+Input Word:monic
+	SECRET WORD
+
+Input Word:monte
+	SECRET WORD
+
+Input Word:month
+	SECRET WORD
+
+Input Word:moody
+Input Word:moose
+Input Word:moral
+	SECRET WORD
+
+Input Word:morel
+	SECRET WORD
+
+Input Word:moron
+Input Word:mossy
+Input Word:motel
+	SECRET WORD
+
+Input Word:motet
+Input Word:motif
+	SECRET WORD
+
+Input Word:motor
+Input Word:motto
+Input Word:mould
+	SECRET WORD
+
+Input Word:mound
+	SECRET WORD
+
+Input Word:mount
+	SECRET WORD
+
+Input Word:mourn
+	SECRET WORD
+
+Input Word:mouse
+	SECRET WORD
+
+Input Word:mousy
+	SECRET WORD
+
+Input Word:mouth
+	SECRET WORD
+
+Input Word:movie
+	SECRET WORD
+
+Input Word:mucus
+Input Word:muddy
+Input Word:muggy
+Input Word:mugho
+	SECRET WORD
+
+Input Word:mulch
+	SECRET WORD
+
+Input Word:mulct
+	SECRET WORD
+
+Input Word:multi
+	SECRET WORD
+
+Input Word:mummy
+Input Word:munch
+	SECRET WORD
+
+Input Word:mural
+	SECRET WORD
+
+Input Word:murky
+	SECRET WORD
+
+Input Word:murre
+Input Word:mushy
+	SECRET WORD
+
+Input Word:music
+	SECRET WORD
+
+Input Word:musty
+	SECRET WORD
+
+Input Word:mylar
+	SECRET WORD
+
+Input Word:mynah
+	SECRET WORD
+
+Input Word:myrrh
+Input Word:nabla
+Input Word:nadir
+	SECRET WORD
+
+Input Word:naiad
+Input Word:naive
+	SECRET WORD
+
+Input Word:naked
+	SECRET WORD
+
+Input Word:nasal
+Input Word:nasty
+	SECRET WORD
+
+Input Word:natal
+Input Word:natty
+Input Word:naval
+Input Word:navel
+	SECRET WORD
+
+Input Word:neath
+	SECRET WORD
+
+Input Word:needy
+Input Word:nerve
+Input Word:never
+Input Word:newel
+Input Word:niche
+	SECRET WORD
+
+Input Word:niece
+Input Word:night
+	SECRET WORD
+
+Input Word:ninth
+Input Word:nitty
+Input Word:noble
+	SECRET WORD
+
+Input Word:nodal
+	SECRET WORD
+
+Input Word:noise
+	SECRET WORD
+
+Input Word:noisy
+	SECRET WORD
+
+Input Word:nomad
+	SECRET WORD
+
+Input Word:nonce
+Input Word:noose
+Input Word:north
+	SECRET WORD
+
+Input Word:notch
+	SECRET WORD
+
+Input Word:novel
+	SECRET WORD
+
+Input Word:nudge
+	SECRET WORD
+
+Input Word:nurse
+	SECRET WORD
+
+Input Word:nylon
+Input Word:nymph
+	SECRET WORD
+
+Input Word:oaken
+	SECRET WORD
+
+Input Word:oases
+Input Word:oasis
+Input Word:obese
+Input Word:objet
+	SECRET WORD
+
+Input Word:occur
+Input Word:ocean
+	SECRET WORD
+
+Input Word:octal
+	SECRET WORD
+
+Input Word:octet
+Input Word:odium
+	SECRET WORD
+
+Input Word:offal
+Input Word:offer
+Input Word:often
+	SECRET WORD
+
+Input Word:ohmic
+	SECRET WORD
+
+Input Word:olden
+	SECRET WORD
+
+Input Word:olive
+	SECRET WORD
+
+Input Word:omega
+	SECRET WORD
+
+Input Word:onion
+Input Word:onset
+	SECRET WORD
+
+Input Word:opera
+	SECRET WORD
+
+Input Word:opine
+	SECRET WORD
+
+Input Word:opium
+	SECRET WORD
+
+Input Word:optic
+	SECRET WORD
+
+Input Word:orate
+	SECRET WORD
+
+Input Word:orbit
+	SECRET WORD
+
+Input Word:order
+Input Word:organ
+	SECRET WORD
+
+Input Word:osier
+	SECRET WORD
+
+Input Word:other
+	SECRET WORD
+
+Input Word:otter
+Input Word:ought
+	SECRET WORD
+
+Input Word:ounce
+	SECRET WORD
+
+Input Word:ouvre
+	SECRET WORD
+
+Input Word:ouzel
+	SECRET WORD
+
+Input Word:ovary
+	SECRET WORD
+
+Input Word:ovate
+	SECRET WORD
+
+Input Word:overt
+	SECRET WORD
+
+Input Word:owing
+	SECRET WORD
+
+Input Word:oxeye
+Input Word:oxide
+	SECRET WORD
+
+Input Word:ozone
+Input Word:paddy
+Input Word:padre
+	SECRET WORD
+
+Input Word:paean
+Input Word:pagan
+Input Word:paint
+	SECRET WORD
+
+Input Word:palsy
+	SECRET WORD
+
+Input Word:pampa
+Input Word:panda
+Input Word:panel
+	SECRET WORD
+
+Input Word:panic
+	SECRET WORD
+
+Input Word:pansy
+	SECRET WORD
+
+Input Word:panty
+	SECRET WORD
+
+Input Word:papal
+Input Word:papaw
+Input Word:paper
+Input Word:pappy
+Input Word:parch
+	SECRET WORD
+
+Input Word:parry
+Input Word:parse
+	SECRET WORD
+
+Input Word:party
+	SECRET WORD
+
+Input Word:pasha
+Input Word:passe
+Input Word:paste
+	SECRET WORD
+
+Input Word:pasty
+	SECRET WORD
+
+Input Word:patch
+	SECRET WORD
+
+Input Word:pater
+	SECRET WORD
+
+Input Word:patio
+	SECRET WORD
+
+Input Word:patty
+Input Word:pause
+	SECRET WORD
+
+Input Word:peace
+Input Word:peach
+	SECRET WORD
+
+Input Word:peaky
+	SECRET WORD
+
+Input Word:pearl
+	SECRET WORD
+
+Input Word:pecan
+	SECRET WORD
+
+Input Word:pedal
+	SECRET WORD
+
+Input Word:peepy
+Input Word:penal
+	SECRET WORD
+
+Input Word:pence
+Input Word:penis
+	SECRET WORD
+
+Input Word:penna
+Input Word:penny
+Input Word:peony
+	SECRET WORD
+
+Input Word:peppy
+Input Word:perch
+	SECRET WORD
+
+Input Word:peril
+	SECRET WORD
+
+Input Word:perky
+	SECRET WORD
+
+Input Word:peste
+Input Word:petal
+	SECRET WORD
+
+Input Word:petit
+Input Word:petri
+	SECRET WORD
+
+Input Word:petty
+Input Word:pewee
+Input Word:phage
+	SECRET WORD
+
+Input Word:phase
+	SECRET WORD
+
+Input Word:phlox
+	SECRET WORD
+
+Input Word:phone
+	SECRET WORD
+
+Input Word:phony
+	SECRET WORD
+
+Input Word:photo
+Input Word:phyla
+	SECRET WORD
+
+Input Word:piano
+	SECRET WORD
+
+Input Word:picky
+	SECRET WORD
+
+Input Word:piece
+Input Word:piety
+	SECRET WORD
+
+Input Word:piggy
+Input Word:pilot
+	SECRET WORD
+
+Input Word:pinch
+	SECRET WORD
+
+Input Word:pinto
+	SECRET WORD
+
+Input Word:pious
+	SECRET WORD
+
+Input Word:pique
+	SECRET WORD
+
+Input Word:pitch
+	SECRET WORD
+
+Input Word:pithy
+	SECRET WORD
+
+Input Word:pivot
+	SECRET WORD
+
+Input Word:pixel
+	SECRET WORD
+
+Input Word:pizza
+Input Word:place
+	SECRET WORD
+
+Input Word:plaid
+	SECRET WORD
+
+Input Word:plain
+	SECRET WORD
+
+Input Word:plane
+	SECRET WORD
+
+Input Word:plank
+	SECRET WORD
+
+Input Word:plant
+	SECRET WORD
+
+Input Word:plasm
+	SECRET WORD
+
+Input Word:plate
+	SECRET WORD
+
+Input Word:playa
+Input Word:plaza
+Input Word:plead
+	SECRET WORD
+
+Input Word:pleat
+	SECRET WORD
+
+Input Word:pluck
+	SECRET WORD
+
+Input Word:plumb
+	SECRET WORD
+
+Input Word:plume
+	SECRET WORD
+
+Input Word:plump
+Input Word:plunk
+	SECRET WORD
+
+Input Word:plush
+	SECRET WORD
+
+Input Word:poach
+	SECRET WORD
+
+Input Word:pocus
+	SECRET WORD
+
+Input Word:podge
+	SECRET WORD
+
+Input Word:podia
+	SECRET WORD
+
+Input Word:poesy
+	SECRET WORD
+
+Input Word:point
+	SECRET WORD
+
+Input Word:poise
+	SECRET WORD
+
+Input Word:polar
+	SECRET WORD
+
+Input Word:polio
+Input Word:polis
+	SECRET WORD
+
+Input Word:polka
+	SECRET WORD
+
+Input Word:pooch
+Input Word:poppy
+Input Word:porch
+	SECRET WORD
+
+Input Word:posey
+	SECRET WORD
+
+Input Word:posit
+	SECRET WORD
+
+Input Word:posse
+Input Word:pouch
+	SECRET WORD
+
+Input Word:pound
+	SECRET WORD
+
+Input Word:power
+	SECRET WORD
+
+Input Word:prank
+	SECRET WORD
+
+Input Word:preen
+Input Word:press
+Input Word:prexy
+	SECRET WORD
+
+Input Word:price
+	SECRET WORD
+
+Input Word:prick
+	SECRET WORD
+
+Input Word:pride
+	SECRET WORD
+
+Input Word:prima
+	SECRET WORD
+
+Input Word:prime
+	SECRET WORD
+
+Input Word:primp
+Input Word:print
+	SECRET WORD
+
+Input Word:prior
+Input Word:prism
+	SECRET WORD
+
+Input Word:privy
+	SECRET WORD
+
+Input Word:prize
+	SECRET WORD
+
+Input Word:probe
+	SECRET WORD
+
+Input Word:prone
+	SECRET WORD
+
+Input Word:prong
+	SECRET WORD
+
+Input Word:proof
+Input Word:prose
+	SECRET WORD
+
+Input Word:proud
+	SECRET WORD
+
+Input Word:prove
+	SECRET WORD
+
+Input Word:prowl
+	SECRET WORD
+
+Input Word:proxy
+	SECRET WORD
+
+Input Word:prune
+	SECRET WORD
+
+Input Word:psalm
+	SECRET WORD
+
+Input Word:psych
+	SECRET WORD
+
+Input Word:puffy
+Input Word:pulse
+	SECRET WORD
+
+Input Word:punch
+	SECRET WORD
+
+Input Word:punky
+	SECRET WORD
+
+Input Word:pupal
+Input Word:pupil
+Input Word:puppy
+Input Word:purge
+	SECRET WORD
+
+Input Word:purse
+	SECRET WORD
+
+Input Word:pussy
+Input Word:putty
+Input Word:pygmy
+Input Word:quack
+	SECRET WORD
+
+Input Word:quaff
+Input Word:quail
+	SECRET WORD
+
+Input Word:quake
+	SECRET WORD
+
+Input Word:qualm
+	SECRET WORD
+
+Input Word:quark
+	SECRET WORD
+
+Input Word:quart
+	SECRET WORD
+
+Input Word:quash
+	SECRET WORD
+
+Input Word:quasi
+	SECRET WORD
+
+Input Word:queen
+Input Word:queer
+Input Word:quell
+Input Word:query
+	SECRET WORD
+
+Input Word:quest
+	SECRET WORD
+
+Input Word:queue
+Input Word:quick
+	SECRET WORD
+
+Input Word:quiet
+	SECRET WORD
+
+Input Word:quill
+Input Word:quilt
+	SECRET WORD
+
+Input Word:quint
+	SECRET WORD
+
+Input Word:quirk
+	SECRET WORD
+
+Input Word:quirt
+	SECRET WORD
+
+Input Word:quite
+	SECRET WORD
+
+Input Word:quota
+	SECRET WORD
+
+Input Word:quote
+	SECRET WORD
+
+Input Word:rabat
+Input Word:rabbi
+Input Word:rabid
+	SECRET WORD
+
+Input Word:radar
+Input Word:radii
+Input Word:radio
+	SECRET WORD
+
+Input Word:radix
+	SECRET WORD
+
+Input Word:radon
+	SECRET WORD
+
+Input Word:rainy
+	SECRET WORD
+
+Input Word:raise
+	SECRET WORD
+
+Input Word:rajah
+Input Word:rally
+Input Word:ranch
+	SECRET WORD
+
+Input Word:randy
+	SECRET WORD
+
+Input Word:range
+	SECRET WORD
+
+Input Word:rangy
+	SECRET WORD
+
+Input Word:rapid
+	SECRET WORD
+
+Input Word:rater
+Input Word:ratio
+	SECRET WORD
+
+Input Word:ratty
+Input Word:ravel
+	SECRET WORD
+
+Input Word:raven
+	SECRET WORD
+
+Input Word:razor
+Input Word:reach
+	SECRET WORD
+
+Input Word:ready
+	SECRET WORD
+
+Input Word:realm
+	SECRET WORD
+
+Input Word:reave
+Input Word:rebel
+Input Word:rebut
+	SECRET WORD
+
+Input Word:recur
+Input Word:reedy
+Input Word:reeve
+Input Word:refer
+Input Word:regal
+	SECRET WORD
+
+Input Word:reign
+	SECRET WORD
+
+Input Word:relic
+	SECRET WORD
+
+Input Word:reman
+	SECRET WORD
+
+Input Word:remit
+	SECRET WORD
+
+Input Word:renal
+	SECRET WORD
+
+Input Word:repel
+Input Word:resin
+	SECRET WORD
+
+Input Word:retch
+	SECRET WORD
+
+Input Word:revel
+Input Word:rever
+Input Word:revet
+Input Word:rheum
+	SECRET WORD
+
+Input Word:rhino
+	SECRET WORD
+
+Input Word:rhyme
+	SECRET WORD
+
+Input Word:ridge
+	SECRET WORD
+
+Input Word:rifle
+	SECRET WORD
+
+Input Word:right
+	SECRET WORD
+
+Input Word:rigid
+Input Word:rilly
+Input Word:rinse
+	SECRET WORD
+
+Input Word:ripen
+	SECRET WORD
+
+Input Word:risen
+	SECRET WORD
+
+Input Word:risky
+	SECRET WORD
+
+Input Word:rival
+	SECRET WORD
+
+Input Word:riven
+	SECRET WORD
+
+Input Word:river
+Input Word:rivet
+	SECRET WORD
+
+Input Word:roach
+	SECRET WORD
+
+Input Word:roast
+	SECRET WORD
+
+Input Word:robin
+	SECRET WORD
+
+Input Word:robot
+Input Word:rocky
+	SECRET WORD
+
+Input Word:rodeo
+Input Word:rogue
+	SECRET WORD
+
+Input Word:rondo
+Input Word:rooky
+Input Word:roomy
+Input Word:roost
+Input Word:rotor
+Input Word:rouge
+	SECRET WORD
+
+Input Word:rough
+	SECRET WORD
+
+Input Word:round
+	SECRET WORD
+
+Input Word:rouse
+	SECRET WORD
+
+Input Word:route
+	SECRET WORD
+
+Input Word:rowdy
+	SECRET WORD
+
+Input Word:royal
+	SECRET WORD
+
+Input Word:ruddy
+Input Word:rumen
+	SECRET WORD
+
+Input Word:rummy
+Input Word:runic
+	SECRET WORD
+
+Input Word:runty
+	SECRET WORD
+
+Input Word:rupee
+Input Word:rural
+Input Word:rusty
+	SECRET WORD
+
+Input Word:rutty
+Input Word:sable
+	SECRET WORD
+
+Input Word:sabra
+Input Word:saint
+	SECRET WORD
+
+Input Word:salad
+Input Word:sally
+Input Word:salon
+	SECRET WORD
+
+Input Word:salty
+	SECRET WORD
+
+Input Word:salve
+	SECRET WORD
+
+Input Word:salvo
+	SECRET WORD
+
+Input Word:samba
+Input Word:sandy
+	SECRET WORD
+
+Input Word:sappy
+Input Word:satan
+Input Word:satin
+	SECRET WORD
+
+Input Word:satyr
+	SECRET WORD
+
+Input Word:sauce
+	SECRET WORD
+
+Input Word:saucy
+	SECRET WORD
+
+Input Word:saute
+	SECRET WORD
+
+Input Word:savoy
+	SECRET WORD
+
+Input Word:savvy
+Input Word:scald
+	SECRET WORD
+
+Input Word:scale
+	SECRET WORD
+
+Input Word:scalp
+	SECRET WORD
+
+Input Word:scamp
+	SECRET WORD
+
+Input Word:scant
+	SECRET WORD
+
+Input Word:scare
+	SECRET WORD
+
+Input Word:scarf
+	SECRET WORD
+
+Input Word:scary
+	SECRET WORD
+
+Input Word:scaup
+	SECRET WORD
+
+Input Word:scene
+Input Word:scent
+	SECRET WORD
+
+Input Word:scion
+	SECRET WORD
+
+Input Word:scoff
+Input Word:scold
+	SECRET WORD
+
+Input Word:scoop
+Input Word:scoot
+Input Word:scope
+	SECRET WORD
+
+Input Word:scops
+Input Word:score
+	SECRET WORD
+
+Input Word:scorn
+	SECRET WORD
+
+Input Word:scour
+	SECRET WORD
+
+Input Word:scout
+	SECRET WORD
+
+Input Word:scowl
+	SECRET WORD
+
+Input Word:scram
+	SECRET WORD
+
+Input Word:scrap
+	SECRET WORD
+
+Input Word:screw
+	SECRET WORD
+
+Input Word:scrim
+	SECRET WORD
+
+Input Word:scrub
+	SECRET WORD
+
+Input Word:scuba
+	SECRET WORD
+
+Input Word:scuff
+Input Word:scull
+Input Word:seamy
+	SECRET WORD
+
+Input Word:sedan
+	SECRET WORD
+
+Input Word:seder
+Input Word:sedge
+Input Word:seedy
+Input Word:seize
+Input Word:senor
+	SECRET WORD
+
+Input Word:sense
+Input Word:sepal
+	SECRET WORD
+
+Input Word:sepia
+	SECRET WORD
+
+Input Word:septa
+	SECRET WORD
+
+Input Word:serge
+Input Word:serif
+	SECRET WORD
+
+Input Word:serum
+	SECRET WORD
+
+Input Word:serve
+Input Word:servo
+	SECRET WORD
+
+Input Word:setup
+	SECRET WORD
+
+Input Word:seven
+Input Word:sever
+Input Word:shack
+	SECRET WORD
+
+Input Word:shade
+	SECRET WORD
+
+Input Word:shady
+	SECRET WORD
+
+Input Word:shaft
+	SECRET WORD
+
+Input Word:shake
+	SECRET WORD
+
+Input Word:shako
+	SECRET WORD
+
+Input Word:shaky
+	SECRET WORD
+
+Input Word:shale
+	SECRET WORD
+
+Input Word:shall
+Input Word:shame
+	SECRET WORD
+
+Input Word:shank
+	SECRET WORD
+
+Input Word:shape
+	SECRET WORD
+
+Input Word:shard
+	SECRET WORD
+
+Input Word:share
+	SECRET WORD
+
+Input Word:shark
+	SECRET WORD
+
+Input Word:sharp
+	SECRET WORD
+
+Input Word:shave
+	SECRET WORD
+
+Input Word:shawl
+	SECRET WORD
+
+Input Word:sheaf
+	SECRET WORD
+
+Input Word:shear
+	SECRET WORD
+
+Input Word:sheen
+Input Word:sheep
+Input Word:sheer
+Input Word:sheet
+Input Word:sheik
+	SECRET WORD
+
+Input Word:shelf
+	SECRET WORD
+
+Input Word:shell
+Input Word:shied
+	SECRET WORD
+
+Input Word:shift
+	SECRET WORD
+
+Input Word:shill
+Input Word:shine
+	SECRET WORD
+
+Input Word:shiny
+	SECRET WORD
+
+Input Word:shire
+	SECRET WORD
+
+Input Word:shirk
+	SECRET WORD
+
+Input Word:shirt
+	SECRET WORD
+
+Input Word:shish
+Input Word:shoal
+	SECRET WORD
+
+Input Word:shock
+	SECRET WORD
+
+Input Word:shoji
+	SECRET WORD
+
+Input Word:shone
+	SECRET WORD
+
+Input Word:shook
+Input Word:shoot
+Input Word:shore
+	SECRET WORD
+
+Input Word:short
+	SECRET WORD
+
+Input Word:shout
+	SECRET WORD
+
+Input Word:shove
+	SECRET WORD
+
+Input Word:shown
+	SECRET WORD
+
+Input Word:showy
+	SECRET WORD
+
+Input Word:shred
+	SECRET WORD
+
+Input Word:shrew
+	SECRET WORD
+
+Input Word:shrub
+	SECRET WORD
+
+Input Word:shrug
+	SECRET WORD
+
+Input Word:shuck
+	SECRET WORD
+
+Input Word:shunt
+	SECRET WORD
+
+Input Word:sibyl
+	SECRET WORD
+
+Input Word:sidle
+	SECRET WORD
+
+Input Word:siege
+Input Word:sieve
+Input Word:sight
+	SECRET WORD
+
+Input Word:sigma
+	SECRET WORD
+
+Input Word:silky
+	SECRET WORD
+
+Input Word:silly
+Input Word:silty
+	SECRET WORD
+
+Input Word:since
+	SECRET WORD
+
+Input Word:sinew
+	SECRET WORD
+
+Input Word:singe
+	SECRET WORD
+
+Input Word:sinus
+Input Word:siren
+	SECRET WORD
+
+Input Word:sisal
+Input Word:situs
+Input Word:sixth
+	SECRET WORD
+
+Input Word:sixty
+	SECRET WORD
+
+Input Word:skate
+	SECRET WORD
+
+Input Word:skeet
+Input Word:skied
+	SECRET WORD
+
+Input Word:skiff
+Input Word:skill
+Input Word:skimp
+	SECRET WORD
+
+Input Word:skirt
+	SECRET WORD
+
+Input Word:skulk
+Input Word:skull
+Input Word:skunk
+Input Word:slack
+	SECRET WORD
+
+Input Word:slain
+	SECRET WORD
+
+Input Word:slake
+	SECRET WORD
+
+Input Word:slang
+	SECRET WORD
+
+Input Word:slant
+	SECRET WORD
+
+Input Word:slash
+Input Word:slate
+	SECRET WORD
+
+Input Word:slave
+	SECRET WORD
+
+Input Word:sleek
+Input Word:sleep
+Input Word:sleet
+Input Word:slept
+	SECRET WORD
+
+Input Word:slice
+	SECRET WORD
+
+Input Word:slick
+	SECRET WORD
+
+Input Word:slide
+	SECRET WORD
+
+Input Word:slime
+	SECRET WORD
+
+Input Word:slimy
+	SECRET WORD
+
+Input Word:sling
+	SECRET WORD
+
+Input Word:sloop
+Input Word:slope
+	SECRET WORD
+
+Input Word:slosh
+Input Word:sloth
+	SECRET WORD
+
+Input Word:slump
+	SECRET WORD
+
+Input Word:slung
+	SECRET WORD
+
+Input Word:slurp
+	SECRET WORD
+
+Input Word:smack
+	SECRET WORD
+
+Input Word:small
+Input Word:smart
+	SECRET WORD
+
+Input Word:smash
+Input Word:smear
+	SECRET WORD
+
+Input Word:smell
+Input Word:smelt
+	SECRET WORD
+
+Input Word:smile
+	SECRET WORD
+
+Input Word:smirk
+	SECRET WORD
+
+Input Word:smith
+	SECRET WORD
+
+Input Word:smoke
+	SECRET WORD
+
+Input Word:smoky
+	SECRET WORD
+
+Input Word:snack
+	SECRET WORD
+
+Input Word:snafu
+	SECRET WORD
+
+Input Word:snail
+	SECRET WORD
+
+Input Word:snake
+	SECRET WORD
+
+Input Word:snare
+	SECRET WORD
+
+Input Word:snark
+	SECRET WORD
+
+Input Word:snarl
+	SECRET WORD
+
+Input Word:sneak
+	SECRET WORD
+
+Input Word:sneer
+Input Word:snell
+Input Word:snick
+	SECRET WORD
+
+Input Word:sniff
+Input Word:snipe
+	SECRET WORD
+
+Input Word:snook
+Input Word:snoop
+Input Word:snore
+	SECRET WORD
+
+Input Word:snort
+	SECRET WORD
+
+Input Word:snout
+	SECRET WORD
+
+Input Word:snowy
+	SECRET WORD
+
+Input Word:snuff
+Input Word:soapy
+	SECRET WORD
+
+Input Word:sober
+	SECRET WORD
+
+Input Word:soggy
+Input Word:solar
+	SECRET WORD
+
+Input Word:solid
+	SECRET WORD
+
+Input Word:solve
+	SECRET WORD
+
+Input Word:somal
+	SECRET WORD
+
+Input Word:sonar
+	SECRET WORD
+
+Input Word:sonic
+	SECRET WORD
+
+Input Word:sonny
+Input Word:sooth
+Input Word:sorry
+Input Word:sough
+	SECRET WORD
+
+Input Word:sound
+	SECRET WORD
+
+Input Word:south
+	SECRET WORD
+
+Input Word:space
+	SECRET WORD
+
+Input Word:spade
+	SECRET WORD
+
+Input Word:spare
+	SECRET WORD
+
+Input Word:spark
+	SECRET WORD
+
+Input Word:spasm
+Input Word:spate
+	SECRET WORD
+
+Input Word:spawn
+	SECRET WORD
+
+Input Word:speak
+	SECRET WORD
+
+Input Word:spear
+	SECRET WORD
+
+Input Word:speck
+	SECRET WORD
+
+Input Word:speed
+Input Word:spell
+Input Word:spend
+	SECRET WORD
+
+Input Word:spent
+	SECRET WORD
+
+Input Word:sperm
+	SECRET WORD
+
+Input Word:spice
+	SECRET WORD
+
+Input Word:spicy
+	SECRET WORD
+
+Input Word:spike
+	SECRET WORD
+
+Input Word:spiky
+	SECRET WORD
+
+Input Word:spill
+Input Word:spilt
+	SECRET WORD
+
+Input Word:spine
+	SECRET WORD
+
+Input Word:spiny
+	SECRET WORD
+
+Input Word:spire
+	SECRET WORD
+
+Input Word:spite
+	SECRET WORD
+
+Input Word:spitz
+	SECRET WORD
+
+Input Word:splat
+	SECRET WORD
+
+Input Word:splay
+	SECRET WORD
+
+Input Word:split
+	SECRET WORD
+
+Input Word:spoil
+	SECRET WORD
+
+Input Word:spoke
+	SECRET WORD
+
+Input Word:spoof
+Input Word:spook
+Input Word:spool
+Input Word:spoon
+Input Word:spore
+	SECRET WORD
+
+Input Word:sport
+	SECRET WORD
+
+Input Word:spout
+	SECRET WORD
+
+Input Word:spray
+	SECRET WORD
+
+Input Word:spree
+Input Word:sprig
+	SECRET WORD
+
+Input Word:sprue
+	SECRET WORD
+
+Input Word:spume
+	SECRET WORD
+
+Input Word:spunk
+	SECRET WORD
+
+Input Word:spurn
+	SECRET WORD
+
+Input Word:spurt
+	SECRET WORD
+
+Input Word:squad
+	SECRET WORD
+
+Input Word:squat
+	SECRET WORD
+
+Input Word:squaw
+	SECRET WORD
+
+Input Word:squid
+	SECRET WORD
+
+Input Word:stack
+	SECRET WORD
+
+Input Word:staff
+Input Word:stage
+	SECRET WORD
+
+Input Word:stagy
+	SECRET WORD
+
+Input Word:staid
+	SECRET WORD
+
+Input Word:stain
+	SECRET WORD
+
+Input Word:stair
+	SECRET WORD
+
+Input Word:stake
+	SECRET WORD
+
+Input Word:stale
+	SECRET WORD
+
+Input Word:stalk
+	SECRET WORD
+
+Input Word:stall
+Input Word:stamp
+	SECRET WORD
+
+Input Word:stand
+	SECRET WORD
+
+Input Word:stank
+	SECRET WORD
+
+Input Word:staph
+	SECRET WORD
+
+Input Word:stare
+	SECRET WORD
+
+Input Word:stark
+	SECRET WORD
+
+Input Word:start
+Input Word:stash
+Input Word:state
+Input Word:stave
+	SECRET WORD
+
+Input Word:stead
+	SECRET WORD
+
+Input Word:steak
+	SECRET WORD
+
+Input Word:steal
+	SECRET WORD
+
+Input Word:steam
+	SECRET WORD
+
+Input Word:steed
+Input Word:steel
+Input Word:steep
+Input Word:steer
+Input Word:stein
+	SECRET WORD
+
+Input Word:stern
+	SECRET WORD
+
+Input Word:stick
+	SECRET WORD
+
+Input Word:stiff
+Input Word:stile
+	SECRET WORD
+
+Input Word:still
+Input Word:stilt
+Input Word:sting
+	SECRET WORD
+
+Input Word:stink
+	SECRET WORD
+
+Input Word:stint
+Input Word:stock
+	SECRET WORD
+
+Input Word:stoic
+	SECRET WORD
+
+Input Word:stoke
+	SECRET WORD
+
+Input Word:stole
+	SECRET WORD
+
+Input Word:stomp
+	SECRET WORD
+
+Input Word:stone
+	SECRET WORD
+
+Input Word:stony
+	SECRET WORD
+
+Input Word:stood
+Input Word:stool
+Input Word:stoop
+Input Word:store
+	SECRET WORD
+
+Input Word:stork
+	SECRET WORD
+
+Input Word:storm
+	SECRET WORD
+
+Input Word:story
+	SECRET WORD
+
+Input Word:stout
+Input Word:stove
+	SECRET WORD
+
+Input Word:strap
+	SECRET WORD
+
+Input Word:straw
+	SECRET WORD
+
+Input Word:stray
+	SECRET WORD
+
+Input Word:strip
+	SECRET WORD
+
+Input Word:strop
+	SECRET WORD
+
+Input Word:strum
+	SECRET WORD
+
+Input Word:strut
+Input Word:stuck
+	SECRET WORD
+
+Input Word:study
+	SECRET WORD
+
+Input Word:stuff
+Input Word:stump
+	SECRET WORD
+
+Input Word:stung
+	SECRET WORD
+
+Input Word:stunk
+	SECRET WORD
+
+Input Word:stunt
+Input Word:style
+	SECRET WORD
+
+Input Word:styli
+	SECRET WORD
+
+Input Word:suave
+	SECRET WORD
+
+Input Word:sugar
+	SECRET WORD
+
+Input Word:suite
+	SECRET WORD
+
+Input Word:sulfa
+	SECRET WORD
+
+Input Word:sulky
+	SECRET WORD
+
+Input Word:sully
+Input Word:sumac
+	SECRET WORD
+
+Input Word:sunny
+Input Word:super
+	SECRET WORD
+
+Input Word:supra
+	SECRET WORD
+
+Input Word:surge
+	SECRET WORD
+
+Input Word:sushi
+Input Word:swage
+	SECRET WORD
+
+Input Word:swain
+	SECRET WORD
+
+Input Word:swami
+	SECRET WORD
+
+Input Word:swamp
+	SECRET WORD
+
+Input Word:swank
+	SECRET WORD
+
+Input Word:swarm
+	SECRET WORD
+
+Input Word:swart
+	SECRET WORD
+
+Input Word:swath
+	SECRET WORD
+
+Input Word:swear
+	SECRET WORD
+
+Input Word:sweat
+	SECRET WORD
+
+Input Word:sweep
+Input Word:sweet
+Input Word:swell
+Input Word:swelt
+	SECRET WORD
+
+Input Word:swept
+	SECRET WORD
+
+Input Word:swift
+	SECRET WORD
+
+Input Word:swine
+	SECRET WORD
+
+Input Word:swing
+	SECRET WORD
+
+Input Word:swipe
+	SECRET WORD
+
+Input Word:swirl
+	SECRET WORD
+
+Input Word:swish
+Input Word:swiss
+Input Word:swoop
+Input Word:sword
+	SECRET WORD
+
+Input Word:swore
+	SECRET WORD
+
+Input Word:sworn
+	SECRET WORD
+
+Input Word:swung
+	SECRET WORD
+
+Input Word:synod
+	SECRET WORD
+
+Input Word:syrup
+	SECRET WORD
+
+Input Word:table
+	SECRET WORD
+
+Input Word:taboo
+Input Word:tacit
+Input Word:tacky
+	SECRET WORD
+
+Input Word:taffy
+Input Word:taint
+Input Word:taken
+	SECRET WORD
+
+Input Word:talky
+	SECRET WORD
+
+Input Word:tally
+Input Word:talon
+	SECRET WORD
+
+Input Word:talus
+	SECRET WORD
+
+Input Word:tango
+	SECRET WORD
+
+Input Word:tangy
+	SECRET WORD
+
+Input Word:tansy
+	SECRET WORD
+
+Input Word:taper
+	SECRET WORD
+
+Input Word:tapir
+	SECRET WORD
+
+Input Word:tapis
+	SECRET WORD
+
+Input Word:tappa
+Input Word:tardy
+	SECRET WORD
+
+Input Word:tarry
+Input Word:taste
+Input Word:tasty
+Input Word:tater
+Input Word:tatty
+Input Word:taunt
+Input Word:tawny
+	SECRET WORD
+
+Input Word:teach
+	SECRET WORD
+
+Input Word:tease
+Input Word:tecum
+	SECRET WORD
+
+Input Word:teeth
+Input Word:tempo
+	SECRET WORD
+
+Input Word:tempt
+Input Word:tenet
+Input Word:tenon
+Input Word:tenor
+	SECRET WORD
+
+Input Word:tense
+Input Word:tenth
+Input Word:tepee
+Input Word:tepid
+	SECRET WORD
+
+Input Word:terry
+Input Word:terse
+Input Word:testy
+Input Word:thank
+	SECRET WORD
+
+Input Word:theft
+Input Word:their
+	SECRET WORD
+
+Input Word:theme
+Input Word:there
+Input Word:these
+Input Word:theta
+Input Word:thick
+	SECRET WORD
+
+Input Word:thief
+	SECRET WORD
+
+Input Word:thigh
+Input Word:thine
+	SECRET WORD
+
+Input Word:thing
+	SECRET WORD
+
+Input Word:think
+	SECRET WORD
+
+Input Word:third
+	SECRET WORD
+
+Input Word:thong
+	SECRET WORD
+
+Input Word:thorn
+	SECRET WORD
+
+Input Word:those
+	SECRET WORD
+
+Input Word:three
+Input Word:threw
+	SECRET WORD
+
+Input Word:throb
+	SECRET WORD
+
+Input Word:throw
+	SECRET WORD
+
+Input Word:thrum
+	SECRET WORD
+
+Input Word:thumb
+	SECRET WORD
+
+Input Word:thump
+	SECRET WORD
+
+Input Word:thyme
+	SECRET WORD
+
+Input Word:tibet
+Input Word:tibia
+Input Word:tidal
+	SECRET WORD
+
+Input Word:tiger
+	SECRET WORD
+
+Input Word:tight
+Input Word:tilde
+	SECRET WORD
+
+Input Word:tilth
+Input Word:timid
+Input Word:tinge
+	SECRET WORD
+
+Input Word:tippy
+Input Word:tipsy
+	SECRET WORD
+
+Input Word:tithe
+Input Word:title
+Input Word:toady
+	SECRET WORD
+
+Input Word:toast
+Input Word:today
+	SECRET WORD
+
+Input Word:token
+	SECRET WORD
+
+Input Word:tommy
+Input Word:tonal
+	SECRET WORD
+
+Input Word:tonic
+	SECRET WORD
+
+Input Word:tooth
+Input Word:topaz
+	SECRET WORD
+
+Input Word:topic
+	SECRET WORD
+
+Input Word:torah
+	SECRET WORD
+
+Input Word:torch
+	SECRET WORD
+
+Input Word:torso
+Input Word:torus
+	SECRET WORD
+
+Input Word:total
+Input Word:totem
+Input Word:touch
+	SECRET WORD
+
+Input Word:tough
+	SECRET WORD
+
+Input Word:towel
+	SECRET WORD
+
+Input Word:tower
+	SECRET WORD
+
+Input Word:toxic
+	SECRET WORD
+
+Input Word:toxin
+	SECRET WORD
+
+Input Word:trace
+	SECRET WORD
+
+Input Word:track
+	SECRET WORD
+
+Input Word:tract
+Input Word:trade
+	SECRET WORD
+
+Input Word:trail
+	SECRET WORD
+
+Input Word:train
+	SECRET WORD
+
+Input Word:trait
+Input Word:tramp
+	SECRET WORD
+
+Input Word:trash
+	SECRET WORD
+
+Input Word:trawl
+	SECRET WORD
+
+Input Word:tread
+	SECRET WORD
+
+Input Word:treat
+Input Word:trend
+	SECRET WORD
+
+Input Word:tress
+Input Word:triac
+	SECRET WORD
+
+Input Word:triad
+	SECRET WORD
+
+Input Word:trial
+	SECRET WORD
+
+Input Word:tribe
+	SECRET WORD
+
+Input Word:trick
+	SECRET WORD
+
+Input Word:tried
+	SECRET WORD
+
+Input Word:trill
+Input Word:tripe
+	SECRET WORD
+
+Input Word:trite
+Input Word:troll
+Input Word:troop
+Input Word:trout
+Input Word:truce
+	SECRET WORD
+
+Input Word:truck
+	SECRET WORD
+
+Input Word:truly
+	SECRET WORD
+
+Input Word:trump
+	SECRET WORD
+
+Input Word:trunk
+	SECRET WORD
+
+Input Word:truss
+Input Word:trust
+Input Word:truth
+Input Word:tulip
+	SECRET WORD
+
+Input Word:tulle
+Input Word:tunic
+	SECRET WORD
+
+Input Word:tuple
+	SECRET WORD
+
+Input Word:turvy
+	SECRET WORD
+
+Input Word:tutor
+Input Word:twain
+	SECRET WORD
+
+Input Word:tweak
+	SECRET WORD
+
+Input Word:tweed
+Input Word:twice
+	SECRET WORD
+
+Input Word:twill
+Input Word:twine
+	SECRET WORD
+
+Input Word:twirl
+	SECRET WORD
+
+Input Word:twist
+Input Word:tying
+	SECRET WORD
+
+Input Word:typic
+	SECRET WORD
+
+Input Word:ulcer
+	SECRET WORD
+
+Input Word:ultra
+	SECRET WORD
+
+Input Word:umber
+	SECRET WORD
+
+Input Word:umbra
+	SECRET WORD
+
+Input Word:unary
+	SECRET WORD
+
+Input Word:uncle
+	SECRET WORD
+
+Input Word:under
+	SECRET WORD
+
+Input Word:unify
+	SECRET WORD
+
+Input Word:union
+Input Word:unite
+	SECRET WORD
+
+Input Word:unity
+	SECRET WORD
+
+Input Word:until
+	SECRET WORD
+
+Input Word:upend
+	SECRET WORD
+
+Input Word:upper
+Input Word:upset
+	SECRET WORD
+
+Input Word:urban
+	SECRET WORD
+
+Input Word:urine
+	SECRET WORD
+
+Input Word:usage
+	SECRET WORD
+
+Input Word:usher
+	SECRET WORD
+
+Input Word:usual
+Input Word:usurp
+Input Word:usury
+Input Word:utile
+	SECRET WORD
+
+Input Word:utter
+Input Word:vacua
+Input Word:vacuo
+	SECRET WORD
+
+Input Word:vague
+	SECRET WORD
+
+Input Word:valet
+	SECRET WORD
+
+Input Word:valid
+	SECRET WORD
+
+Input Word:value
+	SECRET WORD
+
+Input Word:valve
+Input Word:vapid
+	SECRET WORD
+
+Input Word:vault
+	SECRET WORD
+
+Input Word:vaunt
+	SECRET WORD
+
+Input Word:veery
+Input Word:velar
+	SECRET WORD
+
+Input Word:veldt
+	SECRET WORD
+
+Input Word:venal
+	SECRET WORD
+
+Input Word:venom
+	SECRET WORD
+
+Input Word:verge
+Input Word:versa
+	SECRET WORD
+
+Input Word:verse
+Input Word:verve
+Input Word:vetch
+	SECRET WORD
+
+Input Word:vicar
+	SECRET WORD
+
+Input Word:video
+	SECRET WORD
+
+Input Word:vigil
+Input Word:villa
+Input Word:vinyl
+	SECRET WORD
+
+Input Word:viola
+	SECRET WORD
+
+Input Word:virus
+	SECRET WORD
+
+Input Word:visit
+Input Word:visor
+	SECRET WORD
+
+Input Word:vista
+	SECRET WORD
+
+Input Word:vitae
+	SECRET WORD
+
+Input Word:vital
+	SECRET WORD
+
+Input Word:vitro
+	SECRET WORD
+
+Input Word:vivid
+Input Word:vixen
+	SECRET WORD
+
+Input Word:vocal
+	SECRET WORD
+
+Input Word:vogue
+	SECRET WORD
+
+Input Word:voice
+	SECRET WORD
+
+Input Word:vomit
+	SECRET WORD
+
+Input Word:vouch
+	SECRET WORD
+
+Input Word:vowel
+	SECRET WORD
+
+Input Word:vying
+	SECRET WORD
+
+Input Word:wacke
+	SECRET WORD
+
+Input Word:wacky
+	SECRET WORD
+
+Input Word:wafer
+	SECRET WORD
+
+Input Word:waist
+	SECRET WORD
+
+Input Word:waive
+	SECRET WORD
+
+Input Word:waken
+	SECRET WORD
+
+Input Word:wally
+Input Word:waltz
+	SECRET WORD
+
+Input Word:warty
+	SECRET WORD
+
+Input Word:washy
+	SECRET WORD
+
+Input Word:waste
+	SECRET WORD
+
+Input Word:watch
+	SECRET WORD
+
+Input Word:water
+	SECRET WORD
+
+Input Word:waxen
+	SECRET WORD
+
+Input Word:weary
+	SECRET WORD
+
+Input Word:weave
+Input Word:weber
+Input Word:wedge
+Input Word:weedy
+Input Word:weigh
+	SECRET WORD
+
+Input Word:weird
+	SECRET WORD
+
+Input Word:welsh
+	SECRET WORD
+
+Input Word:whack
+	SECRET WORD
+
+Input Word:whale
+	SECRET WORD
+
+Input Word:wharf
+	SECRET WORD
+
+Input Word:wheat
+	SECRET WORD
+
+Input Word:wheel
+Input Word:whelk
+	SECRET WORD
+
+Input Word:whelm
+	SECRET WORD
+
+Input Word:whelp
+	SECRET WORD
+
+Input Word:where
+Input Word:which
+Input Word:whiff
+Input Word:while
+	SECRET WORD
+
+Input Word:whine
+	SECRET WORD
+
+Input Word:whirl
+	SECRET WORD
+
+Input Word:whish
+Input Word:whisk
+	SECRET WORD
+
+Input Word:white
+	SECRET WORD
+
+Input Word:whole
+	SECRET WORD
+
+Input Word:whoop
+Input Word:whore
+	SECRET WORD
+
+Input Word:whose
+	SECRET WORD
+
+Input Word:widen
+	SECRET WORD
+
+Input Word:widow
+Input Word:width
+	SECRET WORD
+
+Input Word:wield
+	SECRET WORD
+
+Input Word:wince
+	SECRET WORD
+
+Input Word:winch
+	SECRET WORD
+
+Input Word:windy
+	SECRET WORD
+
+Input Word:wishy
+	SECRET WORD
+
+Input Word:wispy
+	SECRET WORD
+
+Input Word:witch
+	SECRET WORD
+
+Input Word:withe
+	SECRET WORD
+
+Input Word:withy
+	SECRET WORD
+
+Input Word:witty
+Input Word:wolve
+	SECRET WORD
+
+Input Word:woman
+	SECRET WORD
+
+Input Word:women
+	SECRET WORD
+
+Input Word:woody
+Input Word:wordy
+	SECRET WORD
+
+Input Word:world
+	SECRET WORD
+
+Input Word:wormy
+	SECRET WORD
+
+Input Word:worry
+Input Word:worse
+	SECRET WORD
+
+Input Word:worst
+	SECRET WORD
+
+Input Word:worth
+	SECRET WORD
+
+Input Word:would
+	SECRET WORD
+
+Input Word:wound
+	SECRET WORD
+
+Input Word:woven
+	SECRET WORD
+
+Input Word:wrack
+	SECRET WORD
+
+Input Word:wrath
+	SECRET WORD
+
+Input Word:wreak
+	SECRET WORD
+
+Input Word:wreck
+	SECRET WORD
+
+Input Word:wrest
+	SECRET WORD
+
+Input Word:wring
+	SECRET WORD
+
+Input Word:wrist
+	SECRET WORD
+
+Input Word:write
+	SECRET WORD
+
+Input Word:wrong
+	SECRET WORD
+
+Input Word:wrote
+	SECRET WORD
+
+Input Word:xenon
+Input Word:xerox
+Input Word:xylem
+	SECRET WORD
+
+Input Word:yacht
+	SECRET WORD
+
+Input Word:yearn
+	SECRET WORD
+
+Input Word:yeast
+	SECRET WORD
+
+Input Word:yield
+	SECRET WORD
+
+Input Word:yodel
+	SECRET WORD
+
+Input Word:yokel
+	SECRET WORD
+
+Input Word:young
+	SECRET WORD
+
+Input Word:youth
+	SECRET WORD
+
+Input Word:yucca
+Input Word:zazen
+Input Word:zebra
+	SECRET WORD
+
+Input Word:zesty
+	SECRET WORD
+
+Input Word:zilch
+	SECRET WORD
+
+Input Word:zippy
+Input Word:zloty
+	SECRET WORD
+

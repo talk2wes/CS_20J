@@ -15,14 +15,23 @@ class Dictionary{
 // constructor: read words from a file   
 	public Dictionary(String filename){
 		words = new HashSet<String>();
+		secrets = new ArrayList<String>();
 		String temp = "";
+
 		try{
 			Scanner fin = new Scanner(new File(filename));
 			while (fin.hasNextLine()){
 				//load file
 				temp = fin.nextLine();
 				System.out.println("Input Word:" + temp); 
+				//add all words to hashSet
 				words.add(temp);
+				//add all legal secret words to array list 
+				if (isLegalSecretWord(temp)){
+					System.out.println("\tSECRET WORD\n");
+					secrets.add(temp);
+				}
+
 			}
 		fin.close();
 		}catch(Exception e){
@@ -30,7 +39,7 @@ class Dictionary{
 			System.err.println(e);
 		}
 
-}
+	}
 
 		// is word in the dictionary?
 		//public boolean validWord(String word){ }
@@ -39,7 +48,14 @@ class Dictionary{
 		//public String getLegalSecretWord(){ }
 
 		// is this word a legal secret word?
-		//private boolean isLegalSecretWord(String word){ }
+		private boolean isLegalSecretWord(String word){
+			for (int i = 0; i < word.length(); i++){
+				for (int j = 0; j < word.length(); j++)
+					if (i != j && word.charAt(i) == word.charAt(j))
+						return false;
+			}
+			return true;
+		}
 }
 
 
