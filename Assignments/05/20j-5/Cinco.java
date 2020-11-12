@@ -146,7 +146,7 @@ class Cinco{
 	// main program, required, minimal code
 	public static void main(String [] args){
 		Cinco game;
-		if (args.length > 1)
+		if (args.length > 0)
 			game = new Cinco(args[0]);
 		else
 			game = new Cinco();
