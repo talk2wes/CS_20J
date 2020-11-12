@@ -62,10 +62,10 @@ class Cinco{
 	boolean cheated;
 	String secret ;
 	Dictionary dictionary;
-	private String filename = "cinco-words.txt";
+	private String defaultFilename = "cinco-words.txt";
 
 	public Cinco(){
-		dictionary  =  new Dictionary(filename);	
+		dictionary  =  new Dictionary(defaultFilename);	
 		secret = dictionary.getLegalSecretWord();
 		numguesses = 0;
 		cheated = false;
@@ -90,6 +90,9 @@ class Cinco{
 					countInPlaceLetters(myInput) == 5){
 					System.out.println("Correct! You got it in " + 
 					numguesses + " guesses.");
+					if (cheated)
+						System.out.println("but only by"
+						+ " cheating");
 					return;
 				}
 				System.out.println("Matching: " + 
@@ -123,7 +126,7 @@ class Cinco{
 		for (int i = 0; i < guess.length(); i++)
 			for (int j = 0; j < guess.length(); j++)
 				if (secret.charAt(i) == guess.charAt(j))
-					alphabet[i] = true;
+					alphabet[secret.charAt(i) - 'a'] = true;
 		for (int i = 0; i < lettersInAlpha; i++)
 			diffs = alphabet[i] ? diffs + 1 : diffs;
 		return diffs;
