@@ -36,15 +36,12 @@ class Dictionary{
 	}
 
 	// is word in the dictionary?
-	public boolean validWord(String word){
-		//should this be case sensitive ??? 
-		return words.contains(word);
-	}
+	//should this be case sensitive??
+	public boolean validWord(String word){ return words.contains(word); }
 
 	// get a legal secret word from the dictionary
 	public String getLegalSecretWord(){
-		int index = rng.nextInt(secrets.size());
-		return secrets.get(index);
+		return secrets.get(rng.nextInt(secrets.size()));
 	}
 
 	// is this word a legal secret word?
