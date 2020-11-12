@@ -59,26 +59,54 @@ class Dictionary{
 
 class Cinco{
 	int numguesses;
-	boolean cheated = false; //innocent until proven guilty
+	boolean cheated;
 	String secret ;
-	private static String DEFAULT_WORD_LIST = "cinco-words.txt";
 	Dictionary dictionary;
+	private String filename = "cinco-words.txt";
 
-	public Cinco(){ }
-	public Cinco(String filename){ }
-	public void play(){
-		dictionary  =  new Dictionary(DEFAULT_WORD_LIST);	
-		Scanner input = new Scanner(System.in);
+	public Cinco(){
+		dictionary  =  new Dictionary(filename);	
 		secret = dictionary.getLegalSecretWord();
-
-		System.out.println("Secret word : " + secret);
+		numguesses = 0;
+		cheated = false;
+	}
+	public Cinco(String filename){  //make sure this one works
+		dictionary  =  new Dictionary(filename);	
+		secret = dictionary.getLegalSecretWord();
+		numguesses = 0;
+		cheated = false;
+	}
+	public void play(){
+		System.out.print("Cinco! Assignment 5\n" +
+			"by Wesley Johanson\n" +
+			"I'm thinking of a five letter word...\n" +
+			"your guess? ");
+		Scanner input = new Scanner(System.in);
 		while (input.hasNextLine()){
 			String myInput = input.nextLine();
-			System.out.println("valid word? = " + 
-				dictionary.validWord(myInput) + 
-				"\nCount Matching Letters = " + 
-				countMatchingLetters(myInput) );
-			
+			if (dictionary.validWord(myInput)){
+				numguesses++;
+				if (countMatchingLetters(myInput) == 5 && 
+					countInPlaceLetters(myInput) == 5){
+					System.out.println("Correct! You got it in " + 
+					numguesses + " guesses.");
+					return;
+				}
+				System.out.println("Matching: " + 
+					countMatchingLetters(myInput) +
+					"\nIn-Place: " +
+					countInPlaceLetters(myInput)); 
+			}else{
+				if (myInput.equals("xxxxx")){
+					numguesses++;
+					System.out.println("Secret word : "
+					+ secret); 
+					cheated = true;
+				}else{
+					System.out.println("I don't know that word");
+				}
+			}
+			System.out.print("Your Guess? ");
 		}
 
 			
@@ -104,11 +132,21 @@ class Cinco{
 	
 
 	// return # of in-place letters secret/guess
-	//private int countInPlaceLetters(String guess){ }
+	private int countInPlaceLetters(String guess){
+		int total = 0;
+		for (int i = 0; i < guess.length(); i++)
+			if (guess.charAt(i) == secret.charAt(i))
+				total++;
+		return total;
+	}
 
 	// main program, required, minimal code
 	public static void main(String [] args){
-		Cinco game = new Cinco();
+		Cinco game;
+		if (args.length > 1)
+			game = new Cinco(args[0]);
+		else
+			game = new Cinco();
 		game.play();
 	}		
 }
