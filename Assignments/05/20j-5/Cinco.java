@@ -13,6 +13,7 @@ class Dictionary{
 
 	// constructor: read words from a file   
 	public Dictionary(String filename){
+		//I should probably use the time class for better randoms 
 		rng = new Random();
 		words = new HashSet<String>();
 		secrets = new ArrayList<String>();
@@ -22,9 +23,7 @@ class Dictionary{
 			Scanner fin = new Scanner(new File(filename));
 			while (fin.hasNextLine()){
 				temp = fin.nextLine();
-				//add all words to hashSet
 				words.add(temp);
-				//add all legal secret words to array list 
 				if (isLegalSecretWord(temp)){
 					secrets.add(temp);
 				}
@@ -36,18 +35,17 @@ class Dictionary{
 		}
 	}
 
-	// is word in the dictionary?
-	//should this be case sensitive??
+	/* returns true if the word is an element of the dictionary*/
 	public boolean validWord(String word){ return words.contains(word); }
 
-	// get a legal secret word from the dictionary
+	/* Returns a legal secret word from the dictionary object */
 	public String getLegalSecretWord(){
 		return secrets.get(rng.nextInt(secrets.size()));
 	}
 
-	// is this word a legal secret word?
+	/* Returns true if the word is a legal secret word. (i.e. 5 letters, no
+	 * repeating characters, is element of dictionary)*/
 	private boolean isLegalSecretWord(String word){
-
 		for (int i = 0; i < word.length(); i++){
 			for (int j = 0; j < word.length(); j++)
 				if (i != j && word.charAt(i) == word.charAt(j))
@@ -84,36 +82,36 @@ class Cinco{
 		Scanner input = new Scanner(System.in);
 		while (input.hasNextLine()){
 			String myInput = input.nextLine();
-			if (dictionary.validWord(myInput)){
+			if (dictionary.validWord(myInput)){ //valid words
 				numguesses++;
 				if (countMatchingLetters(myInput) == 5 && 
 					countInPlaceLetters(myInput) == 5){
-					System.out.println("Correct! You got it in " + 
+					System.out.println(
+					"Correct! You got it in " + 
 					numguesses + " guesses.");
 					if (cheated)
 						System.out.println("but only by"
 						+ " cheating");
-					return;
+					return; //Correct Guess
 				}
 				System.out.println("Matching: " + 
 					countMatchingLetters(myInput) +
 					"\nIn-Place: " +
 					countInPlaceLetters(myInput)); 
-			}else{
-				if (myInput.equals("xxxxx")){
+			}else{ //invalid words
+				if (myInput.equals("xxxxx")){//cheat
 					numguesses++;
 					System.out.println("Secret word : "
 					+ secret); 
 					cheated = true;
 				}else{
-					System.out.println("I don't know that word");
+					System.out.println(
+					"I don't know that word");
 				}
 			}
 			System.out.print("Your Guess? ");
 		}
-
-			
-	} // contains main game loop and console i/o
+	}
 
 	// return # of matching letters secret/guess
 	private int countMatchingLetters(String guess){
