@@ -1,17 +1,29 @@
-// CS19 Java  Cinco! Word Guessing Game
-// starter code by Steve J. Hodges
-// use these class definitions, adding code for each function
+/* Wesley Johanson	Pengo: wjohanso		talk2wes@gmail.com
+ * Filename: Cinco.Java
+ * Assignment 5: Cinco game
+ *
+ * Status: working and tested. I have NOT implemented the case sensitivity yet.
+ * The code will not find any word in the dictionary if spelt with capital 
+ * letters.
+ */
 
 import java.util.*;
 import java.lang.*;
 import java.io.*;
+
+/**
+ * In this game, the computer will pick a (random) secret five letter word from
+ * its Dictionary. A human player guesses a word. A word is only a legal guess
+ * if it appears in the Dictionary. A word is only a legal secret word if it 
+ * appears in the Dictionary and is also comprised of five different distinct 
+ * letters */
 
 class Dictionary{
 	private HashSet<String> words;
 	private ArrayList<String> secrets;
 	private Random rng;
 
-	// constructor: read words from a file   
+	// Default Constructor
 	public Dictionary(String filename){
 		//I should probably use the time class for better randoms 
 		rng = new Random();
@@ -55,6 +67,7 @@ class Dictionary{
 	}
 }
 
+//Class that uses dictionary and runs the game
 class Cinco{
 	int numguesses;
 	boolean cheated;
@@ -62,18 +75,23 @@ class Cinco{
 	Dictionary dictionary;
 	private String defaultFilename = "cinco-words.txt";
 
+	//Default Constructor
 	public Cinco(){
 		dictionary  =  new Dictionary(defaultFilename);	
 		secret = dictionary.getLegalSecretWord();
 		numguesses = 0;
 		cheated = false;
 	}
+
+	//Overloaded constructor for custom files
 	public Cinco(String filename){  //make sure this one works
 		dictionary  =  new Dictionary(filename);	
 		secret = dictionary.getLegalSecretWord();
 		numguesses = 0;
 		cheated = false;
 	}
+
+	//Primary game loop that the game runs in
 	public void play(){
 		System.out.print("Cinco! Assignment 5\n" +
 			"by Wesley Johanson\n" +
@@ -113,7 +131,7 @@ class Cinco{
 		}
 	}
 
-	// return # of matching letters secret/guess
+	// return # of matching letters in both secret & guess
 	private int countMatchingLetters(String guess){
 		int diffs = 0;
 		int lettersInAlpha = 26;
@@ -130,9 +148,7 @@ class Cinco{
 		return diffs;
 	}
 
-	
-
-	// return # of in-place letters secret/guess
+	// return # of in-place letters in both secret & guess
 	private int countInPlaceLetters(String guess){
 		int total = 0;
 		for (int i = 0; i < guess.length(); i++)
@@ -141,7 +157,7 @@ class Cinco{
 		return total;
 	}
 
-	// main program, required, minimal code
+	// main function, just to initiate the program
 	public static void main(String [] args){
 		Cinco game;
 		if (args.length > 0)

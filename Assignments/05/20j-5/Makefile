@@ -1,3 +1,7 @@
+# Wesley Johanson	Pengo: wjohanso		talk2wes@gmail.com
+# Filename: Makefile
+# Assignment 5: Cinco
+
 MAIN_JAVA=Cinco
 #JAVA1=IntegerSet
 
