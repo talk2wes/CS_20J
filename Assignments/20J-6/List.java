@@ -4,6 +4,7 @@
 
 
 import java.lang.String;
+import java.lang.StringBuilder;
 import java.util.Scanner;
 
 class List{
@@ -19,8 +20,19 @@ class List{
 	public boolean	isEmpty(){ return (first == null); }
 
 	public String	toString(){
-		String s = "";
-		return s;
+		StringBuilder s = new StringBuilder();
+		
+		//add size
+		s.append("(");
+		s.append(this.size);
+		s.append(")");
+		//add all the letters
+		LinkNode temp = this.first;
+		while(temp != null){
+			s.append(temp.data);
+			temp = temp.next;
+		}
+		return s.toString();
 	}
 	public void	print(){
 		LinkNode temp = first;
@@ -50,8 +62,65 @@ class List{
 	}
 
 	public boolean splice(String find, String replace){
+		LinkNode tempNode = this.first;
+		LinkNode prev = null;
+		find = upperCase(find);
+		replace = upperCase(replace);
+		boolean	successfulSplice = false;
+		
+		//invalid string || extra credit 
+		if (find.length() == 0 || find.length() > 1)
+			return false;
 
-		return true;
+		while (tempNode != null){
+				
+			//the node being searched for was found
+			if (tempNode.data.equals(find)){
+				successfulSplice = true;
+				if (replace.length() == 0){ //delete node case
+					if (prev == null){ //del head node
+						this.first = tempNode.next;
+						tempNode = this.first;
+						this.size--;
+					}else if (tempNode.next == null){ //del tail node
+						prev.next = null;
+						tempNode = prev;
+						this.size--;
+					}else{ //del middle node 
+						prev.next = tempNode.next;
+						tempNode = prev;
+						this.size--;
+					}
+				}else{ //replace node case
+					List tempList = new List();
+					tempList = strToList(replace);
+					//replace the character with new node
+					if (prev == null) //replace head node
+						this.first = tempList.first;
+					else //replace body/tail node
+						prev.next = tempList.first;
+
+					// get prev in the correct position
+					prev = tempList.first;
+					while (prev.next != null)
+						prev = prev.next; 
+					tempList.append(tempNode.next);
+					tempNode = prev;
+					this.size += tempList.size - 1;
+					//clean up 
+					tempList.first = null;
+					tempList = null;
+				}
+			}
+			//increment and check the next node 
+			if (size < 2)
+				prev = null;
+			else{
+				prev = tempNode;
+				tempNode = tempNode.next;
+			}
+		}
+		return successfulSplice;
 	}
 
 	public List	strToList(String inputStr){
@@ -88,6 +157,10 @@ class List{
 	}
 
 	public void	append(LinkNode L){
+		LinkNode lastNode = this.first;
+		while (lastNode.next != null)
+			lastNode = lastNode.next;
+		lastNode.next = L; 
 
 	}
 

@@ -16,6 +16,7 @@ class Program6 {
 			myList.insert(userInput.nextLine());
 			System.out.print("size: " + myList.getSize() + "\t");
 			myList.print();
+			System.out.println("toString: " + myList.toString());
 		}
 	}
 
