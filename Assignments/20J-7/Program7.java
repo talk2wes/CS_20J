@@ -212,19 +212,58 @@ class List{
 		}
 		return;
 	}
+
 	public void tripleCut(){
-		//find the first joker
+		//find the first joker(left)
 		LinkNode jokerL = head;
-		while (jokerL != JOKER_A && jokerL != JOKER_B)
+		while (jokerL.data != JOKER_A && jokerL.data != JOKER_B)
 			jokerL = jokerL.next;
-		//find the second joker
-		LinkNoder jokerR = jokerL.next
-		while (jokerR != joker_A && jokerR ! = JOKER_B && jokerR != null)
+		//find the second joker(right)
+		LinkNode jokerR = jokerL.next;
+		while (jokerR.data != JOKER_A && jokerR.data != JOKER_B)
 			jokerR = jokerR.next;
+		//put refs on ends of the left & right sides of the deck
+		LinkNode rHead = jokerR.next;
+		LinkNode lTail = jokerL.prev;
+
+		//if neither end exists, do nothing 
+		if (lTail == null && rHead == null) return ;
+
+		//if both sides exist 
+		if (lTail != null && rHead != null){
+			//attach the previous right-side to the left-joker
+			tail.next = jokerL;
+			jokerL.prev = tail;
+			rHead.prev = null;
+
+			//attach the previous left-side to the right-joker
+			jokerR.next = head;
+			head.prev = jokerR;
+			lTail.next = null;
+			
+			//reassign the head and tail 
+			head = rHead;
+			tail = lTail;
+		}else{ 
+			tail.next = head;
+			head.prev = tail;
+			//if no left side
+			if (lTail == null){ 
+				jokerR.next = rHead.prev = null;
+				head = rHead;
+				tail = jokerR;
+			//if no right side
+			}else{
+				jokerL.prev = lTail.next = null;
+				head = jokerL;
+				tail = lTail;
+			}
+		}
+
+
+			
+
 		
-
-
-
 	}
 
 	public int genKeystream(){
@@ -250,8 +289,11 @@ class List{
 
 
 		//step 3
-		
+		tripleCut();	
+		System.out.println("step 3:\t\t\t" + this.toString());
+
 		//step 4
+
 		//step 5
 		System.out.println("");
 
