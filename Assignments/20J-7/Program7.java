@@ -12,14 +12,13 @@ class Program7{
 	static final int JOKER_A = 27;
 	static final int JOKER_B = 28;
 	static final int LET_IN_ALPHA = 26;
+	static final int GROUP_SIZE = 5;
 	
 	//string to ascii vals 
 	public static int[] strToIntArr(String msg){
 		int[] asciiValues = new int[msg.length()];
-		for (int i = 0; i < msg.length(); i++){
+		for (int i = 0; i < msg.length(); i++)
 			asciiValues[i] = msg.charAt(i);
-			System.out.println(asciiValues[i]);
-		}
 		return asciiValues;
 	}
 
@@ -47,8 +46,15 @@ class Program7{
 
 	//decrpt the message 
 	public static String decrypt(String msg, List deck){
-		String decrypted = "lil pussy";
-		return decrypted;
+		int[] asciiValues = strToIntArr(msg);
+		int[] keystreamValues = deck.genKeystream(msg.length());
+		int[] decrypted = new int[msg.length()];	
+		for (int i = 0; i < msg.length(); i++){
+			decrypted[i] = asciiValues[i] - keystreamValues[i];
+			decrypted[i] = decrypted[i] % LET_IN_ALPHA;
+			decrypted[i] += (int) 'A';
+		}
+		return intArrToStr(decrypted);
 	}
 
 	//Convert the message to plaintext (only uppercase letters)
@@ -59,34 +65,48 @@ class Program7{
 			if (Character.isLetter(msg.charAt(i)))
 				plaintext.append(msg.charAt(i));
 		//add padding to make string lenth a multiple of 5
-		int paddingChars =  5 - plaintext.length() % 5;
+		int paddingChars = (plaintext.length() % GROUP_SIZE == 0) ?
+			0 : GROUP_SIZE - plaintext.length() % GROUP_SIZE;
 		for (int i = 0; i < paddingChars ; i++)	plaintext.append("X");
 		//convert to upper case and return
+		System.out.println("Plaintext message is: " + 
+			plaintext.toString().toUpperCase());
 		return (plaintext.toString()).toUpperCase();
 	}
 
 	public static void main(String args[]){
 
-		if ( args.length != 2) return ;
+		Scanner input = new Scanner(System.in);
+		String deckFileName = "";
+		
+		if (args.length == 1 && 
+			(args[0].equals("e") || args[0].equals("d"))){
+				System.out.print("what is the filename" +
+					" of the deck? ");
+				deckFileName = input.nextLine();
+		}
 
+				
+		if ( args.length != 2)
+			System.out.println(
+				"usage: java Program7 [e OR d] [deckFileName]");
 		try {
 			//Load the deck from the deckFile 
-			Scanner deckFile = new Scanner( new File( args[1] ) );
-			Scanner input = new Scanner(System.in);
+			if (deckFileName.equals("")){ deckFileName = args[1]; }
+			Scanner deckFile = new Scanner( new File( deckFileName));//args[1] ) );
+			//Scanner input = new Scanner(System.in);
 			List deck = new List();
 			deck = List.readDeckFile(deckFile);
-			//System.out.println("deck.toString() = " + deck.toString());
 			deckFile.close();
-
 			//encrypt message
 			if ( args[0].equals("e") ){
 				System.out.println(
-					"Enter message to be encrypted");
+					"Enter message to be encrypted" +
+					" (non-letters ignored)");
 				System.out.println("The encrypted message is: "
 					+ encrypt( 
 					plaintext( input.nextLine() ), deck) );
 			}
-
 			//decrypt message
 			if ( args[0].equals("d") ){
 				System.out.println(
@@ -94,7 +114,7 @@ class Program7{
 				System.out.println("The decrypted message is: "
 					+ decrypt(input.nextLine(), deck) );
 			}
-
+			input.close();
 		} catch (Exception e){ 
 			System.err.println("ERROR OPENING FILE\n" + e); }
 	}
@@ -112,19 +132,15 @@ class List{
 	public int[] genKeystream(int numOfValues){
 		int[] keystreamValues = new int[numOfValues];
 		for (int i = 0; i < numOfValues; i++)
-			keystreamValues[i] = this.genKeystream(); // testing 
+			keystreamValues[i] = this.genKeystream();
 		return keystreamValues;
 	}
 	
 	public static List readDeckFile(Scanner deckFile){
 		List deck = new List();
 		String[] numbers = (deckFile.nextLine()).split(" ");
-		for (String num : numbers){
+		for (String num : numbers)
 			deck.addNodeBack(Integer.parseInt(num));
-			//System.out.println(Integer.parseInt(num) + 
-			//	"\ntoString: " + deck.toString()); //testing 
-			
-		}
 		return deck;
 	}
 	
@@ -136,7 +152,6 @@ class List{
 		while (temp != null){
 			s.append(temp.data);
 			s.append(" ");
-			//System.out.println("deck.toString() = " + deck.toString());
 			temp = temp.next;
 		}
 		return s.toString();
@@ -225,10 +240,8 @@ class List{
 		//put refs on ends of the left & right sides of the deck
 		LinkNode rHead = jokerR.next;
 		LinkNode lTail = jokerL.prev;
-
 		//if neither end exists, do nothing 
 		if (lTail == null && rHead == null) return ;
-
 		//if both sides exist 
 		if (lTail != null && rHead != null){
 			//attach the previous right-side to the left-joker
@@ -259,45 +272,65 @@ class List{
 				tail = lTail;
 			}
 		}
-
-
-			
-
-		
 	}
 
-	public int genKeystream(){
-		System.out.println("Before keystream:\t" + this.toString() );
-		//step 1 
+	public void step1(){
 		LinkNode joker = this.head;	
 		//find the joker
 		while (joker.data != JOKER_A)
 			joker = joker.next;
-		if (joker == null) return -1; //error 
 		swapNext(joker);	
-		System.out.println("step 1:\t\t\t" + this.toString());
+		return;
+	}
 
-
-		//step 2
-		joker = this.head;
+	public void step2(){
+		LinkNode joker = this.head;
 		while (joker.data != JOKER_B)
 			joker = joker.next;
-		if (joker == null) return -1; // error 
 		swapNext(joker);
 		swapNext(joker);
-		System.out.println("step 2:\t\t\t" + this.toString());
+	}
+	
+	public void step4(){
+		LinkNode bottomCard = tail;
+		//determine how many top cards to move to bottom;
+		int topCards = bottomCard.data;
+		if (topCards == JOKER_A || topCards == JOKER_B)
+			topCards = JOKER_A;
+		//put a ref on the lTail 
+		LinkNode lTail = head;
+		for (int i = 1; i < topCards; i++)
+			lTail = lTail.next;
+		//connect the middle of the new list
+		tail.next = head;
+		head.prev = tail;
+		//reassign head to the head of the new list 
+		head = lTail.next;
+		//set the ends of the new list to null
+		head.prev = null;
+		lTail.next = null;
+		//move the bottom card to the bottom
+		while (bottomCard.next != null)
+			swapNext(bottomCard);
+	}
+	
+	public int step5(){
+		LinkNode card = head;
+		int i = (head.data == JOKER_B) ? JOKER_A : head.data;
+		while (i > 1) { card = card.next; i--; }
+		return (card.next.data);	
+	}
 
-
-		//step 3
-		tripleCut();	
-		System.out.println("step 3:\t\t\t" + this.toString());
-
-		//step 4
-
-		//step 5
-		System.out.println("");
-
-		return -1;
+	public int genKeystream(){
+		int result;
+		do{
+			step1();
+			step2();
+			tripleCut();	
+			step4();
+			result = step5();
+		}while (result == JOKER_A || result == JOKER_B);
+		return result;
 	}
 	//add node to tail end of the list
 	public void addNodeBack(int data){
